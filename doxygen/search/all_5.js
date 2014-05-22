@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['main',['main',['../main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main.cc']]],
-  ['main_2ecc',['main.cc',['../main_8cc.html',1,'']]],
-  ['mesh',['Mesh',['../class_mesh.html',1,'Mesh'],['../class_mesh.html#a8d69131f75bc19b38a758e9c3bfbc82a',1,'Mesh::Mesh()']]],
-  ['mesh_2ecc',['Mesh.cc',['../_mesh_8cc.html',1,'']]],
-  ['mesh_2eh',['Mesh.h',['../_mesh_8h.html',1,'']]],
-  ['mode_5fchanged',['mode_changed',['../class_shape_works_studio_app.html#a5216258e5b5519462135d2ecef78a0f1',1,'ShapeWorksStudioApp']]]
+  ['imagetype',['ImageType',['../_mesh_8cc.html#a473d1c1d7b96c99e28420ab773adc95c',1,'Mesh.cc']]],
+  ['import_5ffiles',['import_files',['../class_project.html#a5b8a4464fd836acac34c33d88d0bc819',1,'Project']]],
+  ['import_5finitial_5ffile',['import_initial_file',['../class_shape.html#a909b6ae0d1a4c83ee28ba3d333c2db38',1,'Shape']]],
+  ['itktovtk_2eh',['ItkToVtk.h',['../_itk_to_vtk_8h.html',1,'']]]
 ];

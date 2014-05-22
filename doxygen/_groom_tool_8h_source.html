@@ -94,7 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QSharedPointer&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="class_data_manager.html">DataManager</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="class_project.html">Project</a>;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>Ui_GroomTool;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_groom_tool.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_groom_tool.html">GroomTool</a> : <span class="keyword">public</span> QWidget</div>
@@ -107,7 +107,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_groom_tool.html#a267f3550d0fdc6ec1c96f9b18c284c0b">export_xml</a>(QString filename);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_groom_tool.html#ac1054b7cc92dcc7ede7d9a9f9bdc337e">set_data_manager</a>(QSharedPointer&lt;DataManager&gt; data_manager);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_groom_tool.html#aff510acbf178611256f79bdf8fa200ee">set_project</a>(QSharedPointer&lt;Project&gt; project);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span> Q_SLOTS:</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
@@ -122,24 +122,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  Ui_GroomTool* ui_;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  QSharedPointer&lt;DataManager&gt; data_manager_;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  QSharedPointer&lt;Project&gt; project_;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;};</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_GROOM_GROOMTOOL_H */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="class_groom_tool_html_ac1054b7cc92dcc7ede7d9a9f9bdc337e"><div class="ttname"><a href="class_groom_tool.html#ac1054b7cc92dcc7ede7d9a9f9bdc337e">GroomTool::set_data_manager</a></div><div class="ttdeci">void set_data_manager(QSharedPointer&lt; DataManager &gt; data_manager)</div><div class="ttdoc">set the pointer to the data manager </div><div class="ttdef"><b>Definition:</b> GroomTool.cc:199</div></div>
-<div class="ttc" id="class_groom_tool_html_abbb867ddd4d5f9948a7456aad5879e5d"><div class="ttname"><a href="class_groom_tool.html#abbb867ddd4d5f9948a7456aad5879e5d">GroomTool::on_run_groom_button_clicked</a></div><div class="ttdeci">void on_run_groom_button_clicked()</div><div class="ttdoc">Run groom tool. </div><div class="ttdef"><b>Definition:</b> GroomTool.cc:54</div></div>
-<div class="ttc" id="class_groom_tool_html_a0abec0097648395536f9b097c45668e8"><div class="ttname"><a href="class_groom_tool.html#a0abec0097648395536f9b097c45668e8">GroomTool::GroomTool</a></div><div class="ttdeci">GroomTool()</div><div class="ttdef"><b>Definition:</b> GroomTool.cc:15</div></div>
-<div class="ttc" id="class_groom_tool_html_a7626e192dafada7cbde40c9a1b1f471f"><div class="ttname"><a href="class_groom_tool.html#a7626e192dafada7cbde40c9a1b1f471f">GroomTool::on_blur_checkbox_stateChanged</a></div><div class="ttdeci">void on_blur_checkbox_stateChanged(int state)</div><div class="ttdef"><b>Definition:</b> GroomTool.cc:33</div></div>
-<div class="ttc" id="class_groom_tool_html_aba501afe9a1d76fa8e0462b4a02fc9fb"><div class="ttname"><a href="class_groom_tool.html#aba501afe9a1d76fa8e0462b4a02fc9fb">GroomTool::~GroomTool</a></div><div class="ttdeci">~GroomTool()</div><div class="ttdef"><b>Definition:</b> GroomTool.cc:23</div></div>
-<div class="ttc" id="class_groom_tool_html_a67bf2b984a2cea8da6fe1dd6792e010c"><div class="ttname"><a href="class_groom_tool.html#a67bf2b984a2cea8da6fe1dd6792e010c">GroomTool::on_export_xml_button_clicked</a></div><div class="ttdeci">void on_export_xml_button_clicked()</div><div class="ttdoc">Export XML. </div><div class="ttdef"><b>Definition:</b> GroomTool.cc:39</div></div>
-<div class="ttc" id="class_data_manager_html"><div class="ttname"><a href="class_data_manager.html">DataManager</a></div><div class="ttdef"><b>Definition:</b> DataManager.h:15</div></div>
+<div class="ttc" id="class_groom_tool_html_abbb867ddd4d5f9948a7456aad5879e5d"><div class="ttname"><a href="class_groom_tool.html#abbb867ddd4d5f9948a7456aad5879e5d">GroomTool::on_run_groom_button_clicked</a></div><div class="ttdeci">void on_run_groom_button_clicked()</div><div class="ttdoc">Run groom tool. </div><div class="ttdef"><b>Definition:</b> GroomTool.cc:56</div></div>
+<div class="ttc" id="class_groom_tool_html_a0abec0097648395536f9b097c45668e8"><div class="ttname"><a href="class_groom_tool.html#a0abec0097648395536f9b097c45668e8">GroomTool::GroomTool</a></div><div class="ttdeci">GroomTool()</div><div class="ttdef"><b>Definition:</b> GroomTool.cc:17</div></div>
+<div class="ttc" id="class_groom_tool_html_a7626e192dafada7cbde40c9a1b1f471f"><div class="ttname"><a href="class_groom_tool.html#a7626e192dafada7cbde40c9a1b1f471f">GroomTool::on_blur_checkbox_stateChanged</a></div><div class="ttdeci">void on_blur_checkbox_stateChanged(int state)</div><div class="ttdef"><b>Definition:</b> GroomTool.cc:35</div></div>
+<div class="ttc" id="class_groom_tool_html_aba501afe9a1d76fa8e0462b4a02fc9fb"><div class="ttname"><a href="class_groom_tool.html#aba501afe9a1d76fa8e0462b4a02fc9fb">GroomTool::~GroomTool</a></div><div class="ttdeci">~GroomTool()</div><div class="ttdef"><b>Definition:</b> GroomTool.cc:25</div></div>
+<div class="ttc" id="class_project_html"><div class="ttname"><a href="class_project.html">Project</a></div><div class="ttdoc">Representation of a project. </div><div class="ttdef"><b>Definition:</b> Project.h:17</div></div>
+<div class="ttc" id="class_groom_tool_html_a67bf2b984a2cea8da6fe1dd6792e010c"><div class="ttname"><a href="class_groom_tool.html#a67bf2b984a2cea8da6fe1dd6792e010c">GroomTool::on_export_xml_button_clicked</a></div><div class="ttdeci">void on_export_xml_button_clicked()</div><div class="ttdoc">Export XML. </div><div class="ttdef"><b>Definition:</b> GroomTool.cc:41</div></div>
 <div class="ttc" id="class_groom_tool_html"><div class="ttname"><a href="class_groom_tool.html">GroomTool</a></div><div class="ttdef"><b>Definition:</b> GroomTool.h:11</div></div>
-<div class="ttc" id="class_groom_tool_html_a267f3550d0fdc6ec1c96f9b18c284c0b"><div class="ttname"><a href="class_groom_tool.html#a267f3550d0fdc6ec1c96f9b18c284c0b">GroomTool::export_xml</a></div><div class="ttdeci">bool export_xml(QString filename)</div><div class="ttdoc">export XML for ShapeWorksGroom </div><div class="ttdef"><b>Definition:</b> GroomTool.cc:117</div></div>
-<div class="ttc" id="class_groom_tool_html_a7d9466093590070611b3b4bc9e93e4a6"><div class="ttname"><a href="class_groom_tool.html#a7d9466093590070611b3b4bc9e93e4a6">GroomTool::on_antialias_checkbox_stateChanged</a></div><div class="ttdeci">void on_antialias_checkbox_stateChanged(int state)</div><div class="ttdef"><b>Definition:</b> GroomTool.cc:27</div></div>
+<div class="ttc" id="class_groom_tool_html_a267f3550d0fdc6ec1c96f9b18c284c0b"><div class="ttname"><a href="class_groom_tool.html#a267f3550d0fdc6ec1c96f9b18c284c0b">GroomTool::export_xml</a></div><div class="ttdeci">bool export_xml(QString filename)</div><div class="ttdoc">export XML for ShapeWorksGroom </div><div class="ttdef"><b>Definition:</b> GroomTool.cc:119</div></div>
+<div class="ttc" id="class_groom_tool_html_aff510acbf178611256f79bdf8fa200ee"><div class="ttname"><a href="class_groom_tool.html#aff510acbf178611256f79bdf8fa200ee">GroomTool::set_project</a></div><div class="ttdeci">void set_project(QSharedPointer&lt; Project &gt; project)</div><div class="ttdoc">set the pointer to the project </div><div class="ttdef"><b>Definition:</b> GroomTool.cc:201</div></div>
+<div class="ttc" id="class_groom_tool_html_a7d9466093590070611b3b4bc9e93e4a6"><div class="ttname"><a href="class_groom_tool.html#a7d9466093590070611b3b4bc9e93e4a6">GroomTool::on_antialias_checkbox_stateChanged</a></div><div class="ttdeci">void on_antialias_checkbox_stateChanged(int state)</div><div class="ttdef"><b>Definition:</b> GroomTool.cc:29</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 21 2014 12:00:06 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 21 2014 23:47:15 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

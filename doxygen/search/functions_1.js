@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['data_5fchanged',['data_changed',['../class_data_manager.html#ac47bc8ccaf9df485aa4d7d135fd5e483',1,'DataManager']]],
-  ['datamanager',['DataManager',['../class_data_manager.html#ac2eec7fa355109eda41308e1de76d2a8',1,'DataManager']]]
+  ['data_5fchanged',['data_changed',['../class_project.html#a612ee3349f148ee2e2c24f201bf4d360',1,'Project']]]
 ];
