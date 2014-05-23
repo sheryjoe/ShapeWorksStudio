@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -84,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_project-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Project Class Reference</div>  </div>
@@ -129,6 +130,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5b8a4464fd836acac34c33d88d0bc819"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_project.html#a5b8a4464fd836acac34c33d88d0bc819">import_files</a> (QStringList file_names)</td></tr>
 <tr class="memdesc:a5b8a4464fd836acac34c33d88d0bc819"><td class="mdescLeft">&#160;</td><td class="mdescRight">import files  <a href="#a5b8a4464fd836acac34c33d88d0bc819">More...</a><br/></td></tr>
 <tr class="separator:a5b8a4464fd836acac34c33d88d0bc819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa382a72676c4719ac827c6a9ea455a9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_project.html#aa382a72676c4719ac827c6a9ea455a9b">load_groomed_files</a> (QStringList file_names)</td></tr>
+<tr class="memdesc:aa382a72676c4719ac827c6a9ea455a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">load groomed files  <a href="#aa382a72676c4719ac827c6a9ea455a9b">More...</a><br/></td></tr>
+<tr class="separator:aa382a72676c4719ac827c6a9ea455a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7853ed55ee09483e8d89e325995703b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_project.html#a7853ed55ee09483e8d89e325995703b0">remove_shapes</a> (QList&lt; int &gt; list)</td></tr>
 <tr class="memdesc:a7853ed55ee09483e8d89e325995703b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove shapes  <a href="#a7853ed55ee09483e8d89e325995703b0">More...</a><br/></td></tr>
 <tr class="separator:a7853ed55ee09483e8d89e325995703b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,9 +140,21 @@ Public Member Functions</h2></td></tr>
 &lt; <a class="el" href="class_shape.html">Shape</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_project.html#ad0ae2544036daf61639052d4c7494b2b">get_shapes</a> ()</td></tr>
 <tr class="memdesc:ad0ae2544036daf61639052d4c7494b2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return all shapes  <a href="#ad0ae2544036daf61639052d4c7494b2b">More...</a><br/></td></tr>
 <tr class="separator:ad0ae2544036daf61639052d4c7494b2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae17aae0710dad6f1aac41e5bca16f2bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_project.html#ae17aae0710dad6f1aac41e5bca16f2bd">clear</a> ()</td></tr>
-<tr class="memdesc:ae17aae0710dad6f1aac41e5bca16f2bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">empty the project  <a href="#ae17aae0710dad6f1aac41e5bca16f2bd">More...</a><br/></td></tr>
-<tr class="separator:ae17aae0710dad6f1aac41e5bca16f2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5cc82e7a7f1ec43468503d73f696260"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_project.html#ae5cc82e7a7f1ec43468503d73f696260">reset</a> ()</td></tr>
+<tr class="memdesc:ae5cc82e7a7f1ec43468503d73f696260"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset the project  <a href="#ae5cc82e7a7f1ec43468503d73f696260">More...</a><br/></td></tr>
+<tr class="separator:ae5cc82e7a7f1ec43468503d73f696260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f85161580be689dfde2a8da6025ca9"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_project.html#a30f85161580be689dfde2a8da6025ca9">get_pipeline_state</a> ()</td></tr>
+<tr class="memdesc:a30f85161580be689dfde2a8da6025ca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the current pipeline state  <a href="#a30f85161580be689dfde2a8da6025ca9">More...</a><br/></td></tr>
+<tr class="separator:a30f85161580be689dfde2a8da6025ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a8e91121bfea0b1f3e599a2fc1e484e2f"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_project.html#a8e91121bfea0b1f3e599a2fc1e484e2f">INITIAL_C</a></td></tr>
+<tr class="separator:a8e91121bfea0b1f3e599a2fc1e484e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acef2eaf5e267945cf8f7288ab43c7090"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_project.html#acef2eaf5e267945cf8f7288ab43c7090">GROOMED_C</a></td></tr>
+<tr class="separator:acef2eaf5e267945cf8f7288ab43c7090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1efaa0ba3a9c7e5e43f2f858813481fe"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_project.html#a1efaa0ba3a9c7e5e43f2f858813481fe">OPTIMIZED_C</a></td></tr>
+<tr class="separator:a1efaa0ba3a9c7e5e43f2f858813481fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Representation of a project. </p>
@@ -179,23 +195,6 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ae17aae0710dad6f1aac41e5bca16f2bd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Project::clear </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>empty the project </p>
-
-</div>
-</div>
 <a class="anchor" id="a612ee3349f148ee2e2c24f201bf4d360"></a>
 <div class="memitem">
 <div class="memproto">
@@ -238,6 +237,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a30f85161580be689dfde2a8da6025ca9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Project::get_pipeline_state </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the current pipeline state </p>
+
+</div>
+</div>
 <a class="anchor" id="ad0ae2544036daf61639052d4c7494b2b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -273,6 +289,24 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa382a72676c4719ac827c6a9ea455a9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Project::load_groomed_files </td>
+          <td>(</td>
+          <td class="paramtype">QStringList&#160;</td>
+          <td class="paramname"><em>file_names</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>load groomed files </p>
+
+</div>
+</div>
 <a class="anchor" id="a8a87af33338ee01fb2609bacb073bc6e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -288,6 +322,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>save project to file </p>
+<p>TODO : validation </p>
 
 </div>
 </div>
@@ -309,6 +344,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae5cc82e7a7f1ec43468503d73f696260"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Project::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reset the project </p>
+
+</div>
+</div>
 <a class="anchor" id="a0efa618db4b749ed2ab71636f38885d2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -327,6 +379,67 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="acef2eaf5e267945cf8f7288ab43c7090"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString Project::GROOMED_C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8e91121bfea0b1f3e599a2fc1e484e2f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString Project::INITIAL_C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1efaa0ba3a9c7e5e43f2f858813481fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString Project::OPTIMIZED_C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>H:/carma/clean/ShapeWorksStudio/src/Data/<a class="el" href="_project_8h_source.html">Project.h</a></li>
 <li>H:/carma/clean/ShapeWorksStudio/src/Data/<a class="el" href="_project_8cc.html">Project.cc</a></li>
@@ -334,7 +447,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 22 2014 14:16:33 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 22 2014 23:46:57 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

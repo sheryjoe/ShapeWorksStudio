@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -88,20 +88,25 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>This is the complete list of members for <a class="el" href="class_project.html">Project</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="class_project.html#ae17aae0710dad6f1aac41e5bca16f2bd">clear</a>()</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_project.html#a612ee3349f148ee2e2c24f201bf4d360">data_changed</a>()</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"><span class="mlabel">signal</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_project.html#a6db5e0879dfcdced2eac056b7d254923">get_data_manager</a>()</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_project.html#a612ee3349f148ee2e2c24f201bf4d360">data_changed</a>()</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"><span class="mlabel">signal</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_project.html#a6db5e0879dfcdced2eac056b7d254923">get_data_manager</a>()</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_project.html#a30f85161580be689dfde2a8da6025ca9">get_pipeline_state</a>()</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_project.html#ad0ae2544036daf61639052d4c7494b2b">get_shapes</a>()</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_project.html#a5b8a4464fd836acac34c33d88d0bc819">import_files</a>(QStringList file_names)</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_project.html#a8a87af33338ee01fb2609bacb073bc6e">open_project</a>(QString filename)</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_project.html#acef2eaf5e267945cf8f7288ab43c7090">GROOMED_C</a></td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_project.html#a5b8a4464fd836acac34c33d88d0bc819">import_files</a>(QStringList file_names)</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_project.html#a8e91121bfea0b1f3e599a2fc1e484e2f">INITIAL_C</a></td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_project.html#aa382a72676c4719ac827c6a9ea455a9b">load_groomed_files</a>(QStringList file_names)</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_project.html#a8a87af33338ee01fb2609bacb073bc6e">open_project</a>(QString filename)</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_project.html#a1efaa0ba3a9c7e5e43f2f858813481fe">OPTIMIZED_C</a></td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_project.html#aa007ecd17d5bc800e7a956cf666eea21">Project</a>()</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_project.html#a7853ed55ee09483e8d89e325995703b0">remove_shapes</a>(QList&lt; int &gt; list)</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_project.html#a0efa618db4b749ed2ab71636f38885d2">save_project</a>(QString filename=&quot;&quot;)</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_project.html#ad165d61b76ee86ee9c27fd987a2a7b9e">~Project</a>()</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_project.html#ae5cc82e7a7f1ec43468503d73f696260">reset</a>()</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_project.html#a0efa618db4b749ed2ab71636f38885d2">save_project</a>(QString filename=&quot;&quot;)</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_project.html#ad165d61b76ee86ee9c27fd987a2a7b9e">~Project</a>()</td><td class="entry"><a class="el" href="class_project.html">Project</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 22 2014 14:16:33 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 22 2014 23:46:57 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

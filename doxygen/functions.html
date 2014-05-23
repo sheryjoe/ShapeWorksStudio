@@ -69,16 +69,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
+      <li><a href="functions_vars.html"><span>Variables</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="#index_c"><span>c</span></a></li>
       <li><a href="#index_d"><span>d</span></a></li>
       <li><a href="#index_e"><span>e</span></a></li>
       <li><a href="#index_g"><span>g</span></a></li>
       <li><a href="#index_h"><span>h</span></a></li>
       <li><a href="#index_i"><span>i</span></a></li>
+      <li><a href="#index_l"><span>l</span></a></li>
       <li><a href="#index_m"><span>m</span></a></li>
       <li><a href="#index_o"><span>o</span></a></li>
       <li><a href="#index_p"><span>p</span></a></li>
@@ -94,7 +95,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -105,13 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div class="contents">
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
-
-<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
-<li>clear()
-: <a class="el" href="class_project.html#ae17aae0710dad6f1aac41e5bca16f2bd">Project</a>
-</li>
-</ul>
-
 
 <h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
 <li>data_changed()
@@ -140,6 +134,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>get_filename_with_path()
 : <a class="el" href="class_mesh.html#ac9e079ab9fadba9d92c28d59b17c446f">Mesh</a>
 </li>
+<li>get_groomed_mesh()
+: <a class="el" href="class_shape.html#ac4a018b9b49bcb4aae547199c284be4f">Shape</a>
+</li>
 <li>get_initial_mesh()
 : <a class="el" href="class_shape.html#ae95ac633aa780c1ccc696832b170a502">Shape</a>
 </li>
@@ -149,17 +146,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>get_num_rows_visible()
 : <a class="el" href="class_viewer.html#a240faa42c63a533d495d7111d985c9c6">Viewer</a>
 </li>
+<li>get_pipeline_state()
+: <a class="el" href="class_project.html#a30f85161580be689dfde2a8da6025ca9">Project</a>
+</li>
 <li>get_poly_data()
 : <a class="el" href="class_mesh.html#abcb8920cb456f7303c2923e734bea24b">Mesh</a>
 </li>
 <li>get_shapes()
 : <a class="el" href="class_project.html#ad0ae2544036daf61639052d4c7494b2b">Project</a>
 </li>
+<li>GROOMED_C
+: <a class="el" href="class_project.html#acef2eaf5e267945cf8f7288ab43c7090">Project</a>
+</li>
 <li>GroomTool()
 : <a class="el" href="class_groom_tool.html#a0abec0097648395536f9b097c45668e8">GroomTool</a>
-</li>
-<li>GroomToolManager()
-: <a class="el" href="class_groom_tool_manager.html#acd453b25ac45af9b32693234c67e8823">GroomToolManager</a>
 </li>
 </ul>
 
@@ -175,8 +175,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>import_files()
 : <a class="el" href="class_project.html#a5b8a4464fd836acac34c33d88d0bc819">Project</a>
 </li>
+<li>import_groomed_file()
+: <a class="el" href="class_shape.html#a4028fd2c06534ab4406bb580cfb76fae">Shape</a>
+</li>
 <li>import_initial_file()
 : <a class="el" href="class_shape.html#a909b6ae0d1a4c83ee28ba3d333c2db38">Shape</a>
+</li>
+<li>INITIAL_C
+: <a class="el" href="class_project.html#a8e91121bfea0b1f3e599a2fc1e484e2f">Project</a>
+</li>
+<li>initialize_vtk()
+: <a class="el" href="class_shape_works_studio_app.html#a510133431dbf8d6a9c71f6c33911df82">ShapeWorksStudioApp</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>load_groomed_files()
+: <a class="el" href="class_project.html#aa382a72676c4719ac827c6a9ea455a9b">Project</a>
 </li>
 </ul>
 
@@ -237,8 +253,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>on_vertical_scroll_bar_valueChanged()
 : <a class="el" href="class_shape_works_studio_app.html#a90a68ce21ac9d886f134ce1b542c1bbf">ShapeWorksStudioApp</a>
 </li>
+<li>on_view_mode_combobox_currentIndexChanged()
+: <a class="el" href="class_shape_works_studio_app.html#a1ac7a98653514ccca7e75415ff89a168">ShapeWorksStudioApp</a>
+</li>
 <li>open_project()
 : <a class="el" href="class_project.html#a8a87af33338ee01fb2609bacb073bc6e">Project</a>
+</li>
+<li>OPTIMIZED_C
+: <a class="el" href="class_project.html#a1efaa0ba3a9c7e5e43f2f858813481fe">Project</a>
 </li>
 </ul>
 
@@ -253,6 +275,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
 <li>remove_shapes()
 : <a class="el" href="class_project.html#a7853ed55ee09483e8d89e325995703b0">Project</a>
+</li>
+<li>reset()
+: <a class="el" href="class_project.html#ae5cc82e7a7f1ec43468503d73f696260">Project</a>
 </li>
 </ul>
 
@@ -305,9 +330,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>~GroomTool()
 : <a class="el" href="class_groom_tool.html#aba501afe9a1d76fa8e0462b4a02fc9fb">GroomTool</a>
 </li>
-<li>~GroomToolManager()
-: <a class="el" href="class_groom_tool_manager.html#a1b18052f772e26a6bca3092216654a36">GroomToolManager</a>
-</li>
 <li>~Mesh()
 : <a class="el" href="class_mesh.html#a5efe4da1a4c0971cfb037bd70304c303">Mesh</a>
 </li>
@@ -327,7 +349,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 22 2014 14:16:33 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 22 2014 23:46:57 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

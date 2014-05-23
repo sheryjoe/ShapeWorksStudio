@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -124,6 +124,8 @@ Public Slots</h2></td></tr>
 <tr class="separator:a35505e143675f331d9eb6109ba2f3b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac268007c33b8e607c9556fd5cff14d43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape_works_studio_app.html#ac268007c33b8e607c9556fd5cff14d43">on_thumbnail_size_slider_valueChanged</a> ()</td></tr>
 <tr class="separator:ac268007c33b8e607c9556fd5cff14d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac7a98653514ccca7e75415ff89a168"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape_works_studio_app.html#a1ac7a98653514ccca7e75415ff89a168">on_view_mode_combobox_currentIndexChanged</a> ()</td></tr>
+<tr class="separator:a1ac7a98653514ccca7e75415ff89a168"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5216258e5b5519462135d2ecef78a0f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape_works_studio_app.html#a5216258e5b5519462135d2ecef78a0f1">mode_changed</a> ()</td></tr>
 <tr class="separator:a5216258e5b5519462135d2ecef78a0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79b070f4023742d02aab72c3b98bbb60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape_works_studio_app.html#a79b070f4023742d02aab72c3b98bbb60">handle_project_changed</a> ()</td></tr>
@@ -135,6 +137,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeeb6c621244a042f2ad6d71ad2942fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1311c9a2e0094f54149d1a8d74ee7608"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape_works_studio_app.html#a1311c9a2e0094f54149d1a8d74ee7608">~ShapeWorksStudioApp</a> ()</td></tr>
 <tr class="separator:a1311c9a2e0094f54149d1a8d74ee7608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510133431dbf8d6a9c71f6c33911df82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape_works_studio_app.html#a510133431dbf8d6a9c71f6c33911df82">initialize_vtk</a> ()</td></tr>
+<tr class="separator:a510133431dbf8d6a9c71f6c33911df82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aeeb6c621244a042f2ad6d71ad2942fe5"></a>
@@ -198,6 +202,21 @@ Public Member Functions</h2></td></tr>
 <span class="mlabels"><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a510133431dbf8d6a9c71f6c33911df82"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ShapeWorksStudioApp::initialize_vtk </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -478,6 +497,29 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1ac7a98653514ccca7e75415ff89a168"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ShapeWorksStudioApp::on_view_mode_combobox_currentIndexChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>H:/carma/clean/ShapeWorksStudio/src/Interface/<a class="el" href="_shape_works_studio_app_8h_source.html">ShapeWorksStudioApp.h</a></li>
 <li>H:/carma/clean/ShapeWorksStudio/src/Interface/<a class="el" href="_shape_works_studio_app_8cc.html">ShapeWorksStudioApp.cc</a></li>
@@ -485,7 +527,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 22 2014 14:16:33 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 22 2014 23:46:57 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

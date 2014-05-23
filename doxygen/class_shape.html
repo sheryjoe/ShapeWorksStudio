@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -106,6 +106,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae95ac633aa780c1ccc696832b170a502"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; <a class="el" href="class_mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ae95ac633aa780c1ccc696832b170a502">get_initial_mesh</a> ()</td></tr>
 <tr class="memdesc:ae95ac633aa780c1ccc696832b170a502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the initial mesh.  <a href="#ae95ac633aa780c1ccc696832b170a502">More...</a><br/></td></tr>
 <tr class="separator:ae95ac633aa780c1ccc696832b170a502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4028fd2c06534ab4406bb580cfb76fae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a4028fd2c06534ab4406bb580cfb76fae">import_groomed_file</a> (QString filename)</td></tr>
+<tr class="memdesc:a4028fd2c06534ab4406bb580cfb76fae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import the groomed raw image file.  <a href="#a4028fd2c06534ab4406bb580cfb76fae">More...</a><br/></td></tr>
+<tr class="separator:a4028fd2c06534ab4406bb580cfb76fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a018b9b49bcb4aae547199c284be4f"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; <a class="el" href="class_mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ac4a018b9b49bcb4aae547199c284be4f">get_groomed_mesh</a> ()</td></tr>
+<tr class="memdesc:ac4a018b9b49bcb4aae547199c284be4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the groomed mesh.  <a href="#ac4a018b9b49bcb4aae547199c284be4f">More...</a><br/></td></tr>
+<tr class="separator:ac4a018b9b49bcb4aae547199c284be4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Representation of a single shape/patient. </p>
@@ -141,6 +147,23 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac4a018b9b49bcb4aae547199c284be4f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSharedPointer&lt; <a class="el" href="class_mesh.html">Mesh</a> &gt; Shape::get_groomed_mesh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieve the groomed mesh. </p>
+
+</div>
+</div>
 <a class="anchor" id="ae95ac633aa780c1ccc696832b170a502"></a>
 <div class="memitem">
 <div class="memproto">
@@ -155,6 +178,24 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Retrieve the initial mesh. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4028fd2c06534ab4406bb580cfb76fae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Shape::import_groomed_file </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Import the groomed raw image file. </p>
 
 </div>
 </div>
@@ -183,7 +224,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 22 2014 14:16:33 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 22 2014 23:46:57 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
