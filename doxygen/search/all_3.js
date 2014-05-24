@@ -8,10 +8,11 @@ var searchData=
   ['get_5finitial_5fmesh',['get_initial_mesh',['../class_shape.html#ae95ac633aa780c1ccc696832b170a502',1,'Shape']]],
   ['get_5fnum_5frows',['get_num_rows',['../class_viewer.html#a85a5d539bce09a01b1190613f2b1014e',1,'Viewer']]],
   ['get_5fnum_5frows_5fvisible',['get_num_rows_visible',['../class_viewer.html#a240faa42c63a533d495d7111d985c9c6',1,'Viewer']]],
-  ['get_5fpipeline_5fstate',['get_pipeline_state',['../class_project.html#a30f85161580be689dfde2a8da6025ca9',1,'Project']]],
   ['get_5fpoly_5fdata',['get_poly_data',['../class_mesh.html#abcb8920cb456f7303c2923e734bea24b',1,'Mesh']]],
+  ['get_5freconstructed_5fmesh',['get_reconstructed_mesh',['../class_shape.html#ad6e71d5798b031491c08c1fadecf0bca',1,'Shape']]],
   ['get_5fshapes',['get_shapes',['../class_project.html#ad0ae2544036daf61639052d4c7494b2b',1,'Project']]],
   ['groomed_5fc',['GROOMED_C',['../class_project.html#acef2eaf5e267945cf8f7288ab43c7090',1,'Project']]],
+  ['groomed_5fpresent',['groomed_present',['../class_project.html#a979f9242385b8ee7bbef6520c4ec7ac8',1,'Project']]],
   ['groomtool',['GroomTool',['../class_groom_tool.html',1,'GroomTool'],['../class_groom_tool.html#a0abec0097648395536f9b097c45668e8',1,'GroomTool::GroomTool()']]],
   ['groomtool_2ecc',['GroomTool.cc',['../_groom_tool_8cc.html',1,'']]],
   ['groomtool_2eh',['GroomTool.h',['../_groom_tool_8h.html',1,'']]]

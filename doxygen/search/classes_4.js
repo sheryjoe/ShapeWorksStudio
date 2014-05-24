@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['viewer',['Viewer',['../class_viewer.html',1,'']]]
+  ['shape',['Shape',['../class_shape.html',1,'']]],
+  ['shapeworksstudioapp',['ShapeWorksStudioApp',['../class_shape_works_studio_app.html',1,'']]]
 ];
