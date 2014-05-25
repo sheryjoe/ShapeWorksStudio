@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mesh',['Mesh',['../class_mesh.html',1,'']]]
+  ['groomtool',['GroomTool',['../class_groom_tool.html',1,'']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['optimized_5fc',['OPTIMIZED_C',['../class_project.html#a1efaa0ba3a9c7e5e43f2f858813481fe',1,'Project']]]
+  ['initial_5fc',['INITIAL_C',['../class_project.html#a8e91121bfea0b1f3e599a2fc1e484e2f',1,'Project']]],
+  ['isvisited',['isVisited',['../struct_surface_point.html#ade0201be7abbdd6cef530c246aaab0ec',1,'SurfacePoint']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['groomed_5fc',['GROOMED_C',['../class_project.html#acef2eaf5e267945cf8f7288ab43c7090',1,'Project']]]
+  ['costs',['costs',['../struct_surface_point.html#a990ab2e22054dd335c37a4e6c2603a89',1,'SurfacePoint']]]
 ];

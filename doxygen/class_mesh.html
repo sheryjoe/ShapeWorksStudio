@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -96,12 +96,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8d69131f75bc19b38a758e9c3bfbc82a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a8d69131f75bc19b38a758e9c3bfbc82a">Mesh</a> (QString filename)</td></tr>
-<tr class="memdesc:a8d69131f75bc19b38a758e9c3bfbc82a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load an image into this mesh.  <a href="#a8d69131f75bc19b38a758e9c3bfbc82a">More...</a><br/></td></tr>
-<tr class="separator:a8d69131f75bc19b38a758e9c3bfbc82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af137f1571af89172b9c102302c416b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a2af137f1571af89172b9c102302c416b">Mesh</a> ()</td></tr>
+<tr class="memdesc:a2af137f1571af89172b9c102302c416b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a2af137f1571af89172b9c102302c416b">More...</a><br/></td></tr>
+<tr class="separator:a2af137f1571af89172b9c102302c416b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5efe4da1a4c0971cfb037bd70304c303"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a5efe4da1a4c0971cfb037bd70304c303">~Mesh</a> ()</td></tr>
 <tr class="memdesc:a5efe4da1a4c0971cfb037bd70304c303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a5efe4da1a4c0971cfb037bd70304c303">More...</a><br/></td></tr>
 <tr class="separator:a5efe4da1a4c0971cfb037bd70304c303"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa10a40c67a2f6d78c67890237fe59041"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#aa10a40c67a2f6d78c67890237fe59041">create_from_image</a> (QString filename)</td></tr>
+<tr class="memdesc:aa10a40c67a2f6d78c67890237fe59041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mesh from an image.  <a href="#aa10a40c67a2f6d78c67890237fe59041">More...</a><br/></td></tr>
+<tr class="separator:aa10a40c67a2f6d78c67890237fe59041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ee6455ef6574b6033d6029aad12a83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a34ee6455ef6574b6033d6029aad12a83">create_from_pointset</a> (QString filename)</td></tr>
+<tr class="memdesc:a34ee6455ef6574b6033d6029aad12a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mesh from an image.  <a href="#a34ee6455ef6574b6033d6029aad12a83">More...</a><br/></td></tr>
+<tr class="separator:a34ee6455ef6574b6033d6029aad12a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba612a416b76a47b50362ed08fc9b2c8"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#aba612a416b76a47b50362ed08fc9b2c8">get_dimension_string</a> ()</td></tr>
 <tr class="memdesc:aba612a416b76a47b50362ed08fc9b2c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the dimensions as a string for display.  <a href="#aba612a416b76a47b50362ed08fc9b2c8">More...</a><br/></td></tr>
 <tr class="separator:aba612a416b76a47b50362ed08fc9b2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,21 +125,20 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Representation of a single mesh. </p>
 <p>The <a class="el" href="class_mesh.html" title="Representation of a single mesh. ">Mesh</a> class represents a single mesh generated from an image file. It is responsible for loading the image and generating a mesh from it. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a8d69131f75bc19b38a758e9c3bfbc82a"></a>
+<a class="anchor" id="a2af137f1571af89172b9c102302c416b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">Mesh::Mesh </td>
           <td>(</td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Load an image into this mesh. </p>
+<p>Constructor. </p>
 
 </div>
 </div>
@@ -155,6 +160,42 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa10a40c67a2f6d78c67890237fe59041"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Mesh::create_from_image </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a mesh from an image. </p>
+
+</div>
+</div>
+<a class="anchor" id="a34ee6455ef6574b6033d6029aad12a83"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Mesh::create_from_pointset </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a mesh from an image. </p>
+
+</div>
+</div>
 <a class="anchor" id="aba612a416b76a47b50362ed08fc9b2c8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -230,7 +271,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri May 23 2014 23:31:44 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 24 2014 23:34:16 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

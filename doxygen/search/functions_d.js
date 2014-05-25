@@ -1,10 +1,17 @@
 var searchData=
 [
-  ['_7egroomtool',['~GroomTool',['../class_groom_tool.html#aba501afe9a1d76fa8e0462b4a02fc9fb',1,'GroomTool']]],
-  ['_7emesh',['~Mesh',['../class_mesh.html#a5efe4da1a4c0971cfb037bd70304c303',1,'Mesh']]],
-  ['_7eoptimizetool',['~OptimizeTool',['../class_optimize_tool.html#a35ebee5489213a19813dbc197a7fdb6e',1,'OptimizeTool']]],
-  ['_7eproject',['~Project',['../class_project.html#ad165d61b76ee86ee9c27fd987a2a7b9e',1,'Project']]],
-  ['_7eshape',['~Shape',['../class_shape.html#a935afc9e576015f967d90de56977167d',1,'Shape']]],
-  ['_7eshapeworksstudioapp',['~ShapeWorksStudioApp',['../class_shape_works_studio_app.html#a1311c9a2e0094f54149d1a8d74ee7608',1,'ShapeWorksStudioApp']]],
-  ['_7eviewer',['~Viewer',['../class_viewer.html#a324e5a6a1532fe5eac3f3b0e4792b2da',1,'Viewer']]]
+  ['save_5fproject',['save_project',['../class_project.html#a0efa618db4b749ed2ab71636f38885d2',1,'Project']]],
+  ['set_5fapp',['set_app',['../class_groom_tool.html#af490de427977d9080c83ebbbcef25f2e',1,'GroomTool::set_app()'],['../class_optimize_tool.html#aa37b52d0d9ad781d0a662e3b092be43a',1,'OptimizeTool::set_app()']]],
+  ['set_5fauto_5fcenter',['set_auto_center',['../class_viewer.html#acdc1a6e7a974cbc9d41366a21c8e5100',1,'Viewer']]],
+  ['set_5finteractor',['set_interactor',['../class_viewer.html#a15ddded1ba40bb5218e3ec569c27b934',1,'Viewer']]],
+  ['set_5fmeshes',['set_meshes',['../class_viewer.html#a00b01b553abcded80611283d09ed2554',1,'Viewer']]],
+  ['set_5fproject',['set_project',['../class_groom_tool.html#aff510acbf178611256f79bdf8fa200ee',1,'GroomTool::set_project()'],['../class_optimize_tool.html#ae7fab1fcd3be423b92d747c4b331de60',1,'OptimizeTool::set_project()']]],
+  ['set_5frender_5fwindow',['set_render_window',['../class_viewer.html#a1b6040a274d43332e5dcb3335968d70a',1,'Viewer']]],
+  ['set_5fstart_5frow',['set_start_row',['../class_viewer.html#ac36ba79ec7ca7dfef3f80be92d26de91',1,'Viewer']]],
+  ['set_5fstatus_5fbar',['set_status_bar',['../class_shape_works_studio_app.html#a9e1795b1a6ef1fc412ba9f9523184540',1,'ShapeWorksStudioApp']]],
+  ['set_5ftile_5flayout',['set_tile_layout',['../class_viewer.html#ab004ad232cd892e050e0dc04f83fdbc1',1,'Viewer']]],
+  ['setup_5frenderers',['setup_renderers',['../class_viewer.html#a2e54cfe7fb67ac7c3f049a32dd084c4e',1,'Viewer']]],
+  ['shape',['Shape',['../class_shape.html#aaa8d87171e65e0d8ba3c5459978992a7',1,'Shape']]],
+  ['shapeworksstudioapp',['ShapeWorksStudioApp',['../class_shape_works_studio_app.html#aeeb6c621244a042f2ad6d71ad2942fe5',1,'ShapeWorksStudioApp']]],
+  ['surfacepoint',['SurfacePoint',['../struct_surface_point.html#a8ecf2d37b2757fd935465d567a684157',1,'SurfacePoint']]]
 ];
