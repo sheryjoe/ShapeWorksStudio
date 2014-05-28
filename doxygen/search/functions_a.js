@@ -18,7 +18,7 @@ var searchData=
   ['on_5fthumbnail_5fsize_5fslider_5fvaluechanged',['on_thumbnail_size_slider_valueChanged',['../class_shape_works_studio_app.html#ac268007c33b8e607c9556fd5cff14d43',1,'ShapeWorksStudioApp']]],
   ['on_5fvertical_5fscroll_5fbar_5fvaluechanged',['on_vertical_scroll_bar_valueChanged',['../class_shape_works_studio_app.html#a90a68ce21ac9d886f134ce1b542c1bbf',1,'ShapeWorksStudioApp']]],
   ['on_5fview_5fmode_5fcombobox_5fcurrentindexchanged',['on_view_mode_combobox_currentIndexChanged',['../class_shape_works_studio_app.html#a1ac7a98653514ccca7e75415ff89a168',1,'ShapeWorksStudioApp']]],
-  ['open_5fproject',['open_project',['../class_project.html#a8a87af33338ee01fb2609bacb073bc6e',1,'Project::open_project()'],['../class_shape_works_studio_app.html#a5ea7dee68eff93b8c507df133fdc9cdd',1,'ShapeWorksStudioApp::open_project()']]],
+  ['open_5fproject',['open_project',['../class_shape_works_studio_app.html#a5ea7dee68eff93b8c507df133fdc9cdd',1,'ShapeWorksStudioApp']]],
   ['optimizetool',['OptimizeTool',['../class_optimize_tool.html#a944cdb7bc71b0016fd7f4363a04cf88e',1,'OptimizeTool']]],
   ['originals_5fpresent',['originals_present',['../class_project.html#a11bf7864e091b76f2b741f0e75512064',1,'Project']]]
 ];

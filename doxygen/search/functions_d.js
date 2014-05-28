@@ -7,6 +7,7 @@ var searchData=
   ['set_5fmeshes',['set_meshes',['../class_viewer.html#a00b01b553abcded80611283d09ed2554',1,'Viewer']]],
   ['set_5fproject',['set_project',['../class_groom_tool.html#aff510acbf178611256f79bdf8fa200ee',1,'GroomTool::set_project()'],['../class_optimize_tool.html#ae7fab1fcd3be423b92d747c4b331de60',1,'OptimizeTool::set_project()']]],
   ['set_5frender_5fwindow',['set_render_window',['../class_viewer.html#a1b6040a274d43332e5dcb3335968d70a',1,'Viewer']]],
+  ['set_5fshapes',['set_shapes',['../class_viewer.html#a2fd552e2f925d1e97abf386cec3f0626',1,'Viewer']]],
   ['set_5fstart_5frow',['set_start_row',['../class_viewer.html#ac36ba79ec7ca7dfef3f80be92d26de91',1,'Viewer']]],
   ['set_5fstatus_5fbar',['set_status_bar',['../class_shape_works_studio_app.html#a9e1795b1a6ef1fc412ba9f9523184540',1,'ShapeWorksStudioApp']]],
   ['set_5ftile_5flayout',['set_tile_layout',['../class_viewer.html#ab004ad232cd892e050e0dc04f83fdbc1',1,'Viewer']]],

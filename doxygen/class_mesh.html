@@ -105,9 +105,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa10a40c67a2f6d78c67890237fe59041"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#aa10a40c67a2f6d78c67890237fe59041">create_from_image</a> (QString filename)</td></tr>
 <tr class="memdesc:aa10a40c67a2f6d78c67890237fe59041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mesh from an image.  <a href="#aa10a40c67a2f6d78c67890237fe59041">More...</a><br/></td></tr>
 <tr class="separator:aa10a40c67a2f6d78c67890237fe59041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34ee6455ef6574b6033d6029aad12a83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a34ee6455ef6574b6033d6029aad12a83">create_from_pointset</a> (QString filename)</td></tr>
-<tr class="memdesc:a34ee6455ef6574b6033d6029aad12a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mesh from an image.  <a href="#a34ee6455ef6574b6033d6029aad12a83">More...</a><br/></td></tr>
-<tr class="separator:a34ee6455ef6574b6033d6029aad12a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5353be0ab07556dea30a80373f5c77c3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a5353be0ab07556dea30a80373f5c77c3">create_from_pointset</a> (QString filename, const vnl_vector&lt; double &gt; &amp;vnl_points)</td></tr>
+<tr class="memdesc:a5353be0ab07556dea30a80373f5c77c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mesh from a point set.  <a href="#a5353be0ab07556dea30a80373f5c77c3">More...</a><br/></td></tr>
+<tr class="separator:a5353be0ab07556dea30a80373f5c77c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba612a416b76a47b50362ed08fc9b2c8"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#aba612a416b76a47b50362ed08fc9b2c8">get_dimension_string</a> ()</td></tr>
 <tr class="memdesc:aba612a416b76a47b50362ed08fc9b2c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the dimensions as a string for display.  <a href="#aba612a416b76a47b50362ed08fc9b2c8">More...</a><br/></td></tr>
 <tr class="separator:aba612a416b76a47b50362ed08fc9b2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,7 +178,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a34ee6455ef6574b6033d6029aad12a83"></a>
+<a class="anchor" id="a5353be0ab07556dea30a80373f5c77c3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -186,13 +186,23 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool Mesh::create_from_pointset </td>
           <td>(</td>
           <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const vnl_vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vnl_points</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create a mesh from an image. </p>
+<p>Create a mesh from a point set. </p>
 
 </div>
 </div>
@@ -271,7 +281,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 26 2014 23:08:43 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 27 2014 23:08:01 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
