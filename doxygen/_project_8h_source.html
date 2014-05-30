@@ -128,36 +128,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="comment">//QString get_pipeline_state();</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_project.html#a11bf7864e091b76f2b741f0e75512064">originals_present</a>();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_project.html#a979f9242385b8ee7bbef6520c4ec7ac8">groomed_present</a>();</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_project.html#a3343eaa3a3ff8aa2a4109f12dc5875cc">reconstructed_present</a>();</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;Q_SIGNALS:</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_project.html#a612ee3349f148ee2e2c24f201bf4d360">data_changed</a>();</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="comment">// constants</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="class_project.html#a8e91121bfea0b1f3e599a2fc1e484e2f">   70</a></span>&#160;  <span class="keyword">const</span> <span class="keyword">static</span> QString <a class="code" href="class_project.html#a8e91121bfea0b1f3e599a2fc1e484e2f">INITIAL_C</a>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="class_project.html#acef2eaf5e267945cf8f7288ab43c7090">   71</a></span>&#160;  <span class="keyword">const</span> <span class="keyword">static</span> QString <a class="code" href="class_project.html#acef2eaf5e267945cf8f7288ab43c7090">GROOMED_C</a>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="class_project.html#a1efaa0ba3a9c7e5e43f2f858813481fe">   72</a></span>&#160;  <span class="keyword">const</span> <span class="keyword">static</span> QString <a class="code" href="class_project.html#a1efaa0ba3a9c7e5e43f2f858813481fe">OPTIMIZED_C</a>;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  QString filename_;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  std::vector&lt;QSharedPointer&lt;Shape&gt; &gt; shapes_;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordtype">bool</span> originals_present_;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keywordtype">bool</span> groomed_present_;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keywordtype">bool</span> reconstructed_present_;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_project.html#a11bf7864e091b76f2b741f0e75512064">originals_present</a>();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_project.html#a979f9242385b8ee7bbef6520c4ec7ac8">groomed_present</a>();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_project.html#a3343eaa3a3ff8aa2a4109f12dc5875cc">reconstructed_present</a>();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;Q_SIGNALS:</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_project.html#a612ee3349f148ee2e2c24f201bf4d360">data_changed</a>();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="comment">// constants</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="class_project.html#a8e91121bfea0b1f3e599a2fc1e484e2f">   69</a></span>&#160;  <span class="keyword">const</span> <span class="keyword">static</span> QString <a class="code" href="class_project.html#a8e91121bfea0b1f3e599a2fc1e484e2f">INITIAL_C</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="class_project.html#acef2eaf5e267945cf8f7288ab43c7090">   70</a></span>&#160;  <span class="keyword">const</span> <span class="keyword">static</span> QString <a class="code" href="class_project.html#acef2eaf5e267945cf8f7288ab43c7090">GROOMED_C</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="class_project.html#a1efaa0ba3a9c7e5e43f2f858813481fe">   71</a></span>&#160;  <span class="keyword">const</span> <span class="keyword">static</span> QString <a class="code" href="class_project.html#a1efaa0ba3a9c7e5e43f2f858813481fe">OPTIMIZED_C</a>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  QString filename_;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  std::vector&lt;QSharedPointer&lt;Shape&gt; &gt; shapes_;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordtype">bool</span> originals_present_;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keywordtype">bool</span> groomed_present_;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordtype">bool</span> reconstructed_present_;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  QString pipeline_state_;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;};</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  QString pipeline_state_;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;};</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_DATA_PROJECT_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_DATA_PROJECT_H */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="class_project_html_a0efa618db4b749ed2ab71636f38885d2"><div class="ttname"><a href="class_project.html#a0efa618db4b749ed2ab71636f38885d2">Project::save_project</a></div><div class="ttdeci">bool save_project(QString filename=&quot;&quot;)</div><div class="ttdoc">save project to file </div><div class="ttdef"><b>Definition:</b> Project.cc:25</div></div>
 <div class="ttc" id="class_project_html_aa007ecd17d5bc800e7a956cf666eea21"><div class="ttname"><a href="class_project.html#aa007ecd17d5bc800e7a956cf666eea21">Project::Project</a></div><div class="ttdeci">Project()</div><div class="ttdoc">constructor </div><div class="ttdef"><b>Definition:</b> Project.cc:15</div></div>
 <div class="ttc" id="class_project_html_a979f9242385b8ee7bbef6520c4ec7ac8"><div class="ttname"><a href="class_project.html#a979f9242385b8ee7bbef6520c4ec7ac8">Project::groomed_present</a></div><div class="ttdeci">bool groomed_present()</div><div class="ttdef"><b>Definition:</b> Project.cc:249</div></div>
@@ -166,8 +163,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="class_project_html_ae5cc82e7a7f1ec43468503d73f696260"><div class="ttname"><a href="class_project.html#ae5cc82e7a7f1ec43468503d73f696260">Project::reset</a></div><div class="ttdeci">void reset()</div><div class="ttdoc">reset the project </div><div class="ttdef"><b>Definition:</b> Project.cc:226</div></div>
 <div class="ttc" id="class_project_html_a7853ed55ee09483e8d89e325995703b0"><div class="ttname"><a href="class_project.html#a7853ed55ee09483e8d89e325995703b0">Project::remove_shapes</a></div><div class="ttdeci">void remove_shapes(QList&lt; int &gt; list)</div><div class="ttdoc">remove shapes </div><div class="ttdef"><b>Definition:</b> Project.cc:216</div></div>
 <div class="ttc" id="class_project_html_a11bf7864e091b76f2b741f0e75512064"><div class="ttname"><a href="class_project.html#a11bf7864e091b76f2b741f0e75512064">Project::originals_present</a></div><div class="ttdeci">bool originals_present()</div><div class="ttdoc">get the current pipeline state </div><div class="ttdef"><b>Definition:</b> Project.cc:243</div></div>
-<div class="ttc" id="class_project_html_a1efaa0ba3a9c7e5e43f2f858813481fe"><div class="ttname"><a href="class_project.html#a1efaa0ba3a9c7e5e43f2f858813481fe">Project::OPTIMIZED_C</a></div><div class="ttdeci">static const QString OPTIMIZED_C</div><div class="ttdef"><b>Definition:</b> Project.h:72</div></div>
-<div class="ttc" id="class_project_html_acef2eaf5e267945cf8f7288ab43c7090"><div class="ttname"><a href="class_project.html#acef2eaf5e267945cf8f7288ab43c7090">Project::GROOMED_C</a></div><div class="ttdeci">static const QString GROOMED_C</div><div class="ttdef"><b>Definition:</b> Project.h:71</div></div>
+<div class="ttc" id="class_project_html_a1efaa0ba3a9c7e5e43f2f858813481fe"><div class="ttname"><a href="class_project.html#a1efaa0ba3a9c7e5e43f2f858813481fe">Project::OPTIMIZED_C</a></div><div class="ttdeci">static const QString OPTIMIZED_C</div><div class="ttdef"><b>Definition:</b> Project.h:71</div></div>
+<div class="ttc" id="class_project_html_acef2eaf5e267945cf8f7288ab43c7090"><div class="ttname"><a href="class_project.html#acef2eaf5e267945cf8f7288ab43c7090">Project::GROOMED_C</a></div><div class="ttdeci">static const QString GROOMED_C</div><div class="ttdef"><b>Definition:</b> Project.h:70</div></div>
 <div class="ttc" id="class_project_html_ad0ae2544036daf61639052d4c7494b2b"><div class="ttname"><a href="class_project.html#ad0ae2544036daf61639052d4c7494b2b">Project::get_shapes</a></div><div class="ttdeci">std::vector&lt; QSharedPointer&lt; Shape &gt; &gt; get_shapes()</div><div class="ttdoc">return all shapes </div><div class="ttdef"><b>Definition:</b> Project.cc:210</div></div>
 <div class="ttc" id="class_project_html_aa382a72676c4719ac827c6a9ea455a9b"><div class="ttname"><a href="class_project.html#aa382a72676c4719ac827c6a9ea455a9b">Project::load_groomed_files</a></div><div class="ttdeci">void load_groomed_files(QStringList file_names)</div><div class="ttdoc">load groomed files </div><div class="ttdef"><b>Definition:</b> Project.cc:173</div></div>
 <div class="ttc" id="class_project_html"><div class="ttname"><a href="class_project.html">Project</a></div><div class="ttdoc">Representation of a project. </div><div class="ttdef"><b>Definition:</b> Project.h:17</div></div>
@@ -176,12 +173,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="class_project_html_ad165d61b76ee86ee9c27fd987a2a7b9e"><div class="ttname"><a href="class_project.html#ad165d61b76ee86ee9c27fd987a2a7b9e">Project::~Project</a></div><div class="ttdeci">~Project()</div><div class="ttdoc">destructor </div><div class="ttdef"><b>Definition:</b> Project.cc:21</div></div>
 <div class="ttc" id="class_project_html_a39156fc4f318e64da227ac824e8becac"><div class="ttname"><a href="class_project.html#a39156fc4f318e64da227ac824e8becac">Project::load_project</a></div><div class="ttdeci">bool load_project(QString filename)</div><div class="ttdoc">save project to file </div><div class="ttdef"><b>Definition:</b> Project.cc:81</div></div>
 <div class="ttc" id="class_project_html_a3343eaa3a3ff8aa2a4109f12dc5875cc"><div class="ttname"><a href="class_project.html#a3343eaa3a3ff8aa2a4109f12dc5875cc">Project::reconstructed_present</a></div><div class="ttdeci">bool reconstructed_present()</div><div class="ttdef"><b>Definition:</b> Project.cc:255</div></div>
-<div class="ttc" id="class_project_html_a8e91121bfea0b1f3e599a2fc1e484e2f"><div class="ttname"><a href="class_project.html#a8e91121bfea0b1f3e599a2fc1e484e2f">Project::INITIAL_C</a></div><div class="ttdeci">static const QString INITIAL_C</div><div class="ttdef"><b>Definition:</b> Project.h:70</div></div>
+<div class="ttc" id="class_project_html_a8e91121bfea0b1f3e599a2fc1e484e2f"><div class="ttname"><a href="class_project.html#a8e91121bfea0b1f3e599a2fc1e484e2f">Project::INITIAL_C</a></div><div class="ttdeci">static const QString INITIAL_C</div><div class="ttdef"><b>Definition:</b> Project.h:69</div></div>
 <div class="ttc" id="class_project_html_a288ed7d4af47f3920a468286aaaaa9dd"><div class="ttname"><a href="class_project.html#a288ed7d4af47f3920a468286aaaaa9dd">Project::load_point_files</a></div><div class="ttdeci">void load_point_files(QStringList file_names)</div><div class="ttdoc">load point files </div><div class="ttdef"><b>Definition:</b> Project.cc:190</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 28 2014 23:40:55 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 29 2014 23:42:04 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

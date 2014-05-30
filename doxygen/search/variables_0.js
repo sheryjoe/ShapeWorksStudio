@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['actor',['actor',['../class_mini_viewer.html#a455a0ac6f979bd70a2f475be73c3113d',1,'MiniViewer']]]
+  ['costs',['costs',['../struct_surface_point.html#a990ab2e22054dd335c37a4e6c2603a89',1,'SurfacePoint']]]
 ];

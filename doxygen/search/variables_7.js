@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['o',['o',['../struct_surface_point.html#a5576c192978ef3329dc3254a058bc2d1',1,'SurfacePoint']]],
-  ['optimized_5fc',['OPTIMIZED_C',['../class_project.html#a1efaa0ba3a9c7e5e43f2f858813481fe',1,'Project']]]
+  ['reconstructed_5fc',['RECONSTRUCTED_C',['../class_viewer.html#a7bba713f97bec6ff7f2326f432f26dfb',1,'Viewer']]],
+  ['renderer_5f',['renderer_',['../class_mini_viewer.html#a2d89a6d2e8bcbc0c35ee39da14537e14',1,'MiniViewer']]]
 ];

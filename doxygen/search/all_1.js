@@ -1,22 +1,14 @@
 var searchData=
 [
-  ['connectpipelines',['ConnectPipelines',['../_itk_to_vtk_8h.html#af1b2c7c9e1f39b42bf0d000e35685635',1,'ItkToVtk.h']]],
-  ['costs',['costs',['../struct_surface_point.html#a990ab2e22054dd335c37a4e6c2603a89',1,'SurfacePoint']]],
-  ['create_5ffrom_5fimage',['create_from_image',['../class_mesh.html#aa10a40c67a2f6d78c67890237fe59041',1,'Mesh']]],
-  ['create_5ffrom_5fpointset',['create_from_pointset',['../class_mesh.html#a5353be0ab07556dea30a80373f5c77c3',1,'Mesh']]],
-  ['customaddbtoa',['CustomAddBToA',['../_custom_surface_reconstruction_filter_8cc.html#a54f49aa269546cd52d77212188373fc8',1,'CustomSurfaceReconstructionFilter.cc']]],
-  ['customcopybtoa',['CustomCopyBToA',['../_custom_surface_reconstruction_filter_8cc.html#a4dd0641c3d08750fdd609ed9ddfde0d6',1,'CustomSurfaceReconstructionFilter.cc']]],
-  ['customdivideby',['CustomDivideBy',['../_custom_surface_reconstruction_filter_8cc.html#af544200ee0020b70cb7fae6b603bd64a',1,'CustomSurfaceReconstructionFilter.cc']]],
-  ['custommultiplyby',['CustomMultiplyBy',['../_custom_surface_reconstruction_filter_8cc.html#ad273d4fd7f7641e52dd95cd542f5ae82',1,'CustomSurfaceReconstructionFilter.cc']]],
-  ['customsraddouterproduct',['CustomSRAddOuterProduct',['../_custom_surface_reconstruction_filter_8cc.html#ae1d01dcee9af327d5bc70cc1a897ab04',1,'CustomSurfaceReconstructionFilter.cc']]],
-  ['customsrfreematrix',['CustomSRFreeMatrix',['../_custom_surface_reconstruction_filter_8cc.html#a66fe94f3a1608b4ceb4c937c374cdd83',1,'CustomSRFreeMatrix(double **m, long nrl, long nrh, long ncl, long nch):&#160;CustomSurfaceReconstructionFilter.cc'],['../_custom_surface_reconstruction_filter_8cc.html#a77cfe722e0e0d489203b068e0f1e0c86',1,'CustomSRFreeMatrix(double **m, long nrl, long vtkNotUsed(nrh), long ncl, long vtkNotUsed(nch)):&#160;CustomSurfaceReconstructionFilter.cc']]],
-  ['customsrfreevector',['CustomSRFreeVector',['../_custom_surface_reconstruction_filter_8cc.html#a5ffb215c1b54de3828cff87e6a4bb02b',1,'CustomSRFreeVector(double *v, long nl, long nh):&#160;CustomSurfaceReconstructionFilter.cc'],['../_custom_surface_reconstruction_filter_8cc.html#a60560cce1f5cd39aa01c861689af6e1b',1,'CustomSRFreeVector(double *v, long nl, long vtkNotUsed(nh)):&#160;CustomSurfaceReconstructionFilter.cc']]],
-  ['customsrmakezero',['CustomSRMakeZero',['../_custom_surface_reconstruction_filter_8cc.html#a6cffed9fcbbac5d8c3a57c07bcb8fe17',1,'CustomSurfaceReconstructionFilter.cc']]],
-  ['customsrmatrix',['CustomSRMatrix',['../_custom_surface_reconstruction_filter_8cc.html#acaa0a36efc5e261d65665a5f0020c8ab',1,'CustomSurfaceReconstructionFilter.cc']]],
-  ['customsrmultiply',['CustomSRMultiply',['../_custom_surface_reconstruction_filter_8cc.html#a9189403abdf18efda85574c2aa2d8851',1,'CustomSurfaceReconstructionFilter.cc']]],
-  ['customsrvector',['CustomSRVector',['../_custom_surface_reconstruction_filter_8cc.html#adbca570ed6a3b196c7e007e46a81c083',1,'CustomSurfaceReconstructionFilter.cc']]],
-  ['customsubtractbfroma',['CustomSubtractBFromA',['../_custom_surface_reconstruction_filter_8cc.html#ac6d5465e20b48bc31ec5ad60aad88435',1,'CustomSurfaceReconstructionFilter.cc']]],
-  ['customsurfacereconstructionfilter',['CustomSurfaceReconstructionFilter',['../class_custom_surface_reconstruction_filter.html',1,'CustomSurfaceReconstructionFilter'],['../class_custom_surface_reconstruction_filter.html#a2ce13c96ab2eb4bf1bd0109e2c3febb3',1,'CustomSurfaceReconstructionFilter::CustomSurfaceReconstructionFilter()']]],
-  ['customsurfacereconstructionfilter_2ecc',['CustomSurfaceReconstructionFilter.cc',['../_custom_surface_reconstruction_filter_8cc.html',1,'']]],
-  ['customsurfacereconstructionfilter_2eh',['CustomSurfaceReconstructionFilter.h',['../_custom_surface_reconstruction_filter_8h.html',1,'']]]
+  ['data_5fchanged',['data_changed',['../class_project.html#a612ee3349f148ee2e2c24f201bf4d360',1,'Project']]],
+  ['default_5fcache_5fenabled',['DEFAULT_CACHE_ENABLED',['../_preferences_8cc.html#ac3af5c62596718b6fa7aa6b31f98c71f',1,'Preferences.cc']]],
+  ['default_5fcache_5fmemory',['DEFAULT_CACHE_MEMORY',['../_preferences_8cc.html#a417bf0cc4f48b047dc84bb2e266693a9',1,'Preferences.cc']]],
+  ['default_5fcolor_5fscheme',['DEFAULT_COLOR_SCHEME',['../_preferences_8cc.html#a0780a24818c974edc4b0bb32b00ebd50',1,'Preferences.cc']]],
+  ['default_5fglyph_5fquality',['DEFAULT_GLYPH_QUALITY',['../_preferences_8cc.html#afd5d1af1eb5f240c5bda28d61d3b40c6',1,'Preferences.cc']]],
+  ['default_5fglyph_5fsize',['DEFAULT_GLYPH_SIZE',['../_preferences_8cc.html#a3af5b1487ea4735fc2e699593fb0b873',1,'Preferences.cc']]],
+  ['default_5fnum_5fthreads',['DEFAULT_NUM_THREADS',['../_preferences_8cc.html#a1c29d59d141e1f7ba084276fdf8e8c06',1,'Preferences.cc']]],
+  ['default_5fparallel_5fenabled',['DEFAULT_PARALLEL_ENABLED',['../_preferences_8cc.html#a4a991e81f13ed0eb04d0a266a413ca70',1,'Preferences.cc']]],
+  ['default_5fpca_5frange',['DEFAULT_PCA_RANGE',['../_preferences_8cc.html#a0c0266c1bcefe48998594d5040fa7adb',1,'Preferences.cc']]],
+  ['default_5fpca_5fsteps',['DEFAULT_PCA_STEPS',['../_preferences_8cc.html#a605e63e7a2ad11aa497a5971d1329618',1,'Preferences.cc']]],
+  ['default_5fregression_5fsteps',['DEFAULT_REGRESSION_STEPS',['../_preferences_8cc.html#a274870423bae15d4b78bc6bca10e1e65',1,'Preferences.cc']]]
 ];

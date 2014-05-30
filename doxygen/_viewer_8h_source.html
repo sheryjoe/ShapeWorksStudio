@@ -98,38 +98,38 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;vtkPoints.h&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span>vtkRenderer;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span>CustomImagePlaneWidget;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span>vtkRenderWindowInteractor;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span>vtkImageData;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>vtkCamera;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span>vtkGlyph3D;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">class </span><a class="code" href="class_mesh.html">Mesh</a>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">class </span><a class="code" href="class_shape.html">Shape</a>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_mini_viewer.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_mini_viewer.html">MiniViewer</a></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#a2d89a6d2e8bcbc0c35ee39da14537e14">   24</a></span>&#160;  vtkSmartPointer&lt;vtkRenderer&gt;             <a class="code" href="class_mini_viewer.html#a2d89a6d2e8bcbc0c35ee39da14537e14">renderer_</a>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#a488df6a4a6f256ee8db95aa2a167490c">   25</a></span>&#160;  vtkSmartPointer&lt;vtkPoints&gt;               <a class="code" href="class_mini_viewer.html#a488df6a4a6f256ee8db95aa2a167490c">glyphPoints</a>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#a69725d19913dd85db903e2d4233b4024">   26</a></span>&#160;  vtkSmartPointer&lt;vtkPolyData&gt;             <a class="code" href="class_mini_viewer.html#a69725d19913dd85db903e2d4233b4024">glyphPointSet</a>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#a0613f46513ce6359db908eabf895928d">   27</a></span>&#160;  vtkSmartPointer&lt;vtkGlyph3D&gt;              <a class="code" href="class_mini_viewer.html#a0613f46513ce6359db908eabf895928d">glyphs</a>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#a8a47b5ab7e857b7c5971d7d6cfb3e4cb">   28</a></span>&#160;  vtkSmartPointer&lt;vtkPolyDataMapper&gt;       <a class="code" href="class_mini_viewer.html#a8a47b5ab7e857b7c5971d7d6cfb3e4cb">glyphMapper</a>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#ae3f9116f6e91571b4681164ca0ab921b">   29</a></span>&#160;  vtkSmartPointer&lt;vtkActor&gt;                <a class="code" href="class_mini_viewer.html#ae3f9116f6e91571b4681164ca0ab921b">glyphActor</a>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#ae64e4bd18d885d0b2f9046f8eec0ad89">   31</a></span>&#160;  vtkSmartPointer&lt;vtkPolyDataMapper&gt; <a class="code" href="class_mini_viewer.html#ae64e4bd18d885d0b2f9046f8eec0ad89">mapper</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#a455a0ac6f979bd70a2f475be73c3113d">   32</a></span>&#160;  vtkSmartPointer&lt;vtkActor&gt; <a class="code" href="class_mini_viewer.html#a455a0ac6f979bd70a2f475be73c3113d">actor</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;};</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_viewer.html">   35</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_viewer.html">Viewer</a></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <a class="code" href="class_viewer.html#aaedebacb31cba87de6e7d448ed8d6586">Viewer</a>();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <a class="code" href="class_viewer.html#a324e5a6a1532fe5eac3f3b0e4792b2da">~Viewer</a>();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_viewer.html#a2fd552e2f925d1e97abf386cec3f0626">set_shapes</a>(std::vector&lt;QSharedPointer&lt;Shape&gt; &gt; shapes );</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span>vtkLookupTable;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span>CustomImagePlaneWidget;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span>vtkRenderWindowInteractor;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>vtkImageData;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span>vtkCamera;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span>vtkGlyph3D;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">class </span><a class="code" href="class_mesh.html">Mesh</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">class </span><a class="code" href="class_shape.html">Shape</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_mini_viewer.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_mini_viewer.html">MiniViewer</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#a2d89a6d2e8bcbc0c35ee39da14537e14">   25</a></span>&#160;  vtkSmartPointer&lt;vtkRenderer&gt;             <a class="code" href="class_mini_viewer.html#a2d89a6d2e8bcbc0c35ee39da14537e14">renderer_</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#a08bb6c5448d93dff93b83b4eb4169e4d">   27</a></span>&#160;  vtkSmartPointer&lt;vtkPoints&gt;               <a class="code" href="class_mini_viewer.html#a08bb6c5448d93dff93b83b4eb4169e4d">glyph_points_</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#ab494e1d86d5827cdf8ede8b6c353143f">   28</a></span>&#160;  vtkSmartPointer&lt;vtkPolyData&gt;             <a class="code" href="class_mini_viewer.html#ab494e1d86d5827cdf8ede8b6c353143f">glyph_point_set_</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#aaefdf8948896ab3fece681e59ce6cb3c">   29</a></span>&#160;  vtkSmartPointer&lt;vtkGlyph3D&gt;              <a class="code" href="class_mini_viewer.html#aaefdf8948896ab3fece681e59ce6cb3c">glyphs_</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#ac79740b09e88e281823b441f20692da9">   30</a></span>&#160;  vtkSmartPointer&lt;vtkPolyDataMapper&gt;       <a class="code" href="class_mini_viewer.html#ac79740b09e88e281823b441f20692da9">glyph_mapper_</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#a51c0e02826a009262bd18f32243600ec">   31</a></span>&#160;  vtkSmartPointer&lt;vtkActor&gt;                <a class="code" href="class_mini_viewer.html#a51c0e02826a009262bd18f32243600ec">glyph_actor</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#af4508da3edb000f34666d09c9f1b4523">   33</a></span>&#160;  vtkSmartPointer&lt;vtkPolyDataMapper&gt;       <a class="code" href="class_mini_viewer.html#af4508da3edb000f34666d09c9f1b4523">surface_mapper_</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_mini_viewer.html#a56ac0ef20f5334f574a8ca626316bae2">   34</a></span>&#160;  vtkSmartPointer&lt;vtkActor&gt;                <a class="code" href="class_mini_viewer.html#a56ac0ef20f5334f574a8ca626316bae2">surface_actor_</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_viewer.html">   37</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_viewer.html">Viewer</a></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <a class="code" href="class_viewer.html#aaedebacb31cba87de6e7d448ed8d6586">Viewer</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <a class="code" href="class_viewer.html#a324e5a6a1532fe5eac3f3b0e4792b2da">~Viewer</a>();</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_viewer.html#a00b01b553abcded80611283d09ed2554">set_meshes</a>( std::vector&lt;QSharedPointer&lt;Mesh&gt; &gt; meshes );</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_viewer.html#a2fd552e2f925d1e97abf386cec3f0626">set_shapes</a>( std::vector&lt;QSharedPointer&lt;Shape&gt; &gt; shapes );</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_viewer.html#a15ddded1ba40bb5218e3ec569c27b934">set_interactor</a>( vtkRenderWindowInteractor* interactor );</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
@@ -146,65 +146,80 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_viewer.html#acdc1a6e7a974cbc9d41366a21c8e5100">set_auto_center</a>( <span class="keywordtype">bool</span> center );</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_viewer.html#a4a0ba092df2817e62ff7980604a8dfab">set_mesh_mode</a>( QString mode );</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keywordtype">void</span> clear_renderers();</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="keywordtype">void</span> display_meshes();</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordtype">void</span> insert_mesh_into_view( vtkSmartPointer&lt;vtkPolyData&gt; poly_data, <span class="keywordtype">int</span> position, <span class="keywordtype">int</span> <span class="keywordtype">id</span>, QString note );</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keywordtype">void</span> clear_renderers();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordtype">void</span> display_meshes();</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  vtkSmartPointer&lt;vtkRenderer&gt; renderer_;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="keywordtype">void</span> insert_shape_into_view( QSharedPointer&lt;Shape&gt; shape, <span class="keywordtype">int</span> position, <span class="keywordtype">int</span> <span class="keywordtype">id</span> );</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  std::vector&lt; QSharedPointer &lt; Mesh &gt; &gt; meshes_;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  std::vector&lt; QSharedPointer &lt; Shape &gt; &gt; shapes_;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  std::vector&lt; QSharedPointer &lt; MiniViewer &gt; &gt; mini_viewers_;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  vtkRenderWindow* render_window_;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  vtkRenderWindowInteractor* interactor_;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  vtkCamera* camera_;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordtype">int</span> tile_layout_width_;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordtype">int</span> tile_layout_height_;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  vtkSmartPointer&lt;vtkRenderer&gt; renderer_;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  vtkSmartPointer&lt;vtkLookupTable&gt; lut_;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  std::vector&lt; QSharedPointer &lt; Shape &gt; &gt; shapes_;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  std::vector&lt; QSharedPointer &lt; MiniViewer &gt; &gt; mini_viewers_;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  vtkRenderWindow* render_window_;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  vtkRenderWindowInteractor* interactor_;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  vtkCamera* camera_;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordtype">int</span> start_row_;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keywordtype">bool</span> first_draw_;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keywordtype">bool</span> auto_center_;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;};</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordtype">int</span> tile_layout_width_;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keywordtype">int</span> tile_layout_height_;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keywordtype">int</span> start_row_;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keywordtype">bool</span> first_draw_;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_VISUALIZATION_VIEWER_H */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="class_mini_viewer_html_a2d89a6d2e8bcbc0c35ee39da14537e14"><div class="ttname"><a href="class_mini_viewer.html#a2d89a6d2e8bcbc0c35ee39da14537e14">MiniViewer::renderer_</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkRenderer &gt; renderer_</div><div class="ttdef"><b>Definition:</b> Viewer.h:24</div></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keywordtype">bool</span> auto_center_;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  QString mesh_mode_;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <span class="comment">// constants</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="class_viewer.html#a5dca96c882e76b948fe9283583595280">   97</a></span>&#160;  <span class="keyword">const</span> <span class="keyword">static</span> QString <a class="code" href="class_viewer.html#a5dca96c882e76b948fe9283583595280">INITIAL_C</a>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="class_viewer.html#a9f8bd8f2b1ce8d2bee0c878191755af0">   98</a></span>&#160;  <span class="keyword">const</span> <span class="keyword">static</span> QString <a class="code" href="class_viewer.html#a9f8bd8f2b1ce8d2bee0c878191755af0">GROOMED_C</a>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="class_viewer.html#a7bba713f97bec6ff7f2326f432f26dfb">   99</a></span>&#160;  <span class="keyword">const</span> <span class="keyword">static</span> QString <a class="code" href="class_viewer.html#a7bba713f97bec6ff7f2326f432f26dfb">RECONSTRUCTED_C</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;};</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_VISUALIZATION_VIEWER_H */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="class_mini_viewer_html_a2d89a6d2e8bcbc0c35ee39da14537e14"><div class="ttname"><a href="class_mini_viewer.html#a2d89a6d2e8bcbc0c35ee39da14537e14">MiniViewer::renderer_</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkRenderer &gt; renderer_</div><div class="ttdef"><b>Definition:</b> Viewer.h:25</div></div>
 <div class="ttc" id="class_mesh_html"><div class="ttname"><a href="class_mesh.html">Mesh</a></div><div class="ttdoc">Representation of a single mesh. </div><div class="ttdef"><b>Definition:</b> Mesh.h:18</div></div>
-<div class="ttc" id="class_mini_viewer_html"><div class="ttname"><a href="class_mini_viewer.html">MiniViewer</a></div><div class="ttdef"><b>Definition:</b> Viewer.h:21</div></div>
-<div class="ttc" id="class_viewer_html_ac36ba79ec7ca7dfef3f80be92d26de91"><div class="ttname"><a href="class_viewer.html#ac36ba79ec7ca7dfef3f80be92d26de91">Viewer::set_start_row</a></div><div class="ttdeci">void set_start_row(int row)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:241</div></div>
-<div class="ttc" id="class_viewer_html_a15ddded1ba40bb5218e3ec569c27b934"><div class="ttname"><a href="class_viewer.html#a15ddded1ba40bb5218e3ec569c27b934">Viewer::set_interactor</a></div><div class="ttdeci">void set_interactor(vtkRenderWindowInteractor *interactor)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:40</div></div>
-<div class="ttc" id="class_viewer_html_a2fd552e2f925d1e97abf386cec3f0626"><div class="ttname"><a href="class_viewer.html#a2fd552e2f925d1e97abf386cec3f0626">Viewer::set_shapes</a></div><div class="ttdeci">void set_shapes(std::vector&lt; QSharedPointer&lt; Shape &gt; &gt; shapes)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:263</div></div>
-<div class="ttc" id="class_viewer_html_a1b6040a274d43332e5dcb3335968d70a"><div class="ttname"><a href="class_viewer.html#a1b6040a274d43332e5dcb3335968d70a">Viewer::set_render_window</a></div><div class="ttdeci">void set_render_window(vtkRenderWindow *render_window)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:143</div></div>
-<div class="ttc" id="class_viewer_html_a240faa42c63a533d495d7111d985c9c6"><div class="ttname"><a href="class_viewer.html#a240faa42c63a533d495d7111d985c9c6">Viewer::get_num_rows_visible</a></div><div class="ttdeci">int get_num_rows_visible()</div><div class="ttdef"><b>Definition:</b> Viewer.cc:235</div></div>
-<div class="ttc" id="class_viewer_html_a324e5a6a1532fe5eac3f3b0e4792b2da"><div class="ttname"><a href="class_viewer.html#a324e5a6a1532fe5eac3f3b0e4792b2da">Viewer::~Viewer</a></div><div class="ttdeci">~Viewer()</div><div class="ttdef"><b>Definition:</b> Viewer.cc:36</div></div>
-<div class="ttc" id="class_viewer_html_a00b01b553abcded80611283d09ed2554"><div class="ttname"><a href="class_viewer.html#a00b01b553abcded80611283d09ed2554">Viewer::set_meshes</a></div><div class="ttdeci">void set_meshes(std::vector&lt; QSharedPointer&lt; Mesh &gt; &gt; meshes)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:249</div></div>
-<div class="ttc" id="class_viewer_html_a2e54cfe7fb67ac7c3f049a32dd084c4e"><div class="ttname"><a href="class_viewer.html#a2e54cfe7fb67ac7c3f049a32dd084c4e">Viewer::setup_renderers</a></div><div class="ttdeci">void setup_renderers()</div><div class="ttdef"><b>Definition:</b> Viewer.cc:152</div></div>
+<div class="ttc" id="class_mini_viewer_html"><div class="ttname"><a href="class_mini_viewer.html">MiniViewer</a></div><div class="ttdef"><b>Definition:</b> Viewer.h:22</div></div>
+<div class="ttc" id="class_mini_viewer_html_ab494e1d86d5827cdf8ede8b6c353143f"><div class="ttname"><a href="class_mini_viewer.html#ab494e1d86d5827cdf8ede8b6c353143f">MiniViewer::glyph_point_set_</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkPolyData &gt; glyph_point_set_</div><div class="ttdef"><b>Definition:</b> Viewer.h:28</div></div>
+<div class="ttc" id="class_viewer_html_a9f8bd8f2b1ce8d2bee0c878191755af0"><div class="ttname"><a href="class_viewer.html#a9f8bd8f2b1ce8d2bee0c878191755af0">Viewer::GROOMED_C</a></div><div class="ttdeci">static const QString GROOMED_C</div><div class="ttdef"><b>Definition:</b> Viewer.h:98</div></div>
+<div class="ttc" id="class_mini_viewer_html_a56ac0ef20f5334f574a8ca626316bae2"><div class="ttname"><a href="class_mini_viewer.html#a56ac0ef20f5334f574a8ca626316bae2">MiniViewer::surface_actor_</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkActor &gt; surface_actor_</div><div class="ttdef"><b>Definition:</b> Viewer.h:34</div></div>
+<div class="ttc" id="class_viewer_html_ac36ba79ec7ca7dfef3f80be92d26de91"><div class="ttname"><a href="class_viewer.html#ac36ba79ec7ca7dfef3f80be92d26de91">Viewer::set_start_row</a></div><div class="ttdeci">void set_start_row(int row)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:347</div></div>
+<div class="ttc" id="class_viewer_html_a7bba713f97bec6ff7f2326f432f26dfb"><div class="ttname"><a href="class_viewer.html#a7bba713f97bec6ff7f2326f432f26dfb">Viewer::RECONSTRUCTED_C</a></div><div class="ttdeci">static const QString RECONSTRUCTED_C</div><div class="ttdef"><b>Definition:</b> Viewer.h:99</div></div>
+<div class="ttc" id="class_viewer_html_a15ddded1ba40bb5218e3ec569c27b934"><div class="ttname"><a href="class_viewer.html#a15ddded1ba40bb5218e3ec569c27b934">Viewer::set_interactor</a></div><div class="ttdeci">void set_interactor(vtkRenderWindowInteractor *interactor)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:52</div></div>
+<div class="ttc" id="class_viewer_html_a2fd552e2f925d1e97abf386cec3f0626"><div class="ttname"><a href="class_viewer.html#a2fd552e2f925d1e97abf386cec3f0626">Viewer::set_shapes</a></div><div class="ttdeci">void set_shapes(std::vector&lt; QSharedPointer&lt; Shape &gt; &gt; shapes)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:362</div></div>
+<div class="ttc" id="class_viewer_html_a1b6040a274d43332e5dcb3335968d70a"><div class="ttname"><a href="class_viewer.html#a1b6040a274d43332e5dcb3335968d70a">Viewer::set_render_window</a></div><div class="ttdeci">void set_render_window(vtkRenderWindow *render_window)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:215</div></div>
+<div class="ttc" id="class_viewer_html_a240faa42c63a533d495d7111d985c9c6"><div class="ttname"><a href="class_viewer.html#a240faa42c63a533d495d7111d985c9c6">Viewer::get_num_rows_visible</a></div><div class="ttdeci">int get_num_rows_visible()</div><div class="ttdef"><b>Definition:</b> Viewer.cc:341</div></div>
+<div class="ttc" id="class_viewer_html_a324e5a6a1532fe5eac3f3b0e4792b2da"><div class="ttname"><a href="class_viewer.html#a324e5a6a1532fe5eac3f3b0e4792b2da">Viewer::~Viewer</a></div><div class="ttdeci">~Viewer()</div><div class="ttdef"><b>Definition:</b> Viewer.cc:48</div></div>
+<div class="ttc" id="class_mini_viewer_html_a08bb6c5448d93dff93b83b4eb4169e4d"><div class="ttname"><a href="class_mini_viewer.html#a08bb6c5448d93dff93b83b4eb4169e4d">MiniViewer::glyph_points_</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkPoints &gt; glyph_points_</div><div class="ttdef"><b>Definition:</b> Viewer.h:27</div></div>
+<div class="ttc" id="class_mini_viewer_html_ac79740b09e88e281823b441f20692da9"><div class="ttname"><a href="class_mini_viewer.html#ac79740b09e88e281823b441f20692da9">MiniViewer::glyph_mapper_</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkPolyDataMapper &gt; glyph_mapper_</div><div class="ttdef"><b>Definition:</b> Viewer.h:30</div></div>
+<div class="ttc" id="class_viewer_html_a2e54cfe7fb67ac7c3f049a32dd084c4e"><div class="ttname"><a href="class_viewer.html#a2e54cfe7fb67ac7c3f049a32dd084c4e">Viewer::setup_renderers</a></div><div class="ttdeci">void setup_renderers()</div><div class="ttdef"><b>Definition:</b> Viewer.cc:224</div></div>
 <div class="ttc" id="class_shape_html"><div class="ttname"><a href="class_shape.html">Shape</a></div><div class="ttdoc">Representation of a single shape/patient. </div><div class="ttdef"><b>Definition:</b> Shape.h:9</div></div>
-<div class="ttc" id="class_mini_viewer_html_a455a0ac6f979bd70a2f475be73c3113d"><div class="ttname"><a href="class_mini_viewer.html#a455a0ac6f979bd70a2f475be73c3113d">MiniViewer::actor</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkActor &gt; actor</div><div class="ttdef"><b>Definition:</b> Viewer.h:32</div></div>
-<div class="ttc" id="class_viewer_html_ab004ad232cd892e050e0dc04f83fdbc1"><div class="ttname"><a href="class_viewer.html#ab004ad232cd892e050e0dc04f83fdbc1">Viewer::set_tile_layout</a></div><div class="ttdeci">void set_tile_layout(int width, int height)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:219</div></div>
-<div class="ttc" id="class_mini_viewer_html_ae64e4bd18d885d0b2f9046f8eec0ad89"><div class="ttname"><a href="class_mini_viewer.html#ae64e4bd18d885d0b2f9046f8eec0ad89">MiniViewer::mapper</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkPolyDataMapper &gt; mapper</div><div class="ttdef"><b>Definition:</b> Viewer.h:31</div></div>
-<div class="ttc" id="class_viewer_html_a85a5d539bce09a01b1190613f2b1014e"><div class="ttname"><a href="class_viewer.html#a85a5d539bce09a01b1190613f2b1014e">Viewer::get_num_rows</a></div><div class="ttdeci">int get_num_rows()</div><div class="ttdef"><b>Definition:</b> Viewer.cc:229</div></div>
-<div class="ttc" id="class_mini_viewer_html_a8a47b5ab7e857b7c5971d7d6cfb3e4cb"><div class="ttname"><a href="class_mini_viewer.html#a8a47b5ab7e857b7c5971d7d6cfb3e4cb">MiniViewer::glyphMapper</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkPolyDataMapper &gt; glyphMapper</div><div class="ttdef"><b>Definition:</b> Viewer.h:28</div></div>
-<div class="ttc" id="class_mini_viewer_html_ae3f9116f6e91571b4681164ca0ab921b"><div class="ttname"><a href="class_mini_viewer.html#ae3f9116f6e91571b4681164ca0ab921b">MiniViewer::glyphActor</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkActor &gt; glyphActor</div><div class="ttdef"><b>Definition:</b> Viewer.h:29</div></div>
-<div class="ttc" id="class_mini_viewer_html_a0613f46513ce6359db908eabf895928d"><div class="ttname"><a href="class_mini_viewer.html#a0613f46513ce6359db908eabf895928d">MiniViewer::glyphs</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkGlyph3D &gt; glyphs</div><div class="ttdef"><b>Definition:</b> Viewer.h:27</div></div>
-<div class="ttc" id="class_mini_viewer_html_a488df6a4a6f256ee8db95aa2a167490c"><div class="ttname"><a href="class_mini_viewer.html#a488df6a4a6f256ee8db95aa2a167490c">MiniViewer::glyphPoints</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkPoints &gt; glyphPoints</div><div class="ttdef"><b>Definition:</b> Viewer.h:25</div></div>
-<div class="ttc" id="class_viewer_html_acdc1a6e7a974cbc9d41366a21c8e5100"><div class="ttname"><a href="class_viewer.html#acdc1a6e7a974cbc9d41366a21c8e5100">Viewer::set_auto_center</a></div><div class="ttdeci">void set_auto_center(bool center)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:256</div></div>
-<div class="ttc" id="class_viewer_html"><div class="ttname"><a href="class_viewer.html">Viewer</a></div><div class="ttdef"><b>Definition:</b> Viewer.h:35</div></div>
-<div class="ttc" id="class_mini_viewer_html_a69725d19913dd85db903e2d4233b4024"><div class="ttname"><a href="class_mini_viewer.html#a69725d19913dd85db903e2d4233b4024">MiniViewer::glyphPointSet</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkPolyData &gt; glyphPointSet</div><div class="ttdef"><b>Definition:</b> Viewer.h:26</div></div>
-<div class="ttc" id="class_viewer_html_aaedebacb31cba87de6e7d448ed8d6586"><div class="ttname"><a href="class_viewer.html#aaedebacb31cba87de6e7d448ed8d6586">Viewer::Viewer</a></div><div class="ttdeci">Viewer()</div><div class="ttdef"><b>Definition:</b> Viewer.cc:23</div></div>
+<div class="ttc" id="class_mini_viewer_html_a51c0e02826a009262bd18f32243600ec"><div class="ttname"><a href="class_mini_viewer.html#a51c0e02826a009262bd18f32243600ec">MiniViewer::glyph_actor</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkActor &gt; glyph_actor</div><div class="ttdef"><b>Definition:</b> Viewer.h:31</div></div>
+<div class="ttc" id="class_viewer_html_ab004ad232cd892e050e0dc04f83fdbc1"><div class="ttname"><a href="class_viewer.html#ab004ad232cd892e050e0dc04f83fdbc1">Viewer::set_tile_layout</a></div><div class="ttdeci">void set_tile_layout(int width, int height)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:325</div></div>
+<div class="ttc" id="class_viewer_html_a4a0ba092df2817e62ff7980604a8dfab"><div class="ttname"><a href="class_viewer.html#a4a0ba092df2817e62ff7980604a8dfab">Viewer::set_mesh_mode</a></div><div class="ttdeci">void set_mesh_mode(QString mode)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:369</div></div>
+<div class="ttc" id="class_mini_viewer_html_af4508da3edb000f34666d09c9f1b4523"><div class="ttname"><a href="class_mini_viewer.html#af4508da3edb000f34666d09c9f1b4523">MiniViewer::surface_mapper_</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkPolyDataMapper &gt; surface_mapper_</div><div class="ttdef"><b>Definition:</b> Viewer.h:33</div></div>
+<div class="ttc" id="class_mini_viewer_html_aaefdf8948896ab3fece681e59ce6cb3c"><div class="ttname"><a href="class_mini_viewer.html#aaefdf8948896ab3fece681e59ce6cb3c">MiniViewer::glyphs_</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkGlyph3D &gt; glyphs_</div><div class="ttdef"><b>Definition:</b> Viewer.h:29</div></div>
+<div class="ttc" id="class_viewer_html_a85a5d539bce09a01b1190613f2b1014e"><div class="ttname"><a href="class_viewer.html#a85a5d539bce09a01b1190613f2b1014e">Viewer::get_num_rows</a></div><div class="ttdeci">int get_num_rows()</div><div class="ttdef"><b>Definition:</b> Viewer.cc:335</div></div>
+<div class="ttc" id="class_viewer_html_acdc1a6e7a974cbc9d41366a21c8e5100"><div class="ttname"><a href="class_viewer.html#acdc1a6e7a974cbc9d41366a21c8e5100">Viewer::set_auto_center</a></div><div class="ttdeci">void set_auto_center(bool center)</div><div class="ttdef"><b>Definition:</b> Viewer.cc:355</div></div>
+<div class="ttc" id="class_viewer_html"><div class="ttname"><a href="class_viewer.html">Viewer</a></div><div class="ttdef"><b>Definition:</b> Viewer.h:37</div></div>
+<div class="ttc" id="class_viewer_html_a5dca96c882e76b948fe9283583595280"><div class="ttname"><a href="class_viewer.html#a5dca96c882e76b948fe9283583595280">Viewer::INITIAL_C</a></div><div class="ttdeci">static const QString INITIAL_C</div><div class="ttdef"><b>Definition:</b> Viewer.h:97</div></div>
+<div class="ttc" id="class_viewer_html_aaedebacb31cba87de6e7d448ed8d6586"><div class="ttname"><a href="class_viewer.html#aaedebacb31cba87de6e7d448ed8d6586">Viewer::Viewer</a></div><div class="ttdeci">Viewer()</div><div class="ttdef"><b>Definition:</b> Viewer.cc:34</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 28 2014 23:40:55 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 29 2014 23:42:04 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -95,102 +95,78 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2d89a6d2e8bcbc0c35ee39da14537e14"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkRenderer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#a2d89a6d2e8bcbc0c35ee39da14537e14">renderer_</a></td></tr>
 <tr class="separator:a2d89a6d2e8bcbc0c35ee39da14537e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a488df6a4a6f256ee8db95aa2a167490c"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkPoints &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#a488df6a4a6f256ee8db95aa2a167490c">glyphPoints</a></td></tr>
-<tr class="separator:a488df6a4a6f256ee8db95aa2a167490c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69725d19913dd85db903e2d4233b4024"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkPolyData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#a69725d19913dd85db903e2d4233b4024">glyphPointSet</a></td></tr>
-<tr class="separator:a69725d19913dd85db903e2d4233b4024"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0613f46513ce6359db908eabf895928d"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkGlyph3D &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#a0613f46513ce6359db908eabf895928d">glyphs</a></td></tr>
-<tr class="separator:a0613f46513ce6359db908eabf895928d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a47b5ab7e857b7c5971d7d6cfb3e4cb"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer<br class="typebreak"/>
-&lt; vtkPolyDataMapper &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#a8a47b5ab7e857b7c5971d7d6cfb3e4cb">glyphMapper</a></td></tr>
-<tr class="separator:a8a47b5ab7e857b7c5971d7d6cfb3e4cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3f9116f6e91571b4681164ca0ab921b"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkActor &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#ae3f9116f6e91571b4681164ca0ab921b">glyphActor</a></td></tr>
-<tr class="separator:ae3f9116f6e91571b4681164ca0ab921b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae64e4bd18d885d0b2f9046f8eec0ad89"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer<br class="typebreak"/>
-&lt; vtkPolyDataMapper &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#ae64e4bd18d885d0b2f9046f8eec0ad89">mapper</a></td></tr>
-<tr class="separator:ae64e4bd18d885d0b2f9046f8eec0ad89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a455a0ac6f979bd70a2f475be73c3113d"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkActor &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#a455a0ac6f979bd70a2f475be73c3113d">actor</a></td></tr>
-<tr class="separator:a455a0ac6f979bd70a2f475be73c3113d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08bb6c5448d93dff93b83b4eb4169e4d"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkPoints &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#a08bb6c5448d93dff93b83b4eb4169e4d">glyph_points_</a></td></tr>
+<tr class="separator:a08bb6c5448d93dff93b83b4eb4169e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab494e1d86d5827cdf8ede8b6c353143f"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkPolyData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#ab494e1d86d5827cdf8ede8b6c353143f">glyph_point_set_</a></td></tr>
+<tr class="separator:ab494e1d86d5827cdf8ede8b6c353143f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaefdf8948896ab3fece681e59ce6cb3c"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkGlyph3D &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#aaefdf8948896ab3fece681e59ce6cb3c">glyphs_</a></td></tr>
+<tr class="separator:aaefdf8948896ab3fece681e59ce6cb3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac79740b09e88e281823b441f20692da9"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer<br class="typebreak"/>
+&lt; vtkPolyDataMapper &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#ac79740b09e88e281823b441f20692da9">glyph_mapper_</a></td></tr>
+<tr class="separator:ac79740b09e88e281823b441f20692da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51c0e02826a009262bd18f32243600ec"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkActor &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#a51c0e02826a009262bd18f32243600ec">glyph_actor</a></td></tr>
+<tr class="separator:a51c0e02826a009262bd18f32243600ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4508da3edb000f34666d09c9f1b4523"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer<br class="typebreak"/>
+&lt; vtkPolyDataMapper &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#af4508da3edb000f34666d09c9f1b4523">surface_mapper_</a></td></tr>
+<tr class="separator:af4508da3edb000f34666d09c9f1b4523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56ac0ef20f5334f574a8ca626316bae2"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkActor &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mini_viewer.html#a56ac0ef20f5334f574a8ca626316bae2">surface_actor_</a></td></tr>
+<tr class="separator:a56ac0ef20f5334f574a8ca626316bae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a455a0ac6f979bd70a2f475be73c3113d"></a>
+<a class="anchor" id="a51c0e02826a009262bd18f32243600ec"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vtkSmartPointer&lt;vtkActor&gt; MiniViewer::actor</td>
+          <td class="memname">vtkSmartPointer&lt;vtkActor&gt; MiniViewer::glyph_actor</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ae3f9116f6e91571b4681164ca0ab921b"></a>
+<a class="anchor" id="ac79740b09e88e281823b441f20692da9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vtkSmartPointer&lt;vtkActor&gt; MiniViewer::glyphActor</td>
+          <td class="memname">vtkSmartPointer&lt;vtkPolyDataMapper&gt; MiniViewer::glyph_mapper_</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a8a47b5ab7e857b7c5971d7d6cfb3e4cb"></a>
+<a class="anchor" id="ab494e1d86d5827cdf8ede8b6c353143f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vtkSmartPointer&lt;vtkPolyDataMapper&gt; MiniViewer::glyphMapper</td>
+          <td class="memname">vtkSmartPointer&lt;vtkPolyData&gt; MiniViewer::glyph_point_set_</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a488df6a4a6f256ee8db95aa2a167490c"></a>
+<a class="anchor" id="a08bb6c5448d93dff93b83b4eb4169e4d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vtkSmartPointer&lt;vtkPoints&gt; MiniViewer::glyphPoints</td>
+          <td class="memname">vtkSmartPointer&lt;vtkPoints&gt; MiniViewer::glyph_points_</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a69725d19913dd85db903e2d4233b4024"></a>
+<a class="anchor" id="aaefdf8948896ab3fece681e59ce6cb3c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vtkSmartPointer&lt;vtkPolyData&gt; MiniViewer::glyphPointSet</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0613f46513ce6359db908eabf895928d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">vtkSmartPointer&lt;vtkGlyph3D&gt; MiniViewer::glyphs</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae64e4bd18d885d0b2f9046f8eec0ad89"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">vtkSmartPointer&lt;vtkPolyDataMapper&gt; MiniViewer::mapper</td>
+          <td class="memname">vtkSmartPointer&lt;vtkGlyph3D&gt; MiniViewer::glyphs_</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -209,13 +185,37 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a56ac0ef20f5334f574a8ca626316bae2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkSmartPointer&lt;vtkActor&gt; MiniViewer::surface_actor_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af4508da3edb000f34666d09c9f1b4523"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkSmartPointer&lt;vtkPolyDataMapper&gt; MiniViewer::surface_mapper_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>H:/carma/clean/ShapeWorksStudio/src/Visualization/<a class="el" href="_viewer_8h_source.html">Viewer.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 28 2014 23:40:55 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 29 2014 23:42:04 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

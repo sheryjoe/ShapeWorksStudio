@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['closeevent',['closeEvent',['../class_shape_works_studio_app.html#a884f9cc140988b38c3234f3698f9b6de',1,'ShapeWorksStudioApp']]],
+  ['closewindow',['closeWindow',['../class_preferences.html#ae2d4e1771f6583c631cc698075a20ebd',1,'Preferences']]],
+  ['colorschemechanged',['colorSchemeChanged',['../class_preferences.html#a5a169c4154cece97242a879dd3b9e2be',1,'Preferences']]],
   ['connectpipelines',['ConnectPipelines',['../_itk_to_vtk_8h.html#af1b2c7c9e1f39b42bf0d000e35685635',1,'ItkToVtk.h']]],
   ['create_5ffrom_5fimage',['create_from_image',['../class_mesh.html#aa10a40c67a2f6d78c67890237fe59041',1,'Mesh']]],
   ['create_5ffrom_5fpointset',['create_from_pointset',['../class_mesh.html#a5353be0ab07556dea30a80373f5c77c3',1,'Mesh']]],
