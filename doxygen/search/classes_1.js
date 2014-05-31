@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['groomtool',['GroomTool',['../class_groom_tool.html',1,'']]]
+  ['customsurfacereconstructionfilter',['CustomSurfaceReconstructionFilter',['../class_custom_surface_reconstruction_filter.html',1,'']]]
 ];

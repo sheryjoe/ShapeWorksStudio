@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['optimizetool',['OptimizeTool',['../class_optimize_tool.html',1,'']]]
+  ['lightbox',['Lightbox',['../class_lightbox.html',1,'']]]
 ];

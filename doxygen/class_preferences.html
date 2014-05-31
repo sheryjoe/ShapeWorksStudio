@@ -91,6 +91,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Application preferences.  
+ <a href="class_preferences.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_preferences_8h_source.html">Preferences.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Preferences:</div>
@@ -103,86 +106,98 @@ Inheritance diagram for Preferences:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:a5a169c4154cece97242a879dd3b9e2be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a5a169c4154cece97242a879dd3b9e2be">colorSchemeChanged</a> (int newIndex)</td></tr>
-<tr class="separator:a5a169c4154cece97242a879dd3b9e2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f39a825486d1cffcb46c6d07fc059c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a1f39a825486d1cffcb46c6d07fc059c1">glyphPropertiesChanged</a> ()</td></tr>
-<tr class="separator:a1f39a825486d1cffcb46c6d07fc059c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3fb02ff352d8c38c4f9a0e82a67dc38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#af3fb02ff352d8c38c4f9a0e82a67dc38">threadingChangedSignal</a> ()</td></tr>
-<tr class="separator:af3fb02ff352d8c38c4f9a0e82a67dc38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcecbb5d6a5c5ec5b736a78110d2e47a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#abcecbb5d6a5c5ec5b736a78110d2e47a">slidersChangedSignal</a> ()</td></tr>
-<tr class="separator:abcecbb5d6a5c5ec5b736a78110d2e47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ad9672e7f4123e0bf693be87b899ef0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a9ad9672e7f4123e0bf693be87b899ef0">color_scheme_changed</a> (int newIndex)</td></tr>
+<tr class="separator:a9ad9672e7f4123e0bf693be87b899ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f35a853fb4612ba0867082a5e5b0ccf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a7f35a853fb4612ba0867082a5e5b0ccf">glyph_properties_changed</a> ()</td></tr>
+<tr class="separator:a7f35a853fb4612ba0867082a5e5b0ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74c1921646b58fc373bbd19bccd435f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a74c1921646b58fc373bbd19bccd435f7">threading_changed_signal</a> ()</td></tr>
+<tr class="separator:a74c1921646b58fc373bbd19bccd435f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91bfba768f849eb7ff7579a1a475113f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a91bfba768f849eb7ff7579a1a475113f">sliders_changed_signal</a> ()</td></tr>
+<tr class="separator:a91bfba768f849eb7ff7579a1a475113f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae60118d2e9dafb5a7dd9172282e3dd12"><td class="memItemLeft" align="right" valign="top">QSettings &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#ae60118d2e9dafb5a7dd9172282e3dd12">getSettings</a> ()</td></tr>
-<tr class="separator:ae60118d2e9dafb5a7dd9172282e3dd12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78ae20615f00d158c267b30f1bee0580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a78ae20615f00d158c267b30f1bee0580">showWindow</a> ()</td></tr>
-<tr class="separator:a78ae20615f00d158c267b30f1bee0580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2d4e1771f6583c631cc698075a20ebd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#ae2d4e1771f6583c631cc698075a20ebd">closeWindow</a> ()</td></tr>
-<tr class="separator:ae2d4e1771f6583c631cc698075a20ebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a565b975a65a4639551bee7657e5d2442"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a565b975a65a4639551bee7657e5d2442">show_window</a> ()</td></tr>
+<tr class="memdesc:a565b975a65a4639551bee7657e5d2442"><td class="mdescLeft">&#160;</td><td class="mdescRight">show the <a class="el" href="class_preferences_window.html" title="Qt UI dialog to control preferences. ">PreferencesWindow</a>  <a href="#a565b975a65a4639551bee7657e5d2442">More...</a><br/></td></tr>
+<tr class="separator:a565b975a65a4639551bee7657e5d2442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48193f9c7d57c8e89785d3926bba5b1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a48193f9c7d57c8e89785d3926bba5b1b">close_window</a> ()</td></tr>
+<tr class="memdesc:a48193f9c7d57c8e89785d3926bba5b1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">close the <a class="el" href="class_preferences_window.html" title="Qt UI dialog to control preferences. ">PreferencesWindow</a>  <a href="#a48193f9c7d57c8e89785d3926bba5b1b">More...</a><br/></td></tr>
+<tr class="separator:a48193f9c7d57c8e89785d3926bba5b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a052dbb458aaed25cb9d3f5a1d07a2e"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a6a052dbb458aaed25cb9d3f5a1d07a2e">get_main_window_size</a> ()</td></tr>
+<tr class="memdesc:a6a052dbb458aaed25cb9d3f5a1d07a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main window size.  <a href="#a6a052dbb458aaed25cb9d3f5a1d07a2e">More...</a><br/></td></tr>
+<tr class="separator:a6a052dbb458aaed25cb9d3f5a1d07a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27c4835d40e5e9975f2aafb1116e7782"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a27c4835d40e5e9975f2aafb1116e7782">set_main_window_size</a> (QSize size)</td></tr>
+<tr class="separator:a27c4835d40e5e9975f2aafb1116e7782"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8b20ace7148a1848503b9beae05db38"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#aa8b20ace7148a1848503b9beae05db38">get_groom_location</a> ()</td></tr>
+<tr class="memdesc:aa8b20ace7148a1848503b9beae05db38"><td class="mdescLeft">&#160;</td><td class="mdescRight">ShapeWorksGroom executable location.  <a href="#aa8b20ace7148a1848503b9beae05db38">More...</a><br/></td></tr>
 <tr class="separator:aa8b20ace7148a1848503b9beae05db38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5259ca662361d47cf886a784204d232"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#af5259ca662361d47cf886a784204d232">set_groom_location</a> (QString location)</td></tr>
 <tr class="separator:af5259ca662361d47cf886a784204d232"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af68adaeddcca84555dd58f7af63ff97b"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#af68adaeddcca84555dd58f7af63ff97b">get_optimize_location</a> ()</td></tr>
+<tr class="memdesc:af68adaeddcca84555dd58f7af63ff97b"><td class="mdescLeft">&#160;</td><td class="mdescRight">ShapeWorksRun executable location.  <a href="#af68adaeddcca84555dd58f7af63ff97b">More...</a><br/></td></tr>
 <tr class="separator:af68adaeddcca84555dd58f7af63ff97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7faf95054e86c777e1524840149b3f36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a7faf95054e86c777e1524840149b3f36">set_optimize_location</a> (QString location)</td></tr>
 <tr class="separator:a7faf95054e86c777e1524840149b3f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aece424b45e39805008d90567b54ac0d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#aece424b45e39805008d90567b54ac0d1">getCacheEnabled</a> ()</td></tr>
-<tr class="separator:aece424b45e39805008d90567b54ac0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af30a9d8cd199799e2ef4369dc223a730"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#af30a9d8cd199799e2ef4369dc223a730">setCacheEnabled</a> (bool enabled)</td></tr>
-<tr class="separator:af30a9d8cd199799e2ef4369dc223a730"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4aaec5235d310b0ffbf88a2d0448248"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#ab4aaec5235d310b0ffbf88a2d0448248">getCacheMemory</a> ()</td></tr>
-<tr class="separator:ab4aaec5235d310b0ffbf88a2d0448248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fbf3bc8d22db58a93d57dc5dd23f5be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a2fbf3bc8d22db58a93d57dc5dd23f5be">get_cache_enabled</a> ()</td></tr>
+<tr class="separator:a2fbf3bc8d22db58a93d57dc5dd23f5be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52f4405d2ceaea1587337dfb6e942238"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a52f4405d2ceaea1587337dfb6e942238">set_cache_enabled</a> (bool enabled)</td></tr>
+<tr class="separator:a52f4405d2ceaea1587337dfb6e942238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a199bc698117ca3516ea62a97ba12e071"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a199bc698117ca3516ea62a97ba12e071">get_cache_memory</a> ()</td></tr>
+<tr class="separator:a199bc698117ca3516ea62a97ba12e071"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b55b63663a661cf22fa9f3411cb39b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a6b55b63663a661cf22fa9f3411cb39b4">setCacheMemory</a> (int value)</td></tr>
 <tr class="separator:a6b55b63663a661cf22fa9f3411cb39b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a019a9d1d302c9a1d60662cbf89566340"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a019a9d1d302c9a1d60662cbf89566340">getColorScheme</a> ()</td></tr>
-<tr class="separator:a019a9d1d302c9a1d60662cbf89566340"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55da7bdcd322b15d11aff507efa0f7db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a55da7bdcd322b15d11aff507efa0f7db">setColorScheme</a> (int value)</td></tr>
-<tr class="separator:a55da7bdcd322b15d11aff507efa0f7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec378f79e821fadee51ed6d0803e39a3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#aec378f79e821fadee51ed6d0803e39a3">getGlyphQuality</a> ()</td></tr>
-<tr class="separator:aec378f79e821fadee51ed6d0803e39a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ff495c36063fce6e1091eb7ccdc400b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a5ff495c36063fce6e1091eb7ccdc400b">setGlyphQuality</a> (float value)</td></tr>
-<tr class="separator:a5ff495c36063fce6e1091eb7ccdc400b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d4677e37adcbb4643c0c666dad16171"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a9d4677e37adcbb4643c0c666dad16171">getGlyphSize</a> ()</td></tr>
-<tr class="separator:a9d4677e37adcbb4643c0c666dad16171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75163e5ae28eb1ba260f2afcad247f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#aa75163e5ae28eb1ba260f2afcad247f3">setGlyphSize</a> (float value)</td></tr>
-<tr class="separator:aa75163e5ae28eb1ba260f2afcad247f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3beb180ede9949ee272a8b78ebce1c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#ac3beb180ede9949ee272a8b78ebce1c2">getNumThreads</a> ()</td></tr>
-<tr class="separator:ac3beb180ede9949ee272a8b78ebce1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a423e992d277a472f7e40a4d5af07fc34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a423e992d277a472f7e40a4d5af07fc34">setNumThreads</a> (int value)</td></tr>
-<tr class="separator:a423e992d277a472f7e40a4d5af07fc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15512b57a5b5bc118c2aedc3d607a208"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a15512b57a5b5bc118c2aedc3d607a208">getParallelEnabled</a> ()</td></tr>
-<tr class="separator:a15512b57a5b5bc118c2aedc3d607a208"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd7246bf71c1b5aaba2624b5af1b520c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#acd7246bf71c1b5aaba2624b5af1b520c">setParallelEnabled</a> (bool enabled)</td></tr>
-<tr class="separator:acd7246bf71c1b5aaba2624b5af1b520c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7132936b959b7d4d68c287d5298455a0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a7132936b959b7d4d68c287d5298455a0">getPcaRange</a> ()</td></tr>
-<tr class="separator:a7132936b959b7d4d68c287d5298455a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad768a5e69b9c3f727870e618c042fb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#aad768a5e69b9c3f727870e618c042fb9">setPcaRange</a> (float value)</td></tr>
-<tr class="separator:aad768a5e69b9c3f727870e618c042fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac01aa64b8e3c94d9c1fe8089247d246a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#ac01aa64b8e3c94d9c1fe8089247d246a">getNumPcaSteps</a> ()</td></tr>
-<tr class="separator:ac01aa64b8e3c94d9c1fe8089247d246a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6805400641bf3881ed382c06ef56cb5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a6805400641bf3881ed382c06ef56cb5e">setNumPcaSteps</a> (int value)</td></tr>
-<tr class="separator:a6805400641bf3881ed382c06ef56cb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a365d1ef7f987be2136aa78456d135393"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a365d1ef7f987be2136aa78456d135393">getNumRegressionSteps</a> ()</td></tr>
-<tr class="separator:a365d1ef7f987be2136aa78456d135393"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f0eb9360f1d3ec0eecbfa8275af1ee4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a2f0eb9360f1d3ec0eecbfa8275af1ee4">setNumRegressionSteps</a> (int value)</td></tr>
-<tr class="separator:a2f0eb9360f1d3ec0eecbfa8275af1ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b95324e0472eec9b87d2c7df5a6bc59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a2b95324e0472eec9b87d2c7df5a6bc59">restoreDefaults</a> ()</td></tr>
-<tr class="separator:a2b95324e0472eec9b87d2c7df5a6bc59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2194de3905ebfe6cb639b7ad5db0279"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#ae2194de3905ebfe6cb639b7ad5db0279">get_color_scheme</a> ()</td></tr>
+<tr class="separator:ae2194de3905ebfe6cb639b7ad5db0279"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3528a0ef157f6f9e2ee8a9956fc3ea32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a3528a0ef157f6f9e2ee8a9956fc3ea32">set_color_scheme</a> (int value)</td></tr>
+<tr class="separator:a3528a0ef157f6f9e2ee8a9956fc3ea32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60a7aa8c6033c8bfe7b32402c349ddc1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a60a7aa8c6033c8bfe7b32402c349ddc1">get_glyph_quality</a> ()</td></tr>
+<tr class="separator:a60a7aa8c6033c8bfe7b32402c349ddc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ca54baa77371f94ad4e9d4a5f871ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#af2ca54baa77371f94ad4e9d4a5f871ab">set_glyph_quality</a> (float value)</td></tr>
+<tr class="separator:af2ca54baa77371f94ad4e9d4a5f871ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b776769f33bceecabd25e5efe9a736"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a92b776769f33bceecabd25e5efe9a736">get_glyph_size</a> ()</td></tr>
+<tr class="separator:a92b776769f33bceecabd25e5efe9a736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85fa69cce0ebcddf2ea483bfdce34a37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a85fa69cce0ebcddf2ea483bfdce34a37">set_glyph_size</a> (float value)</td></tr>
+<tr class="separator:a85fa69cce0ebcddf2ea483bfdce34a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2660843a89ba350fa3b42e5bd77a63b0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a2660843a89ba350fa3b42e5bd77a63b0">get_num_threads</a> ()</td></tr>
+<tr class="separator:a2660843a89ba350fa3b42e5bd77a63b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e29f5faf9643954de54475d2be8375b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a1e29f5faf9643954de54475d2be8375b">set_num_threads</a> (int value)</td></tr>
+<tr class="separator:a1e29f5faf9643954de54475d2be8375b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3bd20309e170a38d377ffbab6dd0e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#acc3bd20309e170a38d377ffbab6dd0e3">get_parallel_enabled</a> ()</td></tr>
+<tr class="separator:acc3bd20309e170a38d377ffbab6dd0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05cba84955c1ff764e6fd1ad59f95a8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a05cba84955c1ff764e6fd1ad59f95a8a">set_parallel_enabled</a> (bool enabled)</td></tr>
+<tr class="separator:a05cba84955c1ff764e6fd1ad59f95a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a62721937f0383034b15dbb59114088"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a5a62721937f0383034b15dbb59114088">get_pca_range</a> ()</td></tr>
+<tr class="separator:a5a62721937f0383034b15dbb59114088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a905aa179684c3d7f6f5a68e484c04d32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a905aa179684c3d7f6f5a68e484c04d32">set_pca_range</a> (float value)</td></tr>
+<tr class="separator:a905aa179684c3d7f6f5a68e484c04d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52c179e1a142fb3c5d877589675af2f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a52c179e1a142fb3c5d877589675af2f8">get_num_pca_steps</a> ()</td></tr>
+<tr class="separator:a52c179e1a142fb3c5d877589675af2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12d9ea64615b29c6dc75bdb5ed056f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#ad12d9ea64615b29c6dc75bdb5ed056f8">set_num_pca_steps</a> (int value)</td></tr>
+<tr class="separator:ad12d9ea64615b29c6dc75bdb5ed056f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c266c0682da9d95072d974f365bc066"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a8c266c0682da9d95072d974f365bc066">get_num_regression_rteps</a> ()</td></tr>
+<tr class="separator:a8c266c0682da9d95072d974f365bc066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3146e55576dcbb270ee09fd43913bcce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a3146e55576dcbb270ee09fd43913bcce">set_num_regression_steps</a> (int value)</td></tr>
+<tr class="separator:a3146e55576dcbb270ee09fd43913bcce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a558d16bfffcf74634fca13e19f200f38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#a558d16bfffcf74634fca13e19f200f38">restore_defaults</a> ()</td></tr>
+<tr class="memdesc:a558d16bfffcf74634fca13e19f200f38"><td class="mdescLeft">&#160;</td><td class="mdescRight">restore all default values  <a href="#a558d16bfffcf74634fca13e19f200f38">More...</a><br/></td></tr>
+<tr class="separator:a558d16bfffcf74634fca13e19f200f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae4b949f0a47518c152e92120241d64d0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_preferences.html">Preferences</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preferences.html#ae4b949f0a47518c152e92120241d64d0">Instance</a> ()</td></tr>
+<tr class="memdesc:ae4b949f0a47518c152e92120241d64d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the singleton instance  <a href="#ae4b949f0a47518c152e92120241d64d0">More...</a><br/></td></tr>
 <tr class="separator:ae4b949f0a47518c152e92120241d64d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ae2d4e1771f6583c631cc698075a20ebd"></a>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Application preferences. </p>
+<p>The <a class="el" href="class_preferences.html" title="Application preferences. ">Preferences</a> singleton controls all preferences for the application. Values persist via the QSettings class. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a48193f9c7d57c8e89785d3926bba5b1b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Preferences::closeWindow </td>
+          <td class="memname">void Preferences::close_window </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -190,9 +205,11 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>close the <a class="el" href="class_preferences_window.html" title="Qt UI dialog to control preferences. ">PreferencesWindow</a> </p>
+
 </div>
 </div>
-<a class="anchor" id="a5a169c4154cece97242a879dd3b9e2be"></a>
+<a class="anchor" id="a9ad9672e7f4123e0bf693be87b899ef0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -200,7 +217,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Preferences::colorSchemeChanged </td>
+          <td class="memname">void Preferences::color_scheme_changed </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>newIndex</em></td><td>)</td>
@@ -216,12 +233,151 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2fbf3bc8d22db58a93d57dc5dd23f5be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Preferences::get_cache_enabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a199bc698117ca3516ea62a97ba12e071"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Preferences::get_cache_memory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae2194de3905ebfe6cb639b7ad5db0279"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Preferences::get_color_scheme </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a60a7aa8c6033c8bfe7b32402c349ddc1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Preferences::get_glyph_quality </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a92b776769f33bceecabd25e5efe9a736"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Preferences::get_glyph_size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aa8b20ace7148a1848503b9beae05db38"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">QString Preferences::get_groom_location </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ShapeWorksGroom executable location. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6a052dbb458aaed25cb9d3f5a1d07a2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize Preferences::get_main_window_size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Main window size. </p>
+
+</div>
+</div>
+<a class="anchor" id="a52c179e1a142fb3c5d877589675af2f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Preferences::get_num_pca_steps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8c266c0682da9d95072d974f365bc066"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Preferences::get_num_regression_rteps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2660843a89ba350fa3b42e5bd77a63b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Preferences::get_num_threads </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -244,14 +400,16 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>ShapeWorksRun executable location. </p>
+
 </div>
 </div>
-<a class="anchor" id="aece424b45e39805008d90567b54ac0d1"></a>
+<a class="anchor" id="acc3bd20309e170a38d377ffbab6dd0e3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool Preferences::getCacheEnabled </td>
+          <td class="memname">bool Preferences::get_parallel_enabled </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -261,12 +419,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab4aaec5235d310b0ffbf88a2d0448248"></a>
+<a class="anchor" id="a5a62721937f0383034b15dbb59114088"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int Preferences::getCacheMemory </td>
+          <td class="memname">float Preferences::get_pca_range </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -276,142 +434,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a019a9d1d302c9a1d60662cbf89566340"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Preferences::getColorScheme </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aec378f79e821fadee51ed6d0803e39a3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Preferences::getGlyphQuality </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9d4677e37adcbb4643c0c666dad16171"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Preferences::getGlyphSize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac01aa64b8e3c94d9c1fe8089247d246a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Preferences::getNumPcaSteps </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a365d1ef7f987be2136aa78456d135393"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Preferences::getNumRegressionSteps </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac3beb180ede9949ee272a8b78ebce1c2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Preferences::getNumThreads </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a15512b57a5b5bc118c2aedc3d607a208"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Preferences::getParallelEnabled </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a7132936b959b7d4d68c287d5298455a0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Preferences::getPcaRange </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae60118d2e9dafb5a7dd9172282e3dd12"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QSettings &amp; Preferences::getSettings </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1f39a825486d1cffcb46c6d07fc059c1"></a>
+<a class="anchor" id="a7f35a853fb4612ba0867082a5e5b0ccf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -419,7 +442,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Preferences::glyphPropertiesChanged </td>
+          <td class="memname">void Preferences::glyph_properties_changed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -455,16 +478,84 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>get the singleton instance </p>
+
 </div>
 </div>
-<a class="anchor" id="a2b95324e0472eec9b87d2c7df5a6bc59"></a>
+<a class="anchor" id="a558d16bfffcf74634fca13e19f200f38"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Preferences::restoreDefaults </td>
+          <td class="memname">void Preferences::restore_defaults </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>restore all default values </p>
+
+</div>
+</div>
+<a class="anchor" id="a52f4405d2ceaea1587337dfb6e942238"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Preferences::set_cache_enabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3528a0ef157f6f9e2ee8a9956fc3ea32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Preferences::set_color_scheme </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af2ca54baa77371f94ad4e9d4a5f871ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Preferences::set_glyph_quality </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a85fa69cce0ebcddf2ea483bfdce34a37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Preferences::set_glyph_size </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -488,6 +579,70 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a27c4835d40e5e9975f2aafb1116e7782"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Preferences::set_main_window_size </td>
+          <td>(</td>
+          <td class="paramtype">QSize&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad12d9ea64615b29c6dc75bdb5ed056f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Preferences::set_num_pca_steps </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3146e55576dcbb270ee09fd43913bcce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Preferences::set_num_regression_steps </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1e29f5faf9643954de54475d2be8375b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Preferences::set_num_threads </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a7faf95054e86c777e1524840149b3f36"></a>
 <div class="memitem">
 <div class="memproto">
@@ -504,15 +659,31 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af30a9d8cd199799e2ef4369dc223a730"></a>
+<a class="anchor" id="a05cba84955c1ff764e6fd1ad59f95a8a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Preferences::setCacheEnabled </td>
+          <td class="memname">void Preferences::set_parallel_enabled </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a905aa179684c3d7f6f5a68e484c04d32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Preferences::set_pca_range </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -536,140 +707,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a55da7bdcd322b15d11aff507efa0f7db"></a>
+<a class="anchor" id="a565b975a65a4639551bee7657e5d2442"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Preferences::setColorScheme </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a5ff495c36063fce6e1091eb7ccdc400b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Preferences::setGlyphQuality </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa75163e5ae28eb1ba260f2afcad247f3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Preferences::setGlyphSize </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a6805400641bf3881ed382c06ef56cb5e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Preferences::setNumPcaSteps </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2f0eb9360f1d3ec0eecbfa8275af1ee4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Preferences::setNumRegressionSteps </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a423e992d277a472f7e40a4d5af07fc34"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Preferences::setNumThreads </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="acd7246bf71c1b5aaba2624b5af1b520c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Preferences::setParallelEnabled </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>enabled</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aad768a5e69b9c3f727870e618c042fb9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Preferences::setPcaRange </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a78ae20615f00d158c267b30f1bee0580"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Preferences::showWindow </td>
+          <td class="memname">void Preferences::show_window </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -677,9 +720,11 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>show the <a class="el" href="class_preferences_window.html" title="Qt UI dialog to control preferences. ">PreferencesWindow</a> </p>
+
 </div>
 </div>
-<a class="anchor" id="abcecbb5d6a5c5ec5b736a78110d2e47a"></a>
+<a class="anchor" id="a91bfba768f849eb7ff7579a1a475113f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -687,7 +732,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Preferences::slidersChangedSignal </td>
+          <td class="memname">void Preferences::sliders_changed_signal </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -702,7 +747,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af3fb02ff352d8c38c4f9a0e82a67dc38"></a>
+<a class="anchor" id="a74c1921646b58fc373bbd19bccd435f7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -710,7 +755,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Preferences::threadingChangedSignal </td>
+          <td class="memname">void Preferences::threading_changed_signal </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -732,7 +777,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 29 2014 23:42:04 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 30 2014 23:52:51 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
