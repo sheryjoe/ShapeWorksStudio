@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mesh',['Mesh',['../class_mesh.html',1,'']]]
+  ['lightbox',['Lightbox',['../class_lightbox.html',1,'']]]
 ];

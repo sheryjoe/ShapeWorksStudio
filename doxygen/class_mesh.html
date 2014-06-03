@@ -37,6 +37,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -70,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -105,18 +106,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa10a40c67a2f6d78c67890237fe59041"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#aa10a40c67a2f6d78c67890237fe59041">create_from_image</a> (QString filename)</td></tr>
 <tr class="memdesc:aa10a40c67a2f6d78c67890237fe59041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mesh from an image.  <a href="#aa10a40c67a2f6d78c67890237fe59041">More...</a><br/></td></tr>
 <tr class="separator:aa10a40c67a2f6d78c67890237fe59041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5353be0ab07556dea30a80373f5c77c3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a5353be0ab07556dea30a80373f5c77c3">create_from_pointset</a> (QString filename, const vnl_vector&lt; double &gt; &amp;vnl_points)</td></tr>
-<tr class="memdesc:a5353be0ab07556dea30a80373f5c77c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mesh from a point set.  <a href="#a5353be0ab07556dea30a80373f5c77c3">More...</a><br/></td></tr>
-<tr class="separator:a5353be0ab07556dea30a80373f5c77c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b3539c391bf8891cbf9d3cf851913d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a1b3539c391bf8891cbf9d3cf851913d4">create_from_pointset</a> (const vnl_vector&lt; double &gt; &amp;vnl_points)</td></tr>
+<tr class="memdesc:a1b3539c391bf8891cbf9d3cf851913d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mesh from a point set.  <a href="#a1b3539c391bf8891cbf9d3cf851913d4">More...</a><br/></td></tr>
+<tr class="separator:a1b3539c391bf8891cbf9d3cf851913d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba612a416b76a47b50362ed08fc9b2c8"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#aba612a416b76a47b50362ed08fc9b2c8">get_dimension_string</a> ()</td></tr>
-<tr class="memdesc:aba612a416b76a47b50362ed08fc9b2c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the dimensions as a string for display.  <a href="#aba612a416b76a47b50362ed08fc9b2c8">More...</a><br/></td></tr>
+<tr class="memdesc:aba612a416b76a47b50362ed08fc9b2c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the dimensions as a string for display (if loaded from an image)  <a href="#aba612a416b76a47b50362ed08fc9b2c8">More...</a><br/></td></tr>
 <tr class="separator:aba612a416b76a47b50362ed08fc9b2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e5fc5e4ebd8609323ffa40566dc5a3c"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a3e5fc5e4ebd8609323ffa40566dc5a3c">get_filename</a> ()</td></tr>
-<tr class="memdesc:a3e5fc5e4ebd8609323ffa40566dc5a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the original filename that this mesh was derived from.  <a href="#a3e5fc5e4ebd8609323ffa40566dc5a3c">More...</a><br/></td></tr>
-<tr class="separator:a3e5fc5e4ebd8609323ffa40566dc5a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9e079ab9fadba9d92c28d59b17c446f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#ac9e079ab9fadba9d92c28d59b17c446f">get_filename_with_path</a> ()</td></tr>
-<tr class="memdesc:ac9e079ab9fadba9d92c28d59b17c446f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the original filename with the full path.  <a href="#ac9e079ab9fadba9d92c28d59b17c446f">More...</a><br/></td></tr>
-<tr class="separator:ac9e079ab9fadba9d92c28d59b17c446f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcb8920cb456f7303c2923e734bea24b"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkPolyData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#abcb8920cb456f7303c2923e734bea24b">get_poly_data</a> ()</td></tr>
 <tr class="memdesc:abcb8920cb456f7303c2923e734bea24b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mesh polydata.  <a href="#abcb8920cb456f7303c2923e734bea24b">More...</a><br/></td></tr>
 <tr class="separator:abcb8920cb456f7303c2923e734bea24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,26 +173,16 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5353be0ab07556dea30a80373f5c77c3"></a>
+<a class="anchor" id="a1b3539c391bf8891cbf9d3cf851913d4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool Mesh::create_from_pointset </td>
           <td>(</td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>filename</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const vnl_vector&lt; double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>vnl_points</em>&#160;</td>
-        </tr>
-        <tr>
+          <td class="paramname"><em>vnl_points</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -219,41 +204,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get the dimensions as a string for display. </p>
-
-</div>
-</div>
-<a class="anchor" id="a3e5fc5e4ebd8609323ffa40566dc5a3c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QString Mesh::get_filename </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the original filename that this mesh was derived from. </p>
-
-</div>
-</div>
-<a class="anchor" id="ac9e079ab9fadba9d92c28d59b17c446f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QString Mesh::get_filename_with_path </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the original filename with the full path. </p>
+<p>Get the dimensions as a string for display (if loaded from an image) </p>
 
 </div>
 </div>
@@ -281,7 +232,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 1 2014 23:27:06 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 2 2014 23:30:31 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

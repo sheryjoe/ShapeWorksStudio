@@ -37,6 +37,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -70,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -89,6 +90,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>3D <a class="el" href="class_viewer.html" title="3D Viewer ">Viewer</a>  
+ <a href="class_viewer.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_viewer_8h_source.html">Viewer.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -101,12 +105,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af58bb66d93c456e2efa1a2c0cb298554"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac076731de478bb3c60aaddf30f5c12e"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkRenderer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#aac076731de478bb3c60aaddf30f5c12e">get_renderer</a> ()</td></tr>
 <tr class="separator:aac076731de478bb3c60aaddf30f5c12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d33591a20efd16859bf37ca42844b1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a8d33591a20efd16859bf37ca42844b1a">display_shape</a> (QSharedPointer&lt; <a class="el" href="class_shape.html">Shape</a> &gt; shape, QString mode, bool auto_center)</td></tr>
-<tr class="separator:a8d33591a20efd16859bf37ca42844b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a051cfeba2bbba991b5d946cf9bed1943"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a051cfeba2bbba991b5d946cf9bed1943">display_object</a> (QSharedPointer&lt; <a class="el" href="class_display_object.html">DisplayObject</a> &gt; object, bool auto_center)</td></tr>
+<tr class="separator:a051cfeba2bbba991b5d946cf9bed1943"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67f775d562608c8afdd27592d0c38868"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer.html#a67f775d562608c8afdd27592d0c38868">reset_camera</a> ()</td></tr>
 <tr class="separator:a67f775d562608c8afdd27592d0c38868"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>3D <a class="el" href="class_viewer.html" title="3D Viewer ">Viewer</a> </p>
+<p>The <a class="el" href="class_viewer.html" title="3D Viewer ">Viewer</a> class encapsulates all the functionality for visualizing a single <a class="el" href="class_display_object.html" title="Representation of everything displayed in a single Viewer. ">DisplayObject</a> </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aaedebacb31cba87de6e7d448ed8d6586"></a>
 <div class="memitem">
 <div class="memproto">
@@ -138,21 +145,15 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a8d33591a20efd16859bf37ca42844b1a"></a>
+<a class="anchor" id="a051cfeba2bbba991b5d946cf9bed1943"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Viewer::display_shape </td>
+          <td class="memname">void Viewer::display_object </td>
           <td>(</td>
-          <td class="paramtype">QSharedPointer&lt; <a class="el" href="class_shape.html">Shape</a> &gt;&#160;</td>
-          <td class="paramname"><em>shape</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>mode</em>, </td>
+          <td class="paramtype">QSharedPointer&lt; <a class="el" href="class_display_object.html">DisplayObject</a> &gt;&#160;</td>
+          <td class="paramname"><em>object</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -223,7 +224,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 1 2014 23:27:06 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 2 2014 23:30:31 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

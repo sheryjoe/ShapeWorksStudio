@@ -37,6 +37,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -70,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -82,6 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_analysis_tool-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -99,6 +101,11 @@ Inheritance diagram for AnalysisTool:</div>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public Slots</h2></td></tr>
+<tr class="memitem:a1f29067b8ff3de8e215a0553b6dc6033"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#a1f29067b8ff3de8e215a0553b6dc6033">on_mean_overall_clicked</a> ()</td></tr>
+<tr class="separator:a1f29067b8ff3de8e215a0553b6dc6033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac85ad0abb3089ac05d53860a71376415"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#ac85ad0abb3089ac05d53860a71376415">AnalysisTool</a> ()</td></tr>
@@ -114,6 +121,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8a89a22b54ade47fc63e5b815b2adb7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#a8a89a22b54ade47fc63e5b815b2adb7c">set_app</a> (<a class="el" href="class_shape_works_studio_app.html">ShapeWorksStudioApp</a> *app)</td></tr>
 <tr class="memdesc:a8a89a22b54ade47fc63e5b815b2adb7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the pointer to the application  <a href="#a8a89a22b54ade47fc63e5b815b2adb7c">More...</a><br/></td></tr>
 <tr class="separator:a8a89a22b54ade47fc63e5b815b2adb7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45befabc3a1ab001b9c47cea37376d7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#a45befabc3a1ab001b9c47cea37376d7a">set_lightbox</a> (QSharedPointer&lt; <a class="el" href="class_lightbox.html">Lightbox</a> &gt; lightbox)</td></tr>
+<tr class="separator:a45befabc3a1ab001b9c47cea37376d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a727715045e6f5040888da8e79c27ea70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#a727715045e6f5040888da8e79c27ea70">set_shapes</a> (<a class="el" href="_shape_8h.html#a375caa2fc13ba8971b21a8afa6ff3efb">ShapeList</a> shapes)</td></tr>
+<tr class="separator:a727715045e6f5040888da8e79c27ea70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac85ad0abb3089ac05d53860a71376415"></a>
@@ -165,6 +176,29 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1f29067b8ff3de8e215a0553b6dc6033"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AnalysisTool::on_mean_overall_clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a8a89a22b54ade47fc63e5b815b2adb7c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -180,6 +214,22 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>set the pointer to the application </p>
+
+</div>
+</div>
+<a class="anchor" id="a45befabc3a1ab001b9c47cea37376d7a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AnalysisTool::set_lightbox </td>
+          <td>(</td>
+          <td class="paramtype">QSharedPointer&lt; <a class="el" href="class_lightbox.html">Lightbox</a> &gt;&#160;</td>
+          <td class="paramname"><em>lightbox</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -201,6 +251,22 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a727715045e6f5040888da8e79c27ea70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AnalysisTool::set_shapes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_shape_8h.html#a375caa2fc13ba8971b21a8afa6ff3efb">ShapeList</a>&#160;</td>
+          <td class="paramname"><em>shapes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>H:/carma/clean/ShapeWorksStudio/src/Analysis/<a class="el" href="_analysis_tool_8h_source.html">AnalysisTool.h</a></li>
 <li>H:/carma/clean/ShapeWorksStudio/src/Analysis/<a class="el" href="_analysis_tool_8cc.html">AnalysisTool.cc</a></li>
@@ -208,7 +274,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 1 2014 23:27:06 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 2 2014 23:30:31 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

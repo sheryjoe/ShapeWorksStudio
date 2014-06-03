@@ -37,6 +37,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -70,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,12 +84,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_lightbox-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Lightbox Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Display multiple Viewers in a tiled display.  
+ <a href="class_lightbox.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_lightbox_8h_source.html">Lightbox.h</a>&gt;</code></p>
 <table class="memberdecls">
@@ -98,8 +101,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1689f62954342e6f7b3378aef4618096"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b9ef7ae43274568bac98c4f2de4869a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbox.html#a2b9ef7ae43274568bac98c4f2de4869a">~Lightbox</a> ()</td></tr>
 <tr class="separator:a2b9ef7ae43274568bac98c4f2de4869a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90a95db4148bfe02279f14afb8b4d0a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbox.html#a90a95db4148bfe02279f14afb8b4d0a5">set_shapes</a> (std::vector&lt; QSharedPointer&lt; <a class="el" href="class_shape.html">Shape</a> &gt; &gt; shapes)</td></tr>
-<tr class="separator:a90a95db4148bfe02279f14afb8b4d0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afadd23479ecc79c754aca3630c980f39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbox.html#afadd23479ecc79c754aca3630c980f39">set_display_objects</a> (QVector&lt; QSharedPointer&lt; <a class="el" href="class_display_object.html">DisplayObject</a> &gt; &gt; objects)</td></tr>
+<tr class="separator:afadd23479ecc79c754aca3630c980f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a992583f1fec480d7dd7191f3c39ba9b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbox.html#a992583f1fec480d7dd7191f3c39ba9b9">set_interactor</a> (vtkRenderWindowInteractor *interactor)</td></tr>
 <tr class="separator:a992583f1fec480d7dd7191f3c39ba9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8ec9f5eb53c92e0eb584c9ddada05a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbox.html#ad8ec9f5eb53c92e0eb584c9ddada05a2">set_render_window</a> (vtkRenderWindow *render_window)</td></tr>
@@ -116,19 +119,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5fe53c1d2a7a72ff8f3b8ec1561e670e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad922708296e0abce8bae2fe3acca1fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbox.html#aad922708296e0abce8bae2fe3acca1fc">set_auto_center</a> (bool center)</td></tr>
 <tr class="separator:aad922708296e0abce8bae2fe3acca1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf89dc729d4da2ecb9c8237102ddf2b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbox.html#acf89dc729d4da2ecb9c8237102ddf2b8">set_mesh_mode</a> (QString mode)</td></tr>
-<tr class="separator:acf89dc729d4da2ecb9c8237102ddf2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:aefac33997f270ac566edfb873aa533bc"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbox.html#aefac33997f270ac566edfb873aa533bc">INITIAL_C</a></td></tr>
-<tr class="separator:aefac33997f270ac566edfb873aa533bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c531d4435a0da5a9cc615f0d8c2e0eb"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbox.html#a2c531d4435a0da5a9cc615f0d8c2e0eb">GROOMED_C</a></td></tr>
-<tr class="separator:a2c531d4435a0da5a9cc615f0d8c2e0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b1435f7eb379befefa79845f7c61c55"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lightbox.html#a4b1435f7eb379befefa79845f7c61c55">RECONSTRUCTED_C</a></td></tr>
-<tr class="separator:a4b1435f7eb379befefa79845f7c61c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Display multiple Viewers in a tiled display. </p>
+<p>The LightBox class displays multiple Viewers in a tiled display </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a1689f62954342e6f7b3378aef4618096"></a>
 <div class="memitem">
 <div class="memproto">
@@ -206,6 +201,22 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afadd23479ecc79c754aca3630c980f39"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Lightbox::set_display_objects </td>
+          <td>(</td>
+          <td class="paramtype">QVector&lt; QSharedPointer&lt; <a class="el" href="class_display_object.html">DisplayObject</a> &gt; &gt;&#160;</td>
+          <td class="paramname"><em>objects</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a992583f1fec480d7dd7191f3c39ba9b9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -222,22 +233,6 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acf89dc729d4da2ecb9c8237102ddf2b8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Lightbox::set_mesh_mode </td>
-          <td>(</td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>mode</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ad8ec9f5eb53c92e0eb584c9ddada05a2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -247,22 +242,6 @@ Static Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">vtkRenderWindow *&#160;</td>
           <td class="paramname"><em>render_window</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a90a95db4148bfe02279f14afb8b4d0a5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Lightbox::set_shapes </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; QSharedPointer&lt; <a class="el" href="class_shape.html">Shape</a> &gt; &gt;&#160;</td>
-          <td class="paramname"><em>shapes</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -327,67 +306,6 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a2c531d4435a0da5a9cc615f0d8c2e0eb"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const QString Lightbox::GROOMED_C</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aefac33997f270ac566edfb873aa533bc"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const QString Lightbox::INITIAL_C</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4b1435f7eb379befefa79845f7c61c55"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const QString Lightbox::RECONSTRUCTED_C</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>H:/carma/clean/ShapeWorksStudio/src/Visualization/<a class="el" href="_lightbox_8h_source.html">Lightbox.h</a></li>
 <li>H:/carma/clean/ShapeWorksStudio/src/Visualization/<a class="el" href="_lightbox_8cc.html">Lightbox.cc</a></li>
@@ -395,7 +313,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 1 2014 23:27:06 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 2 2014 23:30:31 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

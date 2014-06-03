@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['l1norm',['L1Norm',['../class_particle_shape_statistics.html#a17592c8cfd7f34bec285cc05da45dd1f',1,'ParticleShapeStatistics']]],
   ['lightbox',['Lightbox',['../class_lightbox.html',1,'Lightbox'],['../class_lightbox.html#a1689f62954342e6f7b3378aef4618096',1,'Lightbox::Lightbox()']]],
   ['lightbox_2ecc',['Lightbox.cc',['../_lightbox_8cc.html',1,'']]],
   ['lightbox_2eh',['Lightbox.h',['../_lightbox_8h.html',1,'']]],

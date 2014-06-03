@@ -37,6 +37,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -68,7 +69,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -98,49 +99,47 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;vnl/vnl_vector.h&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_mesh.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_mesh.html">Mesh</a></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <a class="code" href="class_mesh.html#a2af137f1571af89172b9c102302c416b">Mesh</a>();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <a class="code" href="class_mesh.html#a5efe4da1a4c0971cfb037bd70304c303">~Mesh</a>();</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_mesh.html#aa10a40c67a2f6d78c67890237fe59041">create_from_image</a>( QString filename );</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_mesh.html#a5353be0ab07556dea30a80373f5c77c3">create_from_pointset</a>( QString filename, <span class="keyword">const</span> vnl_vector&lt;double&gt;&amp; vnl_points );</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  QString <a class="code" href="class_mesh.html#aba612a416b76a47b50362ed08fc9b2c8">get_dimension_string</a>();</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  QString <a class="code" href="class_mesh.html#a3e5fc5e4ebd8609323ffa40566dc5a3c">get_filename</a>();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  QString <a class="code" href="class_mesh.html#ac9e079ab9fadba9d92c28d59b17c446f">get_filename_with_path</a>();</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  vtkSmartPointer&lt;vtkPolyData&gt; <a class="code" href="class_mesh.html#abcb8920cb456f7303c2923e734bea24b">get_poly_data</a>();</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="_mesh_8h.html#ac9b0f77e06bdf4b14af002eddf1e9aed">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_mesh.html">Mesh</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">typedef</span> QSharedPointer&lt; Mesh &gt; <a class="code" href="_mesh_8h.html#ac9b0f77e06bdf4b14af002eddf1e9aed">MeshHandle</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_mesh.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_mesh.html">Mesh</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <a class="code" href="class_mesh.html#a2af137f1571af89172b9c102302c416b">Mesh</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <a class="code" href="class_mesh.html#a5efe4da1a4c0971cfb037bd70304c303">~Mesh</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_mesh.html#aa10a40c67a2f6d78c67890237fe59041">create_from_image</a>( QString filename );</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_mesh.html#a1b3539c391bf8891cbf9d3cf851913d4">create_from_pointset</a>( <span class="keyword">const</span> vnl_vector&lt;double&gt;&amp; vnl_points );</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  QString <a class="code" href="class_mesh.html#aba612a416b76a47b50362ed08fc9b2c8">get_dimension_string</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  vtkSmartPointer&lt;vtkPolyData&gt; <a class="code" href="class_mesh.html#abcb8920cb456f7303c2923e734bea24b">get_poly_data</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  QString filename_;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  vtkSmartPointer&lt;vtkPolyData&gt; poly_data_;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordtype">int</span> dimensions_[3];</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;};</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_DATA_MESH_H */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="class_mesh_html_a3e5fc5e4ebd8609323ffa40566dc5a3c"><div class="ttname"><a href="class_mesh.html#a3e5fc5e4ebd8609323ffa40566dc5a3c">Mesh::get_filename</a></div><div class="ttdeci">QString get_filename()</div><div class="ttdoc">Get the original filename that this mesh was derived from. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:38</div></div>
-<div class="ttc" id="class_mesh_html"><div class="ttname"><a href="class_mesh.html">Mesh</a></div><div class="ttdoc">Representation of a single mesh. </div><div class="ttdef"><b>Definition:</b> Mesh.h:18</div></div>
-<div class="ttc" id="class_mesh_html_abcb8920cb456f7303c2923e734bea24b"><div class="ttname"><a href="class_mesh.html#abcb8920cb456f7303c2923e734bea24b">Mesh::get_poly_data</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkPolyData &gt; get_poly_data()</div><div class="ttdoc">Get the mesh polydata. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:45</div></div>
-<div class="ttc" id="class_mesh_html_a5353be0ab07556dea30a80373f5c77c3"><div class="ttname"><a href="class_mesh.html#a5353be0ab07556dea30a80373f5c77c3">Mesh::create_from_pointset</a></div><div class="ttdeci">bool create_from_pointset(QString filename, const vnl_vector&lt; double &gt; &amp;vnl_points)</div><div class="ttdoc">Create a mesh from a point set. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:102</div></div>
-<div class="ttc" id="class_mesh_html_a2af137f1571af89172b9c102302c416b"><div class="ttname"><a href="class_mesh.html#a2af137f1571af89172b9c102302c416b">Mesh::Mesh</a></div><div class="ttdeci">Mesh()</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:21</div></div>
-<div class="ttc" id="class_mesh_html_aa10a40c67a2f6d78c67890237fe59041"><div class="ttname"><a href="class_mesh.html#aa10a40c67a2f6d78c67890237fe59041">Mesh::create_from_image</a></div><div class="ttdeci">void create_from_image(QString filename)</div><div class="ttdoc">Create a mesh from an image. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:57</div></div>
-<div class="ttc" id="class_mesh_html_a5efe4da1a4c0971cfb037bd70304c303"><div class="ttname"><a href="class_mesh.html#a5efe4da1a4c0971cfb037bd70304c303">Mesh::~Mesh</a></div><div class="ttdeci">~Mesh()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:25</div></div>
-<div class="ttc" id="class_mesh_html_aba612a416b76a47b50362ed08fc9b2c8"><div class="ttname"><a href="class_mesh.html#aba612a416b76a47b50362ed08fc9b2c8">Mesh::get_dimension_string</a></div><div class="ttdeci">QString get_dimension_string()</div><div class="ttdoc">Get the dimensions as a string for display. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:29</div></div>
-<div class="ttc" id="class_mesh_html_ac9e079ab9fadba9d92c28d59b17c446f"><div class="ttname"><a href="class_mesh.html#ac9e079ab9fadba9d92c28d59b17c446f">Mesh::get_filename_with_path</a></div><div class="ttdeci">QString get_filename_with_path()</div><div class="ttdoc">Get the original filename with the full path. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:51</div></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  vtkSmartPointer&lt;vtkPolyData&gt; poly_data_;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordtype">int</span> dimensions_[3];</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_DATA_MESH_H */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="class_mesh_html"><div class="ttname"><a href="class_mesh.html">Mesh</a></div><div class="ttdoc">Representation of a single mesh. </div><div class="ttdef"><b>Definition:</b> Mesh.h:22</div></div>
+<div class="ttc" id="class_mesh_html_abcb8920cb456f7303c2923e734bea24b"><div class="ttname"><a href="class_mesh.html#abcb8920cb456f7303c2923e734bea24b">Mesh::get_poly_data</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkPolyData &gt; get_poly_data()</div><div class="ttdoc">Get the mesh polydata. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:37</div></div>
+<div class="ttc" id="_mesh_8h_html_ac9b0f77e06bdf4b14af002eddf1e9aed"><div class="ttname"><a href="_mesh_8h.html#ac9b0f77e06bdf4b14af002eddf1e9aed">MeshHandle</a></div><div class="ttdeci">QSharedPointer&lt; Mesh &gt; MeshHandle</div><div class="ttdef"><b>Definition:</b> Mesh.h:13</div></div>
+<div class="ttc" id="class_mesh_html_a2af137f1571af89172b9c102302c416b"><div class="ttname"><a href="class_mesh.html#a2af137f1571af89172b9c102302c416b">Mesh::Mesh</a></div><div class="ttdeci">Mesh()</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:20</div></div>
+<div class="ttc" id="class_mesh_html_a1b3539c391bf8891cbf9d3cf851913d4"><div class="ttname"><a href="class_mesh.html#a1b3539c391bf8891cbf9d3cf851913d4">Mesh::create_from_pointset</a></div><div class="ttdeci">bool create_from_pointset(const vnl_vector&lt; double &gt; &amp;vnl_points)</div><div class="ttdoc">Create a mesh from a point set. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:86</div></div>
+<div class="ttc" id="class_mesh_html_aa10a40c67a2f6d78c67890237fe59041"><div class="ttname"><a href="class_mesh.html#aa10a40c67a2f6d78c67890237fe59041">Mesh::create_from_image</a></div><div class="ttdeci">void create_from_image(QString filename)</div><div class="ttdoc">Create a mesh from an image. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:43</div></div>
+<div class="ttc" id="class_mesh_html_a5efe4da1a4c0971cfb037bd70304c303"><div class="ttname"><a href="class_mesh.html#a5efe4da1a4c0971cfb037bd70304c303">Mesh::~Mesh</a></div><div class="ttdeci">~Mesh()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:24</div></div>
+<div class="ttc" id="class_mesh_html_aba612a416b76a47b50362ed08fc9b2c8"><div class="ttname"><a href="class_mesh.html#aba612a416b76a47b50362ed08fc9b2c8">Mesh::get_dimension_string</a></div><div class="ttdeci">QString get_dimension_string()</div><div class="ttdoc">Get the dimensions as a string for display (if loaded from an image) </div><div class="ttdef"><b>Definition:</b> Mesh.cc:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 1 2014 23:27:06 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 2 2014 23:30:31 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

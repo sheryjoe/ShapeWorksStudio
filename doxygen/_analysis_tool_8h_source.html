@@ -37,6 +37,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -68,7 +69,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -93,47 +94,76 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QSharedPointer&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span><a class="code" href="class_project.html">Project</a>;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="class_shape_works_studio_app.html">ShapeWorksStudioApp</a>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>Ui_AnalysisTool;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_analysis_tool.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_analysis_tool.html">AnalysisTool</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  Q_OBJECT;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <a class="code" href="class_analysis_tool.html#ac85ad0abb3089ac05d53860a71376415">AnalysisTool</a>();</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <a class="code" href="class_analysis_tool.html#a0077b2237745d6471a5bd992c00f1b37">~AnalysisTool</a>();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_analysis_tool.html#a695baa2c8cb1bb6f474d1a20a434d576">export_xml</a>( QString filename );</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_shape_8h.html">Data/Shape.h</a>&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">//#include &quot;itkParticleShapeLinearRegressionMatrixAttribute.h&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="itk_particle_shape_statistics_8h.html">Analysis/itkParticleShapeStatistics.h</a>&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span><a class="code" href="class_project.html">Project</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span><a class="code" href="class_lightbox.html">Lightbox</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span><a class="code" href="class_shape_works_studio_app.html">ShapeWorksStudioApp</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>Ui_AnalysisTool;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_analysis_tool.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_analysis_tool.html">AnalysisTool</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  Q_OBJECT;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_analysis_tool.html#a7397217f962ba1662c5ecc03dd474613">set_project</a>( QSharedPointer&lt;Project&gt; project );</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <a class="code" href="class_analysis_tool.html#ac85ad0abb3089ac05d53860a71376415">AnalysisTool</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <a class="code" href="class_analysis_tool.html#a0077b2237745d6471a5bd992c00f1b37">~AnalysisTool</a>();</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_analysis_tool.html#a8a89a22b54ade47fc63e5b815b2adb7c">set_app</a>( <a class="code" href="class_shape_works_studio_app.html">ShapeWorksStudioApp</a>* app );</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_analysis_tool.html#a695baa2c8cb1bb6f474d1a20a434d576">export_xml</a>( QString filename );</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span> Q_SLOTS:</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_analysis_tool.html#a7397217f962ba1662c5ecc03dd474613">set_project</a>( QSharedPointer&lt;Project&gt; project );</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  Ui_AnalysisTool* ui_;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  QSharedPointer&lt;Project&gt; project_;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <a class="code" href="class_shape_works_studio_app.html">ShapeWorksStudioApp</a>* app_;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_analysis_tool.html#a8a89a22b54ade47fc63e5b815b2adb7c">set_app</a>( <a class="code" href="class_shape_works_studio_app.html">ShapeWorksStudioApp</a>* app );</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_analysis_tool.html#a45befabc3a1ab001b9c47cea37376d7a">set_lightbox</a>( QSharedPointer&lt;Lightbox&gt; lightbox );</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_analysis_tool.html#a727715045e6f5040888da8e79c27ea70">set_shapes</a>( <a class="code" href="_shape_8h.html#a375caa2fc13ba8971b21a8afa6ff3efb">ShapeList</a> shapes );</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_ANALYSIS_ANALYSISTOOL_H */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="class_analysis_tool_html_a7397217f962ba1662c5ecc03dd474613"><div class="ttname"><a href="class_analysis_tool.html#a7397217f962ba1662c5ecc03dd474613">AnalysisTool::set_project</a></div><div class="ttdeci">void set_project(QSharedPointer&lt; Project &gt; project)</div><div class="ttdoc">set the pointer to the project </div><div class="ttdef"><b>Definition:</b> AnalysisTool.cc:32</div></div>
-<div class="ttc" id="class_analysis_tool_html_ac85ad0abb3089ac05d53860a71376415"><div class="ttname"><a href="class_analysis_tool.html#ac85ad0abb3089ac05d53860a71376415">AnalysisTool::AnalysisTool</a></div><div class="ttdeci">AnalysisTool()</div><div class="ttdef"><b>Definition:</b> AnalysisTool.cc:20</div></div>
-<div class="ttc" id="class_analysis_tool_html_a8a89a22b54ade47fc63e5b815b2adb7c"><div class="ttname"><a href="class_analysis_tool.html#a8a89a22b54ade47fc63e5b815b2adb7c">AnalysisTool::set_app</a></div><div class="ttdeci">void set_app(ShapeWorksStudioApp *app)</div><div class="ttdoc">set the pointer to the application </div><div class="ttdef"><b>Definition:</b> AnalysisTool.cc:38</div></div>
-<div class="ttc" id="class_project_html"><div class="ttname"><a href="class_project.html">Project</a></div><div class="ttdoc">Representation of a project. </div><div class="ttdef"><b>Definition:</b> Project.h:17</div></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">public</span> Q_SLOTS:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_analysis_tool.html#a1f29067b8ff3de8e215a0553b6dc6033">on_mean_overall_clicked</a>();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordtype">void</span> update_shape_stats();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  Ui_AnalysisTool* ui_;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  QSharedPointer&lt;Project&gt; project_;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <a class="code" href="class_shape_works_studio_app.html">ShapeWorksStudioApp</a>* app_;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  QSharedPointer&lt;Lightbox&gt; lightbox_;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <a class="code" href="_shape_8h.html#a375caa2fc13ba8971b21a8afa6ff3efb">ShapeList</a> shapes_;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <a class="code" href="class_particle_shape_statistics.html">ParticleShapeStatistics&lt;3&gt;</a> stats;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="comment">//itk::ParticleShapeLinearRegressionMatrixAttribute&lt;double, 3&gt;::Pointer regression;</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;};</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_ANALYSIS_ANALYSISTOOL_H */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="_shape_8h_html"><div class="ttname"><a href="_shape_8h.html">Shape.h</a></div></div>
+<div class="ttc" id="class_analysis_tool_html_a7397217f962ba1662c5ecc03dd474613"><div class="ttname"><a href="class_analysis_tool.html#a7397217f962ba1662c5ecc03dd474613">AnalysisTool::set_project</a></div><div class="ttdeci">void set_project(QSharedPointer&lt; Project &gt; project)</div><div class="ttdoc">set the pointer to the project </div><div class="ttdef"><b>Definition:</b> AnalysisTool.cc:40</div></div>
+<div class="ttc" id="class_particle_shape_statistics_html"><div class="ttname"><a href="class_particle_shape_statistics.html">ParticleShapeStatistics&lt; 3 &gt;</a></div></div>
+<div class="ttc" id="class_analysis_tool_html_a727715045e6f5040888da8e79c27ea70"><div class="ttname"><a href="class_analysis_tool.html#a727715045e6f5040888da8e79c27ea70">AnalysisTool::set_shapes</a></div><div class="ttdeci">void set_shapes(ShapeList shapes)</div><div class="ttdef"><b>Definition:</b> AnalysisTool.cc:52</div></div>
+<div class="ttc" id="class_analysis_tool_html_a1f29067b8ff3de8e215a0553b6dc6033"><div class="ttname"><a href="class_analysis_tool.html#a1f29067b8ff3de8e215a0553b6dc6033">AnalysisTool::on_mean_overall_clicked</a></div><div class="ttdeci">void on_mean_overall_clicked()</div><div class="ttdef"><b>Definition:</b> AnalysisTool.cc:96</div></div>
+<div class="ttc" id="class_analysis_tool_html_ac85ad0abb3089ac05d53860a71376415"><div class="ttname"><a href="class_analysis_tool.html#ac85ad0abb3089ac05d53860a71376415">AnalysisTool::AnalysisTool</a></div><div class="ttdeci">AnalysisTool()</div><div class="ttdef"><b>Definition:</b> AnalysisTool.cc:28</div></div>
+<div class="ttc" id="class_analysis_tool_html_a8a89a22b54ade47fc63e5b815b2adb7c"><div class="ttname"><a href="class_analysis_tool.html#a8a89a22b54ade47fc63e5b815b2adb7c">AnalysisTool::set_app</a></div><div class="ttdeci">void set_app(ShapeWorksStudioApp *app)</div><div class="ttdoc">set the pointer to the application </div><div class="ttdef"><b>Definition:</b> AnalysisTool.cc:46</div></div>
+<div class="ttc" id="class_project_html"><div class="ttname"><a href="class_project.html">Project</a></div><div class="ttdoc">Representation of a project. </div><div class="ttdef"><b>Definition:</b> Project.h:18</div></div>
 <div class="ttc" id="class_analysis_tool_html_a695baa2c8cb1bb6f474d1a20a434d576"><div class="ttname"><a href="class_analysis_tool.html#a695baa2c8cb1bb6f474d1a20a434d576">AnalysisTool::export_xml</a></div><div class="ttdeci">bool export_xml(QString filename)</div><div class="ttdoc">export XML for ShapeWorksAnalysis </div></div>
-<div class="ttc" id="class_analysis_tool_html_a0077b2237745d6471a5bd992c00f1b37"><div class="ttname"><a href="class_analysis_tool.html#a0077b2237745d6471a5bd992c00f1b37">AnalysisTool::~AnalysisTool</a></div><div class="ttdeci">~AnalysisTool()</div><div class="ttdef"><b>Definition:</b> AnalysisTool.cc:28</div></div>
-<div class="ttc" id="class_analysis_tool_html"><div class="ttname"><a href="class_analysis_tool.html">AnalysisTool</a></div><div class="ttdef"><b>Definition:</b> AnalysisTool.h:11</div></div>
+<div class="ttc" id="itk_particle_shape_statistics_8h_html"><div class="ttname"><a href="itk_particle_shape_statistics_8h.html">itkParticleShapeStatistics.h</a></div></div>
+<div class="ttc" id="class_analysis_tool_html_a45befabc3a1ab001b9c47cea37376d7a"><div class="ttname"><a href="class_analysis_tool.html#a45befabc3a1ab001b9c47cea37376d7a">AnalysisTool::set_lightbox</a></div><div class="ttdeci">void set_lightbox(QSharedPointer&lt; Lightbox &gt; lightbox)</div><div class="ttdef"><b>Definition:</b> AnalysisTool.cc:103</div></div>
+<div class="ttc" id="class_analysis_tool_html_a0077b2237745d6471a5bd992c00f1b37"><div class="ttname"><a href="class_analysis_tool.html#a0077b2237745d6471a5bd992c00f1b37">AnalysisTool::~AnalysisTool</a></div><div class="ttdeci">~AnalysisTool()</div><div class="ttdef"><b>Definition:</b> AnalysisTool.cc:36</div></div>
+<div class="ttc" id="class_analysis_tool_html"><div class="ttname"><a href="class_analysis_tool.html">AnalysisTool</a></div><div class="ttdef"><b>Definition:</b> AnalysisTool.h:17</div></div>
+<div class="ttc" id="class_lightbox_html"><div class="ttname"><a href="class_lightbox.html">Lightbox</a></div><div class="ttdoc">Display multiple Viewers in a tiled display. </div><div class="ttdef"><b>Definition:</b> Lightbox.h:22</div></div>
+<div class="ttc" id="_shape_8h_html_a375caa2fc13ba8971b21a8afa6ff3efb"><div class="ttname"><a href="_shape_8h.html#a375caa2fc13ba8971b21a8afa6ff3efb">ShapeList</a></div><div class="ttdeci">QVector&lt; ShapeHandle &gt; ShapeList</div><div class="ttdef"><b>Definition:</b> Shape.h:12</div></div>
 <div class="ttc" id="class_shape_works_studio_app_html"><div class="ttname"><a href="class_shape_works_studio_app.html">ShapeWorksStudioApp</a></div><div class="ttdoc">Main ShapeWorksStudio window. </div><div class="ttdef"><b>Definition:</b> ShapeWorksStudioApp.h:22</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jun 1 2014 23:27:06 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 2 2014 23:30:31 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
