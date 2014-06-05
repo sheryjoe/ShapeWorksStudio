@@ -113,9 +113,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abc97e9451e9d3b5fc7296ec26935ed9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80b1171cf490e2b74cf4e5b5126bcd65"><td class="memItemLeft" align="right" valign="top">vnl_vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_display_object.html#a80b1171cf490e2b74cf4e5b5126bcd65">get_correspondence_points</a> ()</td></tr>
 <tr class="separator:a80b1171cf490e2b74cf4e5b5126bcd65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08f5cfb670717e4847191670c35d70f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_display_object.html#a08f5cfb670717e4847191670c35d70f1">center</a> ()</td></tr>
-<tr class="memdesc:a08f5cfb670717e4847191670c35d70f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">center the mesh  <a href="#a08f5cfb670717e4847191670c35d70f1">More...</a><br/></td></tr>
-<tr class="separator:a08f5cfb670717e4847191670c35d70f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a108ebf41c475d75827d66288cf545eda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_display_object.html#a108ebf41c475d75827d66288cf545eda">set_transform</a> (const vnl_vector&lt; double &gt; &amp;transform)</td></tr>
+<tr class="separator:a108ebf41c475d75827d66288cf545eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ecd72c8065f5d49425c271a783baf72"><td class="memItemLeft" align="right" valign="top">vnl_vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_display_object.html#a8ecd72c8065f5d49425c271a783baf72">get_transform</a> ()</td></tr>
+<tr class="separator:a8ecd72c8065f5d49425c271a783baf72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Representation of everything displayed in a single <a class="el" href="class_viewer.html" title="3D Viewer ">Viewer</a>. </p>
@@ -152,23 +153,6 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a08f5cfb670717e4847191670c35d70f1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DisplayObject::center </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>center the mesh </p>
-
-</div>
-</div>
 <a class="anchor" id="ad7ca1f72f49527f8a6524f4a77349603"></a>
 <div class="memitem">
 <div class="memproto">
@@ -205,6 +189,21 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">QSharedPointer&lt; <a class="el" href="class_mesh.html">Mesh</a> &gt; DisplayObject::get_mesh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8ecd72c8065f5d49425c271a783baf72"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vnl_vector&lt; double &gt; DisplayObject::get_transform </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -262,6 +261,22 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a108ebf41c475d75827d66288cf545eda"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DisplayObject::set_transform </td>
+          <td>(</td>
+          <td class="paramtype">const vnl_vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>transform</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>H:/carma/clean/ShapeWorksStudio/src/Visualization/<a class="el" href="_display_object_8h_source.html">DisplayObject.h</a></li>
 <li>H:/carma/clean/ShapeWorksStudio/src/Visualization/<a class="el" href="_display_object_8cc.html">DisplayObject.cc</a></li>
@@ -269,7 +284,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 3 2014 23:14:03 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 4 2014 23:51:46 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

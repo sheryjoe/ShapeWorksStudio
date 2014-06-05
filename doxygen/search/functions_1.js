@@ -1,13 +1,12 @@
 var searchData=
 [
-  ['center',['center',['../class_display_object.html#a08f5cfb670717e4847191670c35d70f1',1,'DisplayObject']]],
   ['close_5fwindow',['close_window',['../class_preferences.html#a48193f9c7d57c8e89785d3926bba5b1b',1,'Preferences']]],
   ['closeevent',['closeEvent',['../class_shape_works_studio_app.html#a884f9cc140988b38c3234f3698f9b6de',1,'ShapeWorksStudioApp']]],
   ['color_5fscheme_5fchanged',['color_scheme_changed',['../class_preferences.html#a9ad9672e7f4123e0bf693be87b899ef0',1,'Preferences']]],
   ['computemedianshape',['ComputeMedianShape',['../class_particle_shape_statistics.html#a679097d72c2de09065eac3b0c3485f5d',1,'ParticleShapeStatistics']]],
   ['computemodes',['ComputeModes',['../class_particle_shape_statistics.html#a4b518ac0dadf8f3ae92199b5d05a9ca1',1,'ParticleShapeStatistics']]],
   ['connectpipelines',['ConnectPipelines',['../_itk_to_vtk_8h.html#af1b2c7c9e1f39b42bf0d000e35685635',1,'ItkToVtk.h']]],
-  ['create_5ffrom_5fimage',['create_from_image',['../class_mesh.html#aa10a40c67a2f6d78c67890237fe59041',1,'Mesh']]],
+  ['create_5ffrom_5fimage',['create_from_image',['../class_mesh.html#a6c96470363b6b800052e32b3e1ec4d3b',1,'Mesh']]],
   ['create_5ffrom_5fpointset',['create_from_pointset',['../class_mesh.html#a1b3539c391bf8891cbf9d3cf851913d4',1,'Mesh']]],
   ['customaddbtoa',['CustomAddBToA',['../_custom_surface_reconstruction_filter_8cc.html#a54f49aa269546cd52d77212188373fc8',1,'CustomSurfaceReconstructionFilter.cc']]],
   ['customcopybtoa',['CustomCopyBToA',['../_custom_surface_reconstruction_filter_8cc.html#a4dd0641c3d08750fdd609ed9ddfde0d6',1,'CustomSurfaceReconstructionFilter.cc']]],

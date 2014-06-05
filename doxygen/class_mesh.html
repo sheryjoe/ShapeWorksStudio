@@ -103,9 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5efe4da1a4c0971cfb037bd70304c303"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a5efe4da1a4c0971cfb037bd70304c303">~Mesh</a> ()</td></tr>
 <tr class="memdesc:a5efe4da1a4c0971cfb037bd70304c303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a5efe4da1a4c0971cfb037bd70304c303">More...</a><br/></td></tr>
 <tr class="separator:a5efe4da1a4c0971cfb037bd70304c303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa10a40c67a2f6d78c67890237fe59041"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#aa10a40c67a2f6d78c67890237fe59041">create_from_image</a> (QString filename)</td></tr>
-<tr class="memdesc:aa10a40c67a2f6d78c67890237fe59041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mesh from an image.  <a href="#aa10a40c67a2f6d78c67890237fe59041">More...</a><br/></td></tr>
-<tr class="separator:aa10a40c67a2f6d78c67890237fe59041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c96470363b6b800052e32b3e1ec4d3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a6c96470363b6b800052e32b3e1ec4d3b">create_from_image</a> (QString filename, float iso_value)</td></tr>
+<tr class="memdesc:a6c96470363b6b800052e32b3e1ec4d3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mesh from an image.  <a href="#a6c96470363b6b800052e32b3e1ec4d3b">More...</a><br/></td></tr>
+<tr class="separator:a6c96470363b6b800052e32b3e1ec4d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b3539c391bf8891cbf9d3cf851913d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a1b3539c391bf8891cbf9d3cf851913d4">create_from_pointset</a> (const vnl_vector&lt; double &gt; &amp;vnl_points)</td></tr>
 <tr class="memdesc:a1b3539c391bf8891cbf9d3cf851913d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mesh from a point set.  <a href="#a1b3539c391bf8891cbf9d3cf851913d4">More...</a><br/></td></tr>
 <tr class="separator:a1b3539c391bf8891cbf9d3cf851913d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,6 +115,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abcb8920cb456f7303c2923e734bea24b"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkPolyData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#abcb8920cb456f7303c2923e734bea24b">get_poly_data</a> ()</td></tr>
 <tr class="memdesc:abcb8920cb456f7303c2923e734bea24b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mesh polydata.  <a href="#abcb8920cb456f7303c2923e734bea24b">More...</a><br/></td></tr>
 <tr class="separator:abcb8920cb456f7303c2923e734bea24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda3092b75aabe408aead26dd1f76d1e"><td class="memItemLeft" align="right" valign="top">vnl_vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#adda3092b75aabe408aead26dd1f76d1e">get_center_transform</a> ()</td></tr>
+<tr class="memdesc:adda3092b75aabe408aead26dd1f76d1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the center transform.  <a href="#adda3092b75aabe408aead26dd1f76d1e">More...</a><br/></td></tr>
+<tr class="separator:adda3092b75aabe408aead26dd1f76d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Representation of a single mesh. </p>
@@ -155,7 +158,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aa10a40c67a2f6d78c67890237fe59041"></a>
+<a class="anchor" id="a6c96470363b6b800052e32b3e1ec4d3b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -163,8 +166,18 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void Mesh::create_from_image </td>
           <td>(</td>
           <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>iso_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -188,6 +201,23 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create a mesh from a point set. </p>
+
+</div>
+</div>
+<a class="anchor" id="adda3092b75aabe408aead26dd1f76d1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vnl_vector&lt; double &gt; Mesh::get_center_transform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the center transform. </p>
 
 </div>
 </div>
@@ -232,7 +262,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 3 2014 23:14:03 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 4 2014 23:51:46 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

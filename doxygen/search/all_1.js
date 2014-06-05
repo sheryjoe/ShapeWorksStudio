@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['center',['center',['../class_display_object.html#a08f5cfb670717e4847191670c35d70f1',1,'DisplayObject']]],
   ['close_5fwindow',['close_window',['../class_preferences.html#a48193f9c7d57c8e89785d3926bba5b1b',1,'Preferences']]],
   ['closeevent',['closeEvent',['../class_shape_works_studio_app.html#a884f9cc140988b38c3234f3698f9b6de',1,'ShapeWorksStudioApp']]],
   ['color_5fscheme_5fchanged',['color_scheme_changed',['../class_preferences.html#a9ad9672e7f4123e0bf693be87b899ef0',1,'Preferences']]],
@@ -10,7 +9,7 @@ var searchData=
   ['constpointer',['ConstPointer',['../classitk_1_1_particle_position_reader.html#a4be3adef9c3390b65f301eb6a26c4240',1,'itk::ParticlePositionReader::ConstPointer()'],['../classitk_1_1_particle_position_writer.html#a8eb749defd19cfc9a4bb733870ab11e5',1,'itk::ParticlePositionWriter::ConstPointer()']]],
   ['constweakpointer',['ConstWeakPointer',['../classitk_1_1_particle_position_reader.html#a7c4bdd40b1d6c1dbf61287c1b8e1ea65',1,'itk::ParticlePositionReader::ConstWeakPointer()'],['../classitk_1_1_particle_position_writer.html#aba5d853e44a6d96735b4f915ac5aaf1c',1,'itk::ParticlePositionWriter::ConstWeakPointer()']]],
   ['costs',['costs',['../struct_surface_point.html#a990ab2e22054dd335c37a4e6c2603a89',1,'SurfacePoint']]],
-  ['create_5ffrom_5fimage',['create_from_image',['../class_mesh.html#aa10a40c67a2f6d78c67890237fe59041',1,'Mesh']]],
+  ['create_5ffrom_5fimage',['create_from_image',['../class_mesh.html#a6c96470363b6b800052e32b3e1ec4d3b',1,'Mesh']]],
   ['create_5ffrom_5fpointset',['create_from_pointset',['../class_mesh.html#a1b3539c391bf8891cbf9d3cf851913d4',1,'Mesh']]],
   ['customaddbtoa',['CustomAddBToA',['../_custom_surface_reconstruction_filter_8cc.html#a54f49aa269546cd52d77212188373fc8',1,'CustomSurfaceReconstructionFilter.cc']]],
   ['customcopybtoa',['CustomCopyBToA',['../_custom_surface_reconstruction_filter_8cc.html#a4dd0641c3d08750fdd609ed9ddfde0d6',1,'CustomSurfaceReconstructionFilter.cc']]],

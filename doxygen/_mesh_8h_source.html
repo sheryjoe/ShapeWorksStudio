@@ -113,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <a class="code" href="class_mesh.html#a5efe4da1a4c0971cfb037bd70304c303">~Mesh</a>();</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_mesh.html#aa10a40c67a2f6d78c67890237fe59041">create_from_image</a>( QString filename );</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_mesh.html#a6c96470363b6b800052e32b3e1ec4d3b">create_from_image</a>( QString filename, <span class="keywordtype">float</span> iso_value );</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_mesh.html#a1b3539c391bf8891cbf9d3cf851913d4">create_from_pointset</a>( <span class="keyword">const</span> vnl_vector&lt;double&gt;&amp; vnl_points );</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
@@ -121,25 +121,31 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  vtkSmartPointer&lt;vtkPolyData&gt; <a class="code" href="class_mesh.html#abcb8920cb456f7303c2923e734bea24b">get_poly_data</a>();</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  vtkSmartPointer&lt;vtkPolyData&gt; poly_data_;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordtype">int</span> dimensions_[3];</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_DATA_MESH_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  vnl_vector&lt;double&gt; <a class="code" href="class_mesh.html#adda3092b75aabe408aead26dd1f76d1e">get_center_transform</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  vtkSmartPointer&lt;vtkPolyData&gt; poly_data_;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordtype">int</span> dimensions_[3];</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  vnl_vector&lt;double&gt; center_transform_;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;};</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_DATA_MESH_H */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="class_mesh_html"><div class="ttname"><a href="class_mesh.html">Mesh</a></div><div class="ttdoc">Representation of a single mesh. </div><div class="ttdef"><b>Definition:</b> Mesh.h:22</div></div>
-<div class="ttc" id="class_mesh_html_abcb8920cb456f7303c2923e734bea24b"><div class="ttname"><a href="class_mesh.html#abcb8920cb456f7303c2923e734bea24b">Mesh::get_poly_data</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkPolyData &gt; get_poly_data()</div><div class="ttdoc">Get the mesh polydata. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:37</div></div>
+<div class="ttc" id="class_mesh_html_abcb8920cb456f7303c2923e734bea24b"><div class="ttname"><a href="class_mesh.html#abcb8920cb456f7303c2923e734bea24b">Mesh::get_poly_data</a></div><div class="ttdeci">vtkSmartPointer&lt; vtkPolyData &gt; get_poly_data()</div><div class="ttdoc">Get the mesh polydata. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:38</div></div>
 <div class="ttc" id="_mesh_8h_html_ac9b0f77e06bdf4b14af002eddf1e9aed"><div class="ttname"><a href="_mesh_8h.html#ac9b0f77e06bdf4b14af002eddf1e9aed">MeshHandle</a></div><div class="ttdeci">QSharedPointer&lt; Mesh &gt; MeshHandle</div><div class="ttdef"><b>Definition:</b> Mesh.h:13</div></div>
-<div class="ttc" id="class_mesh_html_a2af137f1571af89172b9c102302c416b"><div class="ttname"><a href="class_mesh.html#a2af137f1571af89172b9c102302c416b">Mesh::Mesh</a></div><div class="ttdeci">Mesh()</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:20</div></div>
-<div class="ttc" id="class_mesh_html_a1b3539c391bf8891cbf9d3cf851913d4"><div class="ttname"><a href="class_mesh.html#a1b3539c391bf8891cbf9d3cf851913d4">Mesh::create_from_pointset</a></div><div class="ttdeci">bool create_from_pointset(const vnl_vector&lt; double &gt; &amp;vnl_points)</div><div class="ttdoc">Create a mesh from a point set. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:86</div></div>
-<div class="ttc" id="class_mesh_html_aa10a40c67a2f6d78c67890237fe59041"><div class="ttname"><a href="class_mesh.html#aa10a40c67a2f6d78c67890237fe59041">Mesh::create_from_image</a></div><div class="ttdeci">void create_from_image(QString filename)</div><div class="ttdoc">Create a mesh from an image. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:43</div></div>
-<div class="ttc" id="class_mesh_html_a5efe4da1a4c0971cfb037bd70304c303"><div class="ttname"><a href="class_mesh.html#a5efe4da1a4c0971cfb037bd70304c303">Mesh::~Mesh</a></div><div class="ttdeci">~Mesh()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:24</div></div>
-<div class="ttc" id="class_mesh_html_aba612a416b76a47b50362ed08fc9b2c8"><div class="ttname"><a href="class_mesh.html#aba612a416b76a47b50362ed08fc9b2c8">Mesh::get_dimension_string</a></div><div class="ttdeci">QString get_dimension_string()</div><div class="ttdoc">Get the dimensions as a string for display (if loaded from an image) </div><div class="ttdef"><b>Definition:</b> Mesh.cc:28</div></div>
+<div class="ttc" id="class_mesh_html_a2af137f1571af89172b9c102302c416b"><div class="ttname"><a href="class_mesh.html#a2af137f1571af89172b9c102302c416b">Mesh::Mesh</a></div><div class="ttdeci">Mesh()</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:21</div></div>
+<div class="ttc" id="class_mesh_html_a1b3539c391bf8891cbf9d3cf851913d4"><div class="ttname"><a href="class_mesh.html#a1b3539c391bf8891cbf9d3cf851913d4">Mesh::create_from_pointset</a></div><div class="ttdeci">bool create_from_pointset(const vnl_vector&lt; double &gt; &amp;vnl_points)</div><div class="ttdoc">Create a mesh from a point set. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:114</div></div>
+<div class="ttc" id="class_mesh_html_a5efe4da1a4c0971cfb037bd70304c303"><div class="ttname"><a href="class_mesh.html#a5efe4da1a4c0971cfb037bd70304c303">Mesh::~Mesh</a></div><div class="ttdeci">~Mesh()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:25</div></div>
+<div class="ttc" id="class_mesh_html_aba612a416b76a47b50362ed08fc9b2c8"><div class="ttname"><a href="class_mesh.html#aba612a416b76a47b50362ed08fc9b2c8">Mesh::get_dimension_string</a></div><div class="ttdeci">QString get_dimension_string()</div><div class="ttdoc">Get the dimensions as a string for display (if loaded from an image) </div><div class="ttdef"><b>Definition:</b> Mesh.cc:29</div></div>
+<div class="ttc" id="class_mesh_html_adda3092b75aabe408aead26dd1f76d1e"><div class="ttname"><a href="class_mesh.html#adda3092b75aabe408aead26dd1f76d1e">Mesh::get_center_transform</a></div><div class="ttdeci">vnl_vector&lt; double &gt; get_center_transform()</div><div class="ttdoc">Get the center transform. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:156</div></div>
+<div class="ttc" id="class_mesh_html_a6c96470363b6b800052e32b3e1ec4d3b"><div class="ttname"><a href="class_mesh.html#a6c96470363b6b800052e32b3e1ec4d3b">Mesh::create_from_image</a></div><div class="ttdeci">void create_from_image(QString filename, float iso_value)</div><div class="ttdoc">Create a mesh from an image. </div><div class="ttdef"><b>Definition:</b> Mesh.cc:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 3 2014 23:14:03 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 4 2014 23:51:45 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

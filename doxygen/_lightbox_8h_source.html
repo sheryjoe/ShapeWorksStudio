@@ -127,58 +127,53 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_lightbox.html#a5fe53c1d2a7a72ff8f3b8ec1561e670e">set_start_row</a>( <span class="keywordtype">int</span> row );</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_lightbox.html#aad922708296e0abce8bae2fe3acca1fc">set_auto_center</a>( <span class="keywordtype">bool</span> center );</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordtype">void</span> clear_renderers();</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordtype">void</span> display_objects();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keywordtype">void</span> clear_renderers();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordtype">void</span> display_objects();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordtype">void</span> insert_object_into_viewer( QSharedPointer&lt;DisplayObject&gt; <span class="keywordtype">object</span>, <span class="keywordtype">int</span> position );</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordtype">void</span> insert_object_into_viewer( QSharedPointer&lt;DisplayObject&gt; <span class="keywordtype">object</span>, <span class="keywordtype">int</span> position );</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  vtkSmartPointer&lt;vtkRenderer&gt; renderer_;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  vtkSmartPointer&lt;vtkRenderer&gt; renderer_;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  QVector &lt; QSharedPointer &lt; DisplayObject &gt; &gt; objects_;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  QVector &lt; QSharedPointer &lt; DisplayObject &gt; &gt; objects_;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  QVector &lt; QSharedPointer &lt; Viewer &gt; &gt; viewers_;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  QVector &lt; QSharedPointer &lt; Viewer &gt; &gt; viewers_;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  vtkRenderWindow* render_window_;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  vtkRenderWindow* render_window_;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  vtkRenderWindowInteractor* interactor_;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  vtkRenderWindowInteractor* interactor_;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  vtkCamera* camera_;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  vtkCamera* camera_;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keywordtype">int</span> tile_layout_width_;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordtype">int</span> tile_layout_height_;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keywordtype">int</span> tile_layout_width_;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="keywordtype">int</span> tile_layout_height_;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordtype">int</span> start_row_;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="keywordtype">int</span> start_row_;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keywordtype">bool</span> first_draw_;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keywordtype">bool</span> auto_center_;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;};</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_VISUALIZATION_LIGHTBOX_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="keywordtype">bool</span> first_draw_;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;};</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STUDIO_VISUALIZATION_LIGHTBOX_H */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="class_mesh_html"><div class="ttname"><a href="class_mesh.html">Mesh</a></div><div class="ttdoc">Representation of a single mesh. </div><div class="ttdef"><b>Definition:</b> Mesh.h:22</div></div>
-<div class="ttc" id="class_lightbox_html_ad8ec9f5eb53c92e0eb584c9ddada05a2"><div class="ttname"><a href="class_lightbox.html#ad8ec9f5eb53c92e0eb584c9ddada05a2">Lightbox::set_render_window</a></div><div class="ttdeci">void set_render_window(vtkRenderWindow *render_window)</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:80</div></div>
-<div class="ttc" id="class_lightbox_html_afadd23479ecc79c754aca3630c980f39"><div class="ttname"><a href="class_lightbox.html#afadd23479ecc79c754aca3630c980f39">Lightbox::set_display_objects</a></div><div class="ttdeci">void set_display_objects(QVector&lt; QSharedPointer&lt; DisplayObject &gt; &gt; objects)</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:192</div></div>
-<div class="ttc" id="class_lightbox_html_a2b9ef7ae43274568bac98c4f2de4869a"><div class="ttname"><a href="class_lightbox.html#a2b9ef7ae43274568bac98c4f2de4869a">Lightbox::~Lightbox</a></div><div class="ttdeci">~Lightbox()</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:24</div></div>
+<div class="ttc" id="class_lightbox_html_ad8ec9f5eb53c92e0eb584c9ddada05a2"><div class="ttname"><a href="class_lightbox.html#ad8ec9f5eb53c92e0eb584c9ddada05a2">Lightbox::set_render_window</a></div><div class="ttdeci">void set_render_window(vtkRenderWindow *render_window)</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:79</div></div>
+<div class="ttc" id="class_lightbox_html_afadd23479ecc79c754aca3630c980f39"><div class="ttname"><a href="class_lightbox.html#afadd23479ecc79c754aca3630c980f39">Lightbox::set_display_objects</a></div><div class="ttdeci">void set_display_objects(QVector&lt; QSharedPointer&lt; DisplayObject &gt; &gt; objects)</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:184</div></div>
+<div class="ttc" id="class_lightbox_html_a2b9ef7ae43274568bac98c4f2de4869a"><div class="ttname"><a href="class_lightbox.html#a2b9ef7ae43274568bac98c4f2de4869a">Lightbox::~Lightbox</a></div><div class="ttdeci">~Lightbox()</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:23</div></div>
 <div class="ttc" id="class_shape_html"><div class="ttname"><a href="class_shape.html">Shape</a></div><div class="ttdoc">Representation of a single shape/patient. </div><div class="ttdef"><b>Definition:</b> Shape.h:15</div></div>
 <div class="ttc" id="class_lightbox_html_a1689f62954342e6f7b3378aef4618096"><div class="ttname"><a href="class_lightbox.html#a1689f62954342e6f7b3378aef4618096">Lightbox::Lightbox</a></div><div class="ttdeci">Lightbox()</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:10</div></div>
-<div class="ttc" id="class_lightbox_html_ab6cf849eea73c0617fe05d33c64bae71"><div class="ttname"><a href="class_lightbox.html#ab6cf849eea73c0617fe05d33c64bae71">Lightbox::get_num_rows_visible</a></div><div class="ttdeci">int get_num_rows_visible()</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:171</div></div>
-<div class="ttc" id="class_lightbox_html_a171501b97638238e98f61f484deb724e"><div class="ttname"><a href="class_lightbox.html#a171501b97638238e98f61f484deb724e">Lightbox::set_tile_layout</a></div><div class="ttdeci">void set_tile_layout(int width, int height)</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:155</div></div>
+<div class="ttc" id="class_lightbox_html_ab6cf849eea73c0617fe05d33c64bae71"><div class="ttname"><a href="class_lightbox.html#ab6cf849eea73c0617fe05d33c64bae71">Lightbox::get_num_rows_visible</a></div><div class="ttdeci">int get_num_rows_visible()</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:170</div></div>
+<div class="ttc" id="class_lightbox_html_a171501b97638238e98f61f484deb724e"><div class="ttname"><a href="class_lightbox.html#a171501b97638238e98f61f484deb724e">Lightbox::set_tile_layout</a></div><div class="ttdeci">void set_tile_layout(int width, int height)</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:154</div></div>
 <div class="ttc" id="_viewer_8h_html"><div class="ttname"><a href="_viewer_8h.html">Viewer.h</a></div></div>
 <div class="ttc" id="class_lightbox_html"><div class="ttname"><a href="class_lightbox.html">Lightbox</a></div><div class="ttdoc">Display multiple Viewers in a tiled display. </div><div class="ttdef"><b>Definition:</b> Lightbox.h:22</div></div>
-<div class="ttc" id="class_lightbox_html_af3ac465d3813436939e9a0d94d53a7b8"><div class="ttname"><a href="class_lightbox.html#af3ac465d3813436939e9a0d94d53a7b8">Lightbox::get_num_rows</a></div><div class="ttdeci">int get_num_rows()</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:165</div></div>
-<div class="ttc" id="class_lightbox_html_a5fe53c1d2a7a72ff8f3b8ec1561e670e"><div class="ttname"><a href="class_lightbox.html#a5fe53c1d2a7a72ff8f3b8ec1561e670e">Lightbox::set_start_row</a></div><div class="ttdeci">void set_start_row(int row)</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:177</div></div>
-<div class="ttc" id="class_display_object_html"><div class="ttname"><a href="class_display_object.html">DisplayObject</a></div><div class="ttdoc">Representation of everything displayed in a single Viewer. </div><div class="ttdef"><b>Definition:</b> DisplayObject.h:20</div></div>
-<div class="ttc" id="class_lightbox_html_a992583f1fec480d7dd7191f3c39ba9b9"><div class="ttname"><a href="class_lightbox.html#a992583f1fec480d7dd7191f3c39ba9b9">Lightbox::set_interactor</a></div><div class="ttdeci">void set_interactor(vtkRenderWindowInteractor *interactor)</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:28</div></div>
-<div class="ttc" id="class_lightbox_html_aad922708296e0abce8bae2fe3acca1fc"><div class="ttname"><a href="class_lightbox.html#aad922708296e0abce8bae2fe3acca1fc">Lightbox::set_auto_center</a></div><div class="ttdeci">void set_auto_center(bool center)</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:185</div></div>
-<div class="ttc" id="class_lightbox_html_a258b7cf2ec7f36087e89682bff68f290"><div class="ttname"><a href="class_lightbox.html#a258b7cf2ec7f36087e89682bff68f290">Lightbox::setup_renderers</a></div><div class="ttdeci">void setup_renderers()</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:89</div></div>
+<div class="ttc" id="class_lightbox_html_af3ac465d3813436939e9a0d94d53a7b8"><div class="ttname"><a href="class_lightbox.html#af3ac465d3813436939e9a0d94d53a7b8">Lightbox::get_num_rows</a></div><div class="ttdeci">int get_num_rows()</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:164</div></div>
+<div class="ttc" id="class_lightbox_html_a5fe53c1d2a7a72ff8f3b8ec1561e670e"><div class="ttname"><a href="class_lightbox.html#a5fe53c1d2a7a72ff8f3b8ec1561e670e">Lightbox::set_start_row</a></div><div class="ttdeci">void set_start_row(int row)</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:176</div></div>
+<div class="ttc" id="class_display_object_html"><div class="ttname"><a href="class_display_object.html">DisplayObject</a></div><div class="ttdoc">Representation of everything displayed in a single Viewer. </div><div class="ttdef"><b>Definition:</b> DisplayObject.h:19</div></div>
+<div class="ttc" id="class_lightbox_html_a992583f1fec480d7dd7191f3c39ba9b9"><div class="ttname"><a href="class_lightbox.html#a992583f1fec480d7dd7191f3c39ba9b9">Lightbox::set_interactor</a></div><div class="ttdeci">void set_interactor(vtkRenderWindowInteractor *interactor)</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:27</div></div>
+<div class="ttc" id="class_lightbox_html_a258b7cf2ec7f36087e89682bff68f290"><div class="ttname"><a href="class_lightbox.html#a258b7cf2ec7f36087e89682bff68f290">Lightbox::setup_renderers</a></div><div class="ttdeci">void setup_renderers()</div><div class="ttdef"><b>Definition:</b> Lightbox.cc:88</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 3 2014 23:14:03 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 4 2014 23:51:45 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
