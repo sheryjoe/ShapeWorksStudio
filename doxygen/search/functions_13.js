@@ -14,5 +14,6 @@ var searchData=
   ['_7eshape',['~Shape',['../class_shape.html#a935afc9e576015f967d90de56977167d',1,'Shape']]],
   ['_7eshapeworksstudioapp',['~ShapeWorksStudioApp',['../class_shape_works_studio_app.html#a1311c9a2e0094f54149d1a8d74ee7608',1,'ShapeWorksStudioApp']]],
   ['_7esurfacepoint',['~SurfacePoint',['../struct_surface_point.html#a396ce24bdecbe05dd3eeaf83053cebdd',1,'SurfacePoint']]],
-  ['_7eviewer',['~Viewer',['../class_viewer.html#a324e5a6a1532fe5eac3f3b0e4792b2da',1,'Viewer']]]
+  ['_7eviewer',['~Viewer',['../class_viewer.html#a324e5a6a1532fe5eac3f3b0e4792b2da',1,'Viewer']]],
+  ['_7evisualizer',['~Visualizer',['../class_visualizer.html#a013ec3101407fbe4805f289bc32d1265',1,'Visualizer']]]
 ];

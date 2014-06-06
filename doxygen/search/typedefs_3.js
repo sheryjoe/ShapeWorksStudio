@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['meshhandle',['MeshHandle',['../_mesh_8h.html#ac9b0f77e06bdf4b14af002eddf1e9aed',1,'Mesh.h']]]
+  ['lightboxhandle',['LightboxHandle',['../_lightbox_8h.html#a9f617121a0b65bd837181f26e6dddf11',1,'Lightbox.h']]]
 ];

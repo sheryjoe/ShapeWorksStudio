@@ -105,6 +105,14 @@ Inheritance diagram for AnalysisTool:</div>
 Public Slots</h2></td></tr>
 <tr class="memitem:a1f29067b8ff3de8e215a0553b6dc6033"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#a1f29067b8ff3de8e215a0553b6dc6033">on_mean_overall_clicked</a> ()</td></tr>
 <tr class="separator:a1f29067b8ff3de8e215a0553b6dc6033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8e907e13b646e80118325166a614bbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#ab8e907e13b646e80118325166a614bbe">on_show_surface_stateChanged</a> ()</td></tr>
+<tr class="separator:ab8e907e13b646e80118325166a614bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f0fcc0053675f60071bcf5ee0a9a159"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#a0f0fcc0053675f60071bcf5ee0a9a159">on_show_glyphs_stateChanged</a> ()</td></tr>
+<tr class="separator:a0f0fcc0053675f60071bcf5ee0a9a159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb29f78de41c040b7439858e27d2c41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#a7bb29f78de41c040b7439858e27d2c41">on_glyph_size_valueChanged</a> (int value)</td></tr>
+<tr class="separator:a7bb29f78de41c040b7439858e27d2c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a717cfdf4d286125676a63e2b066e429b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#a717cfdf4d286125676a63e2b066e429b">on_glyph_quality_valueChanged</a> (int value)</td></tr>
+<tr class="separator:a717cfdf4d286125676a63e2b066e429b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -121,8 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8a89a22b54ade47fc63e5b815b2adb7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#a8a89a22b54ade47fc63e5b815b2adb7c">set_app</a> (<a class="el" href="class_shape_works_studio_app.html">ShapeWorksStudioApp</a> *app)</td></tr>
 <tr class="memdesc:a8a89a22b54ade47fc63e5b815b2adb7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the pointer to the application  <a href="#a8a89a22b54ade47fc63e5b815b2adb7c">More...</a><br/></td></tr>
 <tr class="separator:a8a89a22b54ade47fc63e5b815b2adb7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45befabc3a1ab001b9c47cea37376d7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#a45befabc3a1ab001b9c47cea37376d7a">set_lightbox</a> (QSharedPointer&lt; <a class="el" href="class_lightbox.html">Lightbox</a> &gt; lightbox)</td></tr>
-<tr class="separator:a45befabc3a1ab001b9c47cea37376d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7f439df6dc51e13dc54cfd7a38ec67c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#ad7f439df6dc51e13dc54cfd7a38ec67c">set_visualizer</a> (<a class="el" href="_visualizer_8h.html#aca3314fb47fd97ea379d7e5ccf72396e">VisualizerHandle</a> visualizer)</td></tr>
+<tr class="separator:ad7f439df6dc51e13dc54cfd7a38ec67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a727715045e6f5040888da8e79c27ea70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_analysis_tool.html#a727715045e6f5040888da8e79c27ea70">set_shapes</a> (<a class="el" href="_shape_8h.html#a375caa2fc13ba8971b21a8afa6ff3efb">ShapeList</a> shapes)</td></tr>
 <tr class="separator:a727715045e6f5040888da8e79c27ea70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -176,6 +184,54 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a717cfdf4d286125676a63e2b066e429b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AnalysisTool::on_glyph_quality_valueChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7bb29f78de41c040b7439858e27d2c41"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AnalysisTool::on_glyph_size_valueChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a1f29067b8ff3de8e215a0553b6dc6033"></a>
 <div class="memitem">
 <div class="memproto">
@@ -185,6 +241,52 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void AnalysisTool::on_mean_overall_clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0f0fcc0053675f60071bcf5ee0a9a159"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AnalysisTool::on_show_glyphs_stateChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab8e907e13b646e80118325166a614bbe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AnalysisTool::on_show_surface_stateChanged </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -214,22 +316,6 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>set the pointer to the application </p>
-
-</div>
-</div>
-<a class="anchor" id="a45befabc3a1ab001b9c47cea37376d7a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AnalysisTool::set_lightbox </td>
-          <td>(</td>
-          <td class="paramtype">QSharedPointer&lt; <a class="el" href="class_lightbox.html">Lightbox</a> &gt;&#160;</td>
-          <td class="paramname"><em>lightbox</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -267,6 +353,22 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad7f439df6dc51e13dc54cfd7a38ec67c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AnalysisTool::set_visualizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_visualizer_8h.html#aca3314fb47fd97ea379d7e5ccf72396e">VisualizerHandle</a>&#160;</td>
+          <td class="paramname"><em>visualizer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>H:/carma/clean/ShapeWorksStudio/src/Analysis/<a class="el" href="_analysis_tool_8h_source.html">AnalysisTool.h</a></li>
 <li>H:/carma/clean/ShapeWorksStudio/src/Analysis/<a class="el" href="_analysis_tool_8cc.html">AnalysisTool.cc</a></li>
@@ -274,7 +376,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jun 4 2014 23:51:45 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jun 5 2014 23:13:17 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

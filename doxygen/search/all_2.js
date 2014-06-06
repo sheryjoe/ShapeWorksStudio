@@ -11,6 +11,7 @@ var searchData=
   ['default_5fpca_5frange',['DEFAULT_PCA_RANGE',['../_preferences_8cc.html#a0c0266c1bcefe48998594d5040fa7adb',1,'Preferences.cc']]],
   ['default_5fpca_5fsteps',['DEFAULT_PCA_STEPS',['../_preferences_8cc.html#a605e63e7a2ad11aa497a5971d1329618',1,'Preferences.cc']]],
   ['default_5fregression_5fsteps',['DEFAULT_REGRESSION_STEPS',['../_preferences_8cc.html#a274870423bae15d4b78bc6bca10e1e65',1,'Preferences.cc']]],
+  ['display_5fmean',['display_mean',['../class_visualizer.html#a1fff6890385baf14023e8c44363ef72a',1,'Visualizer']]],
   ['display_5fobject',['display_object',['../class_viewer.html#ac5f861b063d7c90574520174dda99783',1,'Viewer']]],
   ['displayobject',['DisplayObject',['../class_display_object.html',1,'DisplayObject'],['../class_display_object.html#acb2a6b0d01d63b2486094cca74349b38',1,'DisplayObject::DisplayObject()']]],
   ['displayobject_2ecc',['DisplayObject.cc',['../_display_object_8cc.html',1,'']]],
