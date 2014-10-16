@@ -6,7 +6,6 @@ var searchData=
   ['import_5finitial_5ffile',['import_initial_file',['../class_shape.html#a472c7151e3cff57c8e40897777303be5',1,'Shape']]],
   ['import_5fpoint_5ffile',['import_point_file',['../class_shape.html#aacf62cae98791acda70f9e611c72f8f8',1,'Shape']]],
   ['importpoints',['ImportPoints',['../class_particle_shape_statistics.html#a012b44f2328c9decce5c71af484a2352',1,'ParticleShapeStatistics']]],
-  ['initial_5fc',['INITIAL_C',['../class_project.html#a8e91121bfea0b1f3e599a2fc1e484e2f',1,'Project']]],
   ['initialize_5fvtk',['initialize_vtk',['../class_shape_works_studio_app.html#a510133431dbf8d6a9c71f6c33911df82',1,'ShapeWorksStudioApp']]],
   ['instance',['Instance',['../class_preferences.html#ae4b949f0a47518c152e92120241d64d0',1,'Preferences']]],
   ['isvisited',['isVisited',['../struct_surface_point.html#ade0201be7abbdd6cef530c246aaab0ec',1,'SurfacePoint']]],

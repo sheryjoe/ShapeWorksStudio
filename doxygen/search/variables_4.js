@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loc',['loc',['../struct_surface_point.html#ad858ecc87cdafeda0a775306237cb94a',1,'SurfacePoint']]]
+  ['isvisited',['isVisited',['../struct_surface_point.html#ade0201be7abbdd6cef530c246aaab0ec',1,'SurfacePoint']]]
 ];

@@ -9,6 +9,7 @@ var searchData=
   ['on_5faction_5fpreferences_5ftriggered',['on_action_preferences_triggered',['../class_shape_works_studio_app.html#a4f7df2216a903d763e066a484658ea45',1,'ShapeWorksStudioApp']]],
   ['on_5faction_5fquit_5ftriggered',['on_action_quit_triggered',['../class_shape_works_studio_app.html#aae5e17f06dcc5e849c2de747b506d836',1,'ShapeWorksStudioApp']]],
   ['on_5faction_5fsave_5fproject_5fas_5ftriggered',['on_action_save_project_as_triggered',['../class_shape_works_studio_app.html#adec8b26b69800c9d0823f5719d0566f3',1,'ShapeWorksStudioApp']]],
+  ['on_5faction_5fsave_5fproject_5ftriggered',['on_action_save_project_triggered',['../class_shape_works_studio_app.html#aff1bd97b8350608f5baaa10c276277b5',1,'ShapeWorksStudioApp']]],
   ['on_5fadd_5fbutton_5fclicked',['on_add_button_clicked',['../class_shape_works_studio_app.html#af46dc4a9b72641c5c45dde6ddd61fc1f',1,'ShapeWorksStudioApp']]],
   ['on_5fantialias_5fcheckbox_5fstatechanged',['on_antialias_checkbox_stateChanged',['../class_groom_tool.html#a7d9466093590070611b3b4bc9e93e4a6',1,'GroomTool']]],
   ['on_5fblur_5fcheckbox_5fstatechanged',['on_blur_checkbox_stateChanged',['../class_groom_tool.html#a7626e192dafada7cbde40c9a1b1f471f',1,'GroomTool']]],

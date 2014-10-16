@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['data_5fc',['DATA_C',['../class_project.html#a363fce72cb4f6c15f0137ac71882080e',1,'Project']]],
   ['data_5fchanged',['data_changed',['../class_project.html#a612ee3349f148ee2e2c24f201bf4d360',1,'Project']]],
   ['default_5fcache_5fenabled',['DEFAULT_CACHE_ENABLED',['../_preferences_8cc.html#ac3af5c62596718b6fa7aa6b31f98c71f',1,'Preferences.cc']]],
   ['default_5fcache_5fmemory',['DEFAULT_CACHE_MEMORY',['../_preferences_8cc.html#a417bf0cc4f48b047dc84bb2e266693a9',1,'Preferences.cc']]],
