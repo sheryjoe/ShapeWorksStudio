@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['clear_5fviewer',['clear_viewer',['../class_viewer.html#a41b9d3586194cd1239e8619067110712',1,'Viewer']]],
   ['close_5fwindow',['close_window',['../class_preferences.html#a48193f9c7d57c8e89785d3926bba5b1b',1,'Preferences']]],
   ['closeevent',['closeEvent',['../class_shape_works_studio_app.html#a884f9cc140988b38c3234f3698f9b6de',1,'ShapeWorksStudioApp']]],
   ['color_5fscheme_5fchanged',['color_scheme_changed',['../class_preferences.html#a9ad9672e7f4123e0bf693be87b899ef0',1,'Preferences']]],
