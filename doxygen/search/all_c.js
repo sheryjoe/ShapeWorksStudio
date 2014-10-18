@@ -6,6 +6,7 @@ var searchData=
   ['particlepositionwriter',['ParticlePositionWriter',['../classitk_1_1_particle_position_writer.html#af89a7ca39adf9168822bde10e8caa638',1,'itk::ParticlePositionWriter']]],
   ['particleshapestatistics',['ParticleShapeStatistics',['../class_particle_shape_statistics.html',1,'ParticleShapeStatistics&lt; VDimension &gt;'],['../class_particle_shape_statistics.html#aa26ec32b2c3578239f2c1ab85ef38d63',1,'ParticleShapeStatistics::ParticleShapeStatistics()']]],
   ['particleshapestatistics_3c_203_20_3e',['ParticleShapeStatistics&lt; 3 &gt;',['../class_particle_shape_statistics.html',1,'']]],
+  ['pca_5flabels_5fchanged',['pca_labels_changed',['../class_visualizer.html#a77c2f704211974682fabd06556f0c13c',1,'Visualizer']]],
   ['pcaloadings',['PCALoadings',['../class_particle_shape_statistics.html#ab6ede621c86345dfe865d8dc6886895f',1,'ParticleShapeStatistics']]],
   ['pixeltype',['PixelType',['../_mesh_8cc.html#a6292db65ac6b2c1d984ecb5d3ed99bcd',1,'Mesh.cc']]],
   ['pointer',['Pointer',['../classitk_1_1_particle_position_reader.html#aeac3617a343148c5ff7e0ca3527d1523',1,'itk::ParticlePositionReader::Pointer()'],['../classitk_1_1_particle_position_writer.html#ab7d58d5d550bc75a68ab68ae99b717e5',1,'itk::ParticlePositionWriter::Pointer()']]],

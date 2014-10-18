@@ -84,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
+<a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_visualizer-members.html">List of all members</a>  </div>
@@ -110,6 +111,11 @@ Public Slots</h2></td></tr>
 <tr class="memitem:ac81aeedc76ccabd163dc592aa06bece6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_visualizer.html#ac81aeedc76ccabd163dc592aa06bece6">update_viewer_properties</a> ()</td></tr>
 <tr class="memdesc:ac81aeedc76ccabd163dc592aa06bece6"><td class="mdescLeft">&#160;</td><td class="mdescRight">update viewer properties (e.g. glyph size, quality, etc)  <a href="#ac81aeedc76ccabd163dc592aa06bece6">More...</a><br/></td></tr>
 <tr class="separator:ac81aeedc76ccabd163dc592aa06bece6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:a77c2f704211974682fabd06556f0c13c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_visualizer.html#a77c2f704211974682fabd06556f0c13c">pca_labels_changed</a> (QString value, QString eigen, QString lambda)</td></tr>
+<tr class="separator:a77c2f704211974682fabd06556f0c13c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -230,7 +236,6 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this-&gt;ui-&gt;pcaValueLabel-&gt;setText( QString::number( pcaSliderValue, 'g', 2 ) ); this-&gt;ui-&gt;pcaEigenValueLabel-&gt;setText( QString::number( this-&gt;stats.Eigenvalues()[m] ) ); this-&gt;ui-&gt;pcaLambdaLabel-&gt;setText( QString::number( pcaSliderValue * lambda ) ); </p>
 
 </div>
 </div>
@@ -246,6 +251,46 @@ Static Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a77c2f704211974682fabd06556f0c13c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Visualizer::pca_labels_changed </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>eigen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>lambda</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -468,7 +513,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 16 2014 23:05:18 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 17 2014 22:51:22 for ShapeWorksStudio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
