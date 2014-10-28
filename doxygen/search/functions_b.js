@@ -1,6 +1,7 @@
 var searchData=
 [
   ['on_5faction_5fgroom_5fmode_5ftriggered',['on_action_groom_mode_triggered',['../class_shape_works_studio_app.html#a297a000b313a8691ee62fbd1501070f0',1,'ShapeWorksStudioApp']]],
+  ['on_5faction_5fimport_5flegacy_5ftriggered',['on_action_import_legacy_triggered',['../class_shape_works_studio_app.html#a9db40f1db28a4a038d3a03c0fd18ed82',1,'ShapeWorksStudioApp']]],
   ['on_5faction_5fimport_5fmode_5ftriggered',['on_action_import_mode_triggered',['../class_shape_works_studio_app.html#a6954361314d5903c0209673ec11494b1',1,'ShapeWorksStudioApp']]],
   ['on_5faction_5fimport_5ftriggered',['on_action_import_triggered',['../class_shape_works_studio_app.html#a225c94e8aebafda100a49759aef8d6df',1,'ShapeWorksStudioApp']]],
   ['on_5faction_5fopen_5fproject_5ftriggered',['on_action_open_project_triggered',['../class_shape_works_studio_app.html#a5e847c1603a3e186258869a2423dab52',1,'ShapeWorksStudioApp']]],
@@ -27,7 +28,6 @@ var searchData=
   ['on_5fnum_5fthreads_5fvaluechanged',['on_num_threads_valueChanged',['../class_preferences_window.html#abc1167a8327ac4e2c5c4bef076f40a3a',1,'PreferencesWindow']]],
   ['on_5foptimize_5flocation_5ftextchanged',['on_optimize_location_textChanged',['../class_preferences_window.html#a054adf6f6a5621d218af7ebc13d52367',1,'PreferencesWindow']]],
   ['on_5fparallel_5fenabled_5fstatechanged',['on_parallel_enabled_stateChanged',['../class_preferences_window.html#a572ca9851cc3fcf439fb954a589ba60b',1,'PreferencesWindow']]],
-  ['on_5fpca_5fbutton_5fclicked',['on_pca_button_clicked',['../class_shape_works_studio_app.html#a28233be9b1fcbd498071b0fcddd1b83d',1,'ShapeWorksStudioApp']]],
   ['on_5fpca_5frange_5fvaluechanged',['on_pca_range_valueChanged',['../class_preferences_window.html#aaa0cb399e34346015db8c7011d038ad3',1,'PreferencesWindow']]],
   ['on_5fpca_5fsteps_5fvaluechanged',['on_pca_steps_valueChanged',['../class_preferences_window.html#ac16f74a65a6b69a7b47958e92c98e56a',1,'PreferencesWindow']]],
   ['on_5fpcamodespinbox_5fvaluechanged',['on_pcaModeSpinBox_valueChanged',['../class_analysis_tool.html#a8c2bfd4d10d9beac831ac4fcf5b23c25',1,'AnalysisTool::on_pcaModeSpinBox_valueChanged()'],['../class_shape_works_studio_app.html#a6e17222560f3bdcd7d6ec0c528194901',1,'ShapeWorksStudioApp::on_pcaModeSpinBox_valueChanged()']]],
@@ -35,13 +35,11 @@ var searchData=
   ['on_5fregression_5fsteps_5fvaluechanged',['on_regression_steps_valueChanged',['../class_preferences_window.html#adac8acabdcc5191098f16f13646f5c44',1,'PreferencesWindow']]],
   ['on_5frun_5fgroom_5fbutton_5fclicked',['on_run_groom_button_clicked',['../class_groom_tool.html#abbb867ddd4d5f9948a7456aad5879e5d',1,'GroomTool']]],
   ['on_5frun_5foptimize_5fbutton_5fclicked',['on_run_optimize_button_clicked',['../class_optimize_tool.html#abe15f13c306ea354c5f173896ca82f5f',1,'OptimizeTool']]],
-  ['on_5fsamples_5fbutton_5fclicked',['on_samples_button_clicked',['../class_shape_works_studio_app.html#ad3fc5698104dc0a868a4d75975a7733c',1,'ShapeWorksStudioApp']]],
-  ['on_5fstats_5fbutton_5fclicked',['on_stats_button_clicked',['../class_shape_works_studio_app.html#a793275e0c90067bff9910fe6f230241b',1,'ShapeWorksStudioApp']]],
   ['on_5ftabwidget_5fcurrentchanged',['on_tabWidget_currentChanged',['../class_analysis_tool.html#a2450a801e1d7232904e5505a6b124d56',1,'AnalysisTool']]],
   ['on_5fthumbnail_5fsize_5fslider_5fvaluechanged',['on_thumbnail_size_slider_valueChanged',['../class_shape_works_studio_app.html#ac268007c33b8e607c9556fd5cff14d43',1,'ShapeWorksStudioApp']]],
   ['on_5fvertical_5fscroll_5fbar_5fvaluechanged',['on_vertical_scroll_bar_valueChanged',['../class_shape_works_studio_app.html#a90a68ce21ac9d886f134ce1b542c1bbf',1,'ShapeWorksStudioApp']]],
   ['on_5fview_5fmode_5fcombobox_5fcurrentindexchanged',['on_view_mode_combobox_currentIndexChanged',['../class_shape_works_studio_app.html#a1ac7a98653514ccca7e75415ff89a168',1,'ShapeWorksStudioApp']]],
   ['open_5fproject',['open_project',['../class_shape_works_studio_app.html#a5ea7dee68eff93b8c507df133fdc9cdd',1,'ShapeWorksStudioApp']]],
   ['optimizetool',['OptimizeTool',['../class_optimize_tool.html#a944cdb7bc71b0016fd7f4363a04cf88e',1,'OptimizeTool']]],
-  ['originals_5fpresent',['originals_present',['../class_project.html#a11bf7864e091b76f2b741f0e75512064',1,'Project']]]
+  ['original_5fpresent',['original_present',['../class_project.html#a79ab4435e849e39f9e9240ff603f5876',1,'Project']]]
 ];
