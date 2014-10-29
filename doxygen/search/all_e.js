@@ -28,6 +28,7 @@ var searchData=
   ['set_5fnum_5fthreads',['set_num_threads',['../class_preferences.html#a1e29f5faf9643954de54475d2be8375b',1,'Preferences']]],
   ['set_5foptimize_5flocation',['set_optimize_location',['../class_preferences.html#a7faf95054e86c777e1524840149b3f36',1,'Preferences']]],
   ['set_5fparallel_5fenabled',['set_parallel_enabled',['../class_preferences.html#a05cba84955c1ff764e6fd1ad59f95a8a',1,'Preferences']]],
+  ['set_5fparent',['set_parent',['../class_project.html#aba5d26e07cdb4ab09f41f01c9a22ad7a',1,'Project']]],
   ['set_5fpca_5frange',['set_pca_range',['../class_preferences.html#a905aa179684c3d7f6f5a68e484c04d32',1,'Preferences']]],
   ['set_5fproject',['set_project',['../class_analysis_tool.html#a7397217f962ba1662c5ecc03dd474613',1,'AnalysisTool::set_project()'],['../class_groom_tool.html#aff510acbf178611256f79bdf8fa200ee',1,'GroomTool::set_project()'],['../class_optimize_tool.html#ae7fab1fcd3be423b92d747c4b331de60',1,'OptimizeTool::set_project()'],['../class_visualizer.html#ade9fae3325060af5fab9fba0531cef21',1,'Visualizer::set_project()']]],
   ['set_5frender_5fwindow',['set_render_window',['../class_lightbox.html#ad8ec9f5eb53c92e0eb584c9ddada05a2',1,'Lightbox']]],
